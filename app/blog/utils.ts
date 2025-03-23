@@ -6,6 +6,7 @@ type Metadata = {
   publishedAt: string;
   summary: string;
   image?: string;
+  tags?: string[];
 };
 
 function parseFrontmatter(fileContent: string) {
@@ -20,7 +21,23 @@ function parseFrontmatter(fileContent: string) {
     let [key, ...valueArr] = line.split(": ");
     let value = valueArr.join(": ").trim();
     value = value.replace(/^['"](.*)['"]$/, "$1"); // Remove quotes
-    metadata[key.trim() as keyof Metadata] = value;
+
+    // 特殊处理标签数组
+    if (key.trim() === "tags") {
+      try {
+        // 尝试解析JSON格式的标签数组
+        let tagsValue = value
+          .replace(/^\[|\]$/g, "")
+          .split(",")
+          .map((tag) => tag.trim());
+        metadata.tags = tagsValue.filter((tag) => tag !== "");
+      } catch {
+        // 如果解析失败，设置为空数组
+        metadata.tags = [];
+      }
+    } else {
+      metadata[key.trim() as keyof Metadata] = value as any;
+    }
   });
 
   return { metadata: metadata as Metadata, content };
@@ -87,4 +104,26 @@ export function formatDate(date: string, includeRelative = false) {
   }
 
   return `${fullDate} (${formattedDate})`;
+}
+
+// 添加一个按标签过滤文章的函数
+export function getPostsByTag(tag: string) {
+  const allPosts = getBlogPosts();
+  return allPosts.filter(
+    (post) => post.metadata.tags && post.metadata.tags.includes(tag)
+  );
+}
+
+// 获取所有标签的函数
+export function getAllTags() {
+  const allPosts = getBlogPosts();
+  const tagsSet = new Set<string>();
+
+  allPosts.forEach((post) => {
+    if (post.metadata.tags) {
+      post.metadata.tags.forEach((tag) => tagsSet.add(tag));
+    }
+  });
+
+  return Array.from(tagsSet);
 }
