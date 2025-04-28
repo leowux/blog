@@ -25,7 +25,7 @@ export default function TagPage({ params }) {
   return (
     <section>
       <h1 className="font-semibold text-2xl mb-4 tracking-tighter">
-        标签: {decodedTag}
+        Tag: {decodedTag}
       </h1>
 
       <div className="flex flex-wrap mb-8">
