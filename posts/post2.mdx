@@ -2,7 +2,7 @@
 title: "TypeScript 泛型"
 publishedAt: "2025-03-22"
 summary: "TypeScript 泛型"
-tags: [TypeScript, Programming Language]
+tags: [TypeScript, 编程语言]
 ---
 
 ## 1. 泛型是什么？
@@ -124,10 +124,7 @@ axios.get<DataType>("https://www.xxx.com").then((res) => {
 ```ts
 interface AxiosInstance {
   // ...
-  get<T = any, R = AxiosResponse<T>>(
-    url: string,
-    config?: AxiosRequestConfig
-  ): Promise<R>;
+  get<T = any, R = AxiosResponse<T>>(url: string, config?: AxiosRequestConfig): Promise<R>;
 }
 
 interface AxiosResponse<T = any> {

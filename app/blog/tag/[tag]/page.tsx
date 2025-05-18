@@ -5,12 +5,12 @@ import Link from "next/link";
 export async function generateStaticParams() {
   let tags = getAllTags();
   return tags.map((tag) => ({
-    tag: encodeURIComponent(tag),
+    tag: encodeURI(tag),
   }));
 }
 
 export function generateMetadata({ params }) {
-  const decodedTag = decodeURIComponent(params.tag);
+  const decodedTag = decodeURI(params.tag);
   return {
     title: `文章标签: ${decodedTag}`,
     description: `查看所有带有 "${decodedTag}" 标签的文章`,
@@ -18,7 +18,7 @@ export function generateMetadata({ params }) {
 }
 
 export default function TagPage({ params }) {
-  const decodedTag = decodeURIComponent(params.tag);
+  const decodedTag = decodeURI(params.tag);
   const posts = getPostsByTag(decodedTag);
   const allTags = getAllTags();
 
