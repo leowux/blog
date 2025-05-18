@@ -21,12 +21,12 @@ export default function TagPage({ params }) {
   const decodedTag = decodeURIComponent(params.tag);
   const posts = getPostsByTag(decodedTag);
   const allTags = getAllTags();
-
+  console.log(">>>params", params);
+  console.log(">>>decodedTag", decodedTag);
+  console.log(">>>allTags", allTags);
   return (
     <section>
-      <h1 className="font-semibold text-2xl mb-4 tracking-tighter">
-        Tag: {decodedTag}
-      </h1>
+      <h1 className="font-semibold text-2xl mb-4 tracking-tighter">Tag: {decodedTag}</h1>
 
       <div className="flex flex-wrap mb-8">
         {allTags.map((t) => (
@@ -35,17 +35,12 @@ export default function TagPage({ params }) {
       </div>
 
       {posts.length === 0 ? (
-        <p className="text-neutral-600 dark:text-neutral-400">
-          没有找到带有此标签的文章。
-        </p>
+        <p className="text-neutral-600 dark:text-neutral-400">没有找到带有此标签的文章。</p>
       ) : (
         <div>
           {posts
             .sort((a, b) => {
-              if (
-                new Date(a.metadata.publishedAt) >
-                new Date(b.metadata.publishedAt)
-              ) {
+              if (new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)) {
                 return -1;
               }
               return 1;
