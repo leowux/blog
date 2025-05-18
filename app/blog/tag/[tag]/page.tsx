@@ -5,7 +5,7 @@ import Link from "next/link";
 export async function generateStaticParams() {
   let tags = getAllTags();
   return tags.map((tag) => ({
-    tag: encodeURIComponent(tag),
+    tag,
   }));
 }
 
@@ -24,7 +24,6 @@ export default function TagPage({ params }) {
   return (
     <section>
       <h1 className="font-semibold text-2xl mb-4 tracking-tighter">Tag: {decodedTag}</h1>
-      <h1 className="font-semibold text-2xl mb-4 tracking-tighter">rowTag: {params.tag}</h1>
       <div className="flex flex-wrap mb-8">
         {allTags.map((t) => (
           <Tag key={t} tag={t} isActive={t === decodedTag} />
