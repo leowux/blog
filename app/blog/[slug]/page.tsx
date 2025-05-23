@@ -87,7 +87,7 @@ export default function Blog({ params }) {
         {post.metadata.title}
       </h1>
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-2 mb-4 text-sm">
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+        <p className="text-sm text-neutral-600">
           {formatDate(post.metadata.publishedAt)}
         </p>
         {post.metadata.tags && post.metadata.tags.length > 0 && (

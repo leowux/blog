@@ -31,7 +31,7 @@ export default function TagPage({ params }) {
       </div>
 
       {posts.length === 0 ? (
-        <p className="text-neutral-600 dark:text-neutral-400">没有找到带有此标签的文章。</p>
+        <p className="text-neutral-600">没有找到带有此标签的文章。</p>
       ) : (
         <div>
           {posts
@@ -48,10 +48,10 @@ export default function TagPage({ params }) {
                 href={`/blog/${post.slug}`}
               >
                 <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2">
-                  <p className="text-neutral-600 dark:text-neutral-400 w-[150px] tabular-nums">
+                  <p className="text-neutral-600 w-[150px] tabular-nums">
                     {formatDate(post.metadata.publishedAt, false)}
                   </p>
-                  <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
+                  <p className="text-neutral-900 tracking-tight">
                     {post.metadata.title}
                   </p>
                 </div>
@@ -63,7 +63,7 @@ export default function TagPage({ params }) {
       <div className="mt-8">
         <Link
           href="/blog"
-          className="text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-neutral-100"
+          className="text-neutral-700 hover:text-neutral-900"
         >
           ← Back
         </Link>
