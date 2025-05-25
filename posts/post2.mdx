@@ -1,6 +1,6 @@
 ---
 title: "TypeScript 泛型"
-publishedAt: "2025-03-22"
+publishedAt: "2025-03-23"
 summary: "TypeScript 泛型"
 tags: [TypeScript, 编程语言]
 ---
@@ -55,7 +55,7 @@ identity<string>("hello"); // ok
 
 对于刚接触 `TypeScript` 泛型的读者来说，首次看到 `<T>` 语法会感到陌生。但这没什么可担心的，就像传递参数一样，通过参数变量 `T`，把用户想要传入的类型，链式传递到后面函数的类型定义中去。
 
-![泛型传递](/image.png)
+![泛型传递](/image1.png)
 
 参考上面的图片，通过 `<T>` 声明 **类型变量 `T`**，然后在后面的函数参数类型声明、和函数返回值类型声明中使用：`(value: T): T`。
 
