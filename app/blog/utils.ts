@@ -70,40 +70,19 @@ export function getBlogPosts() {
   return getMDXData(path.join(process.cwd(), "posts"));
 }
 
-export function formatDate(date: string, includeRelative = false) {
-  let currentDate = new Date();
+export function formatDate(date: string) {
   if (!date.includes("T")) {
     date = `${date}T00:00:00`;
   }
   let targetDate = new Date(date);
 
-  let yearsAgo = currentDate.getFullYear() - targetDate.getFullYear();
-  let monthsAgo = currentDate.getMonth() - targetDate.getMonth();
-  let daysAgo = currentDate.getDate() - targetDate.getDate();
+  // 只保留 yyyy-mm-dd 格式
+  let yyyy = targetDate.getFullYear();
+  let mm = String(targetDate.getMonth() + 1).padStart(2, '0');
+  let dd = String(targetDate.getDate()).padStart(2, '0');
+  let fullDate = `${yyyy}-${mm}-${dd}`;
 
-  let formattedDate = "";
-
-  if (yearsAgo > 0) {
-    formattedDate = `${yearsAgo}y ago`;
-  } else if (monthsAgo > 0) {
-    formattedDate = `${monthsAgo}mo ago`;
-  } else if (daysAgo > 0) {
-    formattedDate = `${daysAgo}d ago`;
-  } else {
-    formattedDate = "Today";
-  }
-
-  let fullDate = targetDate.toLocaleString("en-us", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-  });
-
-  if (!includeRelative) {
-    return fullDate;
-  }
-
-  return `${fullDate} (${formattedDate})`;
+  return fullDate;
 }
 
 // 添加一个按标签过滤文章的函数
