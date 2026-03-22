@@ -1,4 +1,4 @@
-import { getAllTags } from "app/blog/utils";
+import { getAllTags } from "lib/blog";
 import { Tag } from "./tag";
 
 export function TagCloud() {
