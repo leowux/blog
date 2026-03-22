@@ -1,0 +1,231 @@
+---
+title: "hapi 入门：用更可控的方式构建 Node.js 服务"
+publishedAt: "2026-03-22"
+summary: "从定位、路由、校验到插件化，快速理解 hapi 为什么仍然适合构建结构清晰的 Node.js API 服务。"
+tags: [Node.js, 后端, hapi]
+---
+
+## 1. hapi 是什么
+
+hapi 是一个面向 Node.js 的服务端框架，强调两件事：
+
+- 配置驱动
+- 开箱即用的安全与工程能力
+
+相比只提供最小路由能力的框架，hapi 更像一套完整的服务端开发模型。路由、参数校验、认证、插件机制、生命周期扩展这些能力都在一个相对统一的设计里。
+
+如果你写过 Express，会明显感觉到两者的思路不同：
+
+- Express 更自由，很多事情交给中间件组合
+- hapi 更强调约定、边界和一致性
+
+这也是 hapi 最吸引人的地方。它不一定是生态最热的 Node.js 框架，但在“服务端代码如何保持可维护”这件事上，设计一直很克制。
+
+## 2. 为什么现在还值得了解 hapi
+
+从官方文档和仓库定位来看，hapi 仍然主打简单、安全、可扩展的服务端开发体验。它比较适合下面这类项目：
+
+- 中小型 API 服务
+- 需要明确请求校验和鉴权边界的后台系统
+- 希望通过插件拆分模块的 Node.js 项目
+
+hapi 的优势不在“魔法很多”，而在“默认行为比较稳”。当项目逐渐变大时，这种稳会比一开始的自由更有价值。
+
+## 3. 先跑一个最小示例
+
+安装依赖：
+
+```bash
+npm install @hapi/hapi
+```
+
+创建一个最简单的服务：
+
+```js
+const Hapi = require('@hapi/hapi');
+
+async function start() {
+  const server = Hapi.server({
+    port: 3000,
+    host: 'localhost',
+  });
+
+  server.route({
+    method: 'GET',
+    path: '/',
+    handler: () => {
+      return { message: 'hello hapi' };
+    },
+  });
+
+  await server.start();
+  console.log(`Server running on ${server.info.uri}`);
+}
+
+start();
+```
+
+这段代码已经体现了 hapi 的风格：
+
+- 先显式创建 `server`
+- 再通过 `server.route()` 注册路由
+- 最后调用 `server.start()` 启动服务
+
+没有太多隐藏逻辑，整个入口非常直接。
+
+## 4. 路由定义为什么更清晰
+
+hapi 的路由对象通常会把一个接口的关键信息放在一起：
+
+- 请求方法
+- 路径
+- 业务处理函数
+- 校验规则
+- 认证策略
+- 插件级配置
+
+例如：
+
+```js
+server.route({
+  method: 'GET',
+  path: '/users/{id}',
+  options: {
+    description: '获取用户详情',
+    tags: ['api', 'users'],
+    handler: async (request, h) => {
+      const { id } = request.params;
+
+      return {
+        id,
+        name: 'Leo',
+      };
+    },
+  },
+});
+```
+
+这里的关键不是语法本身，而是接口元信息和处理逻辑天然靠得很近。相比把一部分逻辑放在中间件、一部分放在路由外部配置里，hapi 的读代码体验通常更集中。
+
+## 5. 参数校验是 hapi 很实用的一部分
+
+做后端时，一个常见问题是：
+
+“接口到底在哪里校验参数？”
+
+hapi 对这个问题给出的答案很明确。通常配合 `joi` 使用，直接在路由层声明 `params`、`query`、`payload` 的结构。
+
+```bash
+npm install joi
+```
+
+```js
+const Joi = require('joi');
+
+server.route({
+  method: 'POST',
+  path: '/users',
+  options: {
+    validate: {
+      payload: Joi.object({
+        name: Joi.string().min(2).max(20).required(),
+        age: Joi.number().integer().min(0).required(),
+      }),
+    },
+    handler: async (request) => {
+      const { name, age } = request.payload;
+
+      return {
+        id: 1,
+        name,
+        age,
+      };
+    },
+  },
+});
+```
+
+这种写法的价值很直接：
+
+- 参数边界清楚
+- 错误更早暴露
+- 接口契约更容易被维护
+
+当一个服务逐渐变复杂时，越早把输入校验做扎实，后面的业务代码就越轻松。
+
+## 6. 插件机制是 hapi 的核心能力
+
+hapi 很强调插件化。你可以把一组路由、扩展点、工具方法组织成一个插件，再注册到主服务中。
+
+```js
+exports.plugin = {
+  name: 'health',
+  version: '1.0.0',
+  register: async function (server) {
+    server.route({
+      method: 'GET',
+      path: '/health',
+      handler: () => {
+        return { status: 'ok' };
+      },
+    });
+  },
+};
+```
+
+在主入口中注册：
+
+```js
+await server.register(require('./plugins/health'));
+```
+
+这种组织方式很适合做模块边界拆分，比如：
+
+- 用户模块
+- 订单模块
+- 权限模块
+- 健康检查与监控模块
+
+当你不想让业务入口文件持续膨胀时，hapi 的插件机制会非常顺手。
+
+## 7. hapi 适合什么团队风格
+
+我认为 hapi 更适合下面这种开发方式：
+
+- 接口边界要清楚
+- 团队希望少写“约定俗成但没人保证”的代码
+- 服务拆分后仍然想保持统一结构
+
+它不一定最轻，也不一定最流行，但它很适合写“读起来像后端工程代码”的 Node.js 服务。
+
+如果你的团队已经习惯：
+
+- 路由即契约
+- 校验尽量前置
+- 模块拆分要有明确边界
+
+那 hapi 会比很多“先自由，后收敛”的方案更自然。
+
+## 8. 一个现实的判断
+
+现在选 Node.js 服务端框架，很多人首先会想到 Express、NestJS、Fastify。hapi 的讨论度没那么高，这是事实。
+
+但是否要用一个框架，不应该只看热度。更实际的判断标准是：
+
+- 你的团队是否需要强约束的接口组织方式
+- 你是否重视内建的校验与插件模型
+- 你是否愿意为更稳定的工程结构，接受相对没有那么“轻”的风格
+
+如果答案是“是”，hapi 依然值得进入候选名单。
+
+## 9. 总结
+
+hapi 不是追求最少代码量的框架，它追求的是更明确的边界、更稳定的服务结构和更一致的开发体验。
+
+你可以把它理解为：
+
+- 比极简框架更完整
+- 比重框架更克制
+- 很适合构建长期维护的 API 服务
+
+如果你最近正准备搭一个 Node.js 后端服务，不妨花半小时把 hapi 的 Getting Started 跑一遍。即使最后没有选它，也很值得借鉴它对“路由、校验、插件化”的设计思路。
