@@ -1,4 +1,4 @@
-import { formatDate, getAllTags, getPostsByTag } from "app/blog/utils";
+import { formatDate, getAllTags, getPostsByTag } from "lib/blog";
 import { Tag } from "app/components/tag";
 import Link from "next/link";
 
