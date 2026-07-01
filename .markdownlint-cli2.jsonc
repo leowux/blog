@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DavidAnson/markdownlint-cli2/main/schema/markdownlint-cli2-config-schema.json",
+  "globs": [
+    "README.md",
+    "posts/**/*.{md,mdx}"
+  ],
+  "gitignore": true,
+  "frontMatter": "^---\\s*(\\r\\n|\\r|\\n)[\\s\\S]*?(\\r\\n|\\r|\\n)---\\s*(\\r\\n|\\r|\\n|$)",
+  "customRules": [
+    "./markdownlint-rules/posts-max-words.cjs"
+  ],
+  "config": {
+    "default": true,
+    "MD003": {
+      "style": "atx"
+    },
+    "MD013": false,
+    "MD024": {
+      "siblings_only": true
+    },
+    "MD029": false,
+    "MD034": false,
+    "MD038": false,
+    "MD041": false,
+    "custom/posts-max-words": {
+      "maximum": 3000
+    }
+  }
+}
