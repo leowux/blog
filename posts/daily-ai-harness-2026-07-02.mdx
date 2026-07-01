@@ -1,0 +1,50 @@
+---
+title: "每日 AI 与 Harness Engineering 观察：2026-07-02"
+publishedAt: "2026-07-02"
+summary: "从终端 agent、AIOps 诊断、工具调用隐私和 harness 修复，看 AI 工程评测正在走向真实轨迹。"
+tags: [AI, 工程实践, 测试自动化, CI/CD, 平台工程, LLM]
+---
+
+今天的几条材料都指向同一个方向：AI 工程的评测正在从“回答是否正确”转向“执行轨迹是否可靠”。这对 harness engineering 很关键，因为 agent 系统的失败往往不只来自模型，也来自环境、工具、上下文、权限和验证链路。
+
+## 1. 终端 agent 需要更接近真实工作的评测
+
+TUA-Bench 把终端 agent 的任务扩展到文档编辑、邮件处理、在线信息检索，以及需要专业软件的科学和工程流程。它的价值不在于给出一个新的排行榜，而在于提醒团队：只测代码题或 shell 小任务，很难覆盖真实终端工作。
+
+对工程团队来说，更有用的做法是把内部 agent 的评测任务拆成可重复的工作流：准备环境、执行任务、采集轨迹、用执行结果打分。这样才能区分“模型会说”与“系统能做”。
+
+## 2. AIOps agent 不能只看最终答案
+
+微服务故障诊断 benchmark 开始强调推理过程：故障定位、故障类型识别、证据是否支撑结论。这个方向很务实。线上诊断不是猜一个服务名，而是要把指标、日志、trace 和变更信息串起来，形成可审计的判断。
+
+如果把 LLM agent 接进值班或平台工程链路，harness 应该记录每一步使用了哪些观测数据、过滤了哪些假设、为什么触发某个诊断结论。没有这些过程证据，最终答案即使偶尔正确，也很难进入 CI/CD 或生产运维的信任链。
+
+## 3. 工具调用成功不等于隐私边界正确
+
+ToolPrivacyBench 关注的是 tool-using agent 在多工具轨迹中的“目的限定”隐私边界。一个 agent 可能完成任务，但把不必要的私人信息传给中间工具或下游系统。
+
+这对企业 agent 很现实。评测不应只检查 API 参数是否能跑通，还要检查每个工具调用是否只拿到了完成当前目的所需的最小信息。更好的 harness 需要同时保留 tool arguments、后端审计日志和策略知识库，才能发现这种过度披露。
+
+## 4. Harness 本身也需要被诊断和修复
+
+HarnessFix 的重点是把失败轨迹、harness 代码和失败归因连起来，定位问题到底出在环境、工具接口、上下文组织、生命周期编排、观测性还是验证层。这个视角很重要：很多 agent 失败不是简单换模型能解决的。
+
+对团队来说，harness 不应只是一次性脚手架。它更像测试平台的一部分，需要有失败聚类、可复现轨迹、作用域明确的修复和回归验证。否则每次失败都会退化成临时 prompt 调整。
+
+## 工程启发
+
+下一阶段的 AI 工程质量体系，应该把评测做成发布链路的一部分，而不是离线实验报告。一个可用的 harness 至少要回答四个问题：
+
+- 任务是否贴近真实工作流；
+- 轨迹是否完整、可复现、可审计；
+- 工具和数据权限是否符合最小必要原则；
+- 修复是否通过回归验证，而不是只修正了当前样例。
+
+这也是 AI 与传统测试自动化、CI/CD、平台工程开始合流的地方。模型能力仍然重要，但真正决定系统能否稳定交付的，是围绕模型建立的执行环境、验证规则和反馈闭环。
+
+## 来源链接
+
+- [TUA-Bench: A Benchmark for General-Purpose Terminal-Use Agents](https://arxiv.org/abs/2606.28480)
+- [A Multi-Dataset Benchmark for Evaluating LLM Agents in Microservice Failure Diagnosis](https://arxiv.org/abs/2606.29193)
+- [ToolPrivacyBench: Benchmarking Purpose-Bound Privacy in Tool-Using LLM Agents](https://arxiv.org/abs/2606.28061)
+- [From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws](https://arxiv.org/abs/2606.06324)
