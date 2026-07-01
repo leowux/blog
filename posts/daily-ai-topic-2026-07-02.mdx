@@ -1,0 +1,44 @@
+---
+title: "AI 编码代理的供应链安全"
+publishedAt: "2026-07-02"
+summary: "从 Claude Code 被诱导执行恶意初始化流程看，AI 编码代理正在把开源供应链风险带进开发者本机。"
+tags: [AI, LLM, Agent, 工程实践, 开源, 安全]
+---
+
+AI 编码代理已经从“补全代码”走向“克隆仓库、读文档、装依赖、执行命令”。这让它更像一名有终端权限的初级工程师，也让供应链攻击有了新的入口：攻击者不一定要让仓库本身显得恶意，只要让代理在排错和初始化过程中主动走到危险路径。
+
+## 核心观点
+
+最近被技术社区讨论最多的案例，是 Mozilla 0din 团队展示的一类攻击：一个看起来干净的 GitHub 仓库，通过 README、初始化脚本和 DNS TXT 记录多层间接引导，让 Claude Code 在“帮用户把项目跑起来”的过程中执行恶意载荷。
+
+关键不在某个具体命令，而在代理的默认行为发生了变化。传统开发者会把未知仓库当作不可信输入；编码代理却倾向于继续推进任务、修复错误、尝试替代命令。这种“过度有用”会把原本需要人工判断的安全边界，变成一串自动化动作。
+
+## 技术影响
+
+这类风险说明，AI 编码代理不能只按模型能力或代码生成质量来评估。真正的攻击面包括：
+
+- 仓库内的 README、AGENTS.md、配置文件和脚本；
+- 代理可调用的 shell、包管理器、浏览器、MCP 服务和凭证；
+- 初始化、测试、修复失败时的重试策略；
+- 对网络访问、文件写入和密钥读取的默认权限。
+
+研究社区对 Claude Code 自动权限门的压力测试也给出类似提醒：如果危险动作不一定经过 shell，或者代理可以通过文件编辑达到同等效果，只拦截少数命令是不够的。供应链安全需要覆盖完整执行轨迹，而不是只扫描最终代码。
+
+## 工程启发
+
+团队引入编码代理时，应该把“运行未知项目”当成高风险场景处理：
+
+- 默认在容器、临时虚拟机或无密钥环境里克隆和初始化外部仓库；
+- 禁止代理直接读取本机长期凭证、浏览器会话和生产配置；
+- 对网络出口、DNS 查询、包安装和脚本执行做审计；
+- 把 README、项目级 agent 指令和 hooks 当作可执行配置审查；
+- 对代理的工具调用保留日志，尤其是失败后的自动修复路径。
+
+AI 编码代理的价值仍然很高，但它越能替开发者执行真实工作，就越需要接入传统软件供应链安全体系。未来的开发环境不会只问“模型会不会写代码”，而会问“代理在什么权限里、依据哪些输入、执行了哪些可复现动作”。
+
+## 来源链接
+
+- [Tom's Hardware: AI coding agents can be tricked into installing malware via clean GitHub repositories](https://www.tomshardware.com/tech-industry/cyber-security/ai-coding-agents-can-be-tricked-into-installing-malware-via-clean-github-repositories-mozillas-0din-team-shows-how-claude-code-can-be-exploited-by-its-own-helpfulness)
+- [arXiv: Measuring the Permission Gate: A Stress-Test Evaluation of Claude Code's Auto Mode](https://arxiv.org/abs/2604.04978)
+- [arXiv: Security Concerns in Generative AI Coding Assistants](https://arxiv.org/abs/2604.08352)
+- [arXiv: Configuring Agentic AI Coding Tools](https://arxiv.org/abs/2602.14690)
