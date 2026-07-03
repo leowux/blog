@@ -1,4 +1,4 @@
-const DEFAULT_MAXIMUM = 3000;
+const DEFAULT_MAXIMUM = 5000;
 const POSTS_FILE_PATTERN = /(^|\/)posts\/.+\.mdx?$/;
 const CJK_CHARACTER_PATTERN = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}]/gu;
 const WORD_PATTERN = /[A-Za-z0-9]+(?:['_-][A-Za-z0-9]+)*/g;
