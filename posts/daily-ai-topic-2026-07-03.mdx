@@ -1,0 +1,56 @@
+---
+title: "Agent Skills"
+publishedAt: "2026-07-03"
+summary: "Agent Skills 正在把编码代理的能力从一次性提示词沉淀为可复用、可审查、可分发的工程接口。"
+tags: [AI, Agent, LLM, 工程实践, 开源]
+---
+
+## 导语
+
+今天最值得写的 AI 技术话题不是某个单点模型，而是 `Agent Skills`。
+Hacker News 上关于“如何用 LLM 编程”的讨论仍在升温，GitHub 今日热门仓库里也同时出现了 `agentskills/agentskills`、`NVIDIA/skills`、`google/agents-cli` 和 `anthropics/claude-code` 这类代理技能与编码代理项目。
+
+这说明社区关注点正在从“让模型回答得更好”，转向“让代理在真实工程环境里稳定复用能力”。
+
+## 核心观点
+
+`Agent Skills` 的价值在于把提示词、约束、工具调用方式、检查清单和领域知识封装成一个可版本化的能力单元。
+它不是简单的 prompt 模板，而更像是给代理准备的轻量插件：人类维护规则，代理按规则执行，团队通过 Git 和代码审查管理变化。
+
+这对编码代理尤其重要。
+一个通用代理可以写代码，但在企业项目里，真正耗时的是理解本地约定、部署流程、安全边界、测试策略和失败回滚方式。
+如果这些知识只存在于聊天上下文里，每次任务都会重新解释一遍；如果沉淀为 skill，代理就能在不同任务之间继承同一套工程语境。
+
+## 工程影响
+
+第一，团队会开始为代理维护“能力资产”。
+过去我们维护 README、runbook 和脚本，现在还需要维护代理可读的任务说明、验收标准和工具边界。
+这些文件越接近代码仓库，越容易被评审、回滚和持续改进。
+
+第二，编码代理的差异化会从“模型是谁”扩展到“技能库是否可靠”。
+`Claude Code`、`agents-cli` 这类工具都在强调终端、代码库和工作流集成；而 `NVIDIA/skills` 这类仓库说明厂商也在把专业场景封装成可分发能力。
+未来选择代理工具时，除了模型质量，还要看 skill 的权限模型、可测试性和组织内复用方式。
+
+第三，skill 会推动更明确的代理治理。
+一旦代理能读取仓库、执行命令、修改文件，团队就必须把“能做什么”和“不能做什么”写清楚。
+好的 skill 不只是提效文档，也应该包含安全边界、失败处理和验证命令。
+
+## 工程启发
+
+如果一个团队已经开始使用编码代理，可以先从三类 skill 做起：
+
+1. 项目入门 skill：解释目录结构、常用命令、环境变量和本地启动方式。
+2. 变更验证 skill：规定不同类型修改必须跑哪些测试、lint 和人工检查。
+3. 发布流程 skill：描述分支、提交信息、PR 描述、回滚和权限要求。
+
+这比盲目追逐更大的上下文窗口更实用。
+上下文窗口解决“能塞多少信息”，skill 解决“哪些信息值得长期保留，以及如何让代理稳定遵守”。
+
+## 来源链接
+
+- [Ask HN: Is anyone experimenting with different ways of using LLMs for coding?](https://news.ycombinator.com/item?id=48771515)
+- [GitHub Trending: Python daily](https://github.com/trending/python?since=daily)
+- [agentskills/agentskills](https://github.com/agentskills/agentskills)
+- [NVIDIA/skills](https://github.com/NVIDIA/skills)
+- [google/agents-cli](https://github.com/google/agents-cli)
+- [anthropics/claude-code](https://github.com/anthropics/claude-code)
