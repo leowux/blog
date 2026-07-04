@@ -1,0 +1,59 @@
+---
+title: "Leanstral 1.5: Proof Abundance for All"
+publishedAt: "2026-07-04"
+summary: "Leanstral 1.5 把 AI 编码代理推进到 Lean 4 形式化证明场景，重点不只是模型能力，而是可验证的证明工程工作流。"
+tags: [AI, LLM, Agent, 工程实践, 开源]
+---
+
+## 导语
+
+今天最值得写的 AI 技术话题是 `Leanstral 1.5: Proof Abundance for All`。
+它在 Hacker News 首页获得了很高讨论度，Mistral 也同步发布了模型权重、使用说明和面向 Lean 任务的评测工具。
+
+这个话题重要的地方不只是“又一个代码模型发布”，而是 AI agent 正在进入更难被糊弄的工程场景：形式化证明。
+在 Lean 4 里，答案最终要通过类型检查器和证明检查器验证，模型不能只写出看起来合理的解释。
+
+## 核心观点
+
+Leanstral 1.5 是面向 Lean 4 的开源代码代理模型。
+Hugging Face 模型卡显示，它基于 Mistral Small 4 系列，采用 MoE 架构，拥有 119B 总参数、每 token 激活 6.5B 参数，并支持长上下文与多模态输入。
+更关键的是，它被包装成可以和 Mistral Vibe、Lean 项目目录、Lean LSP MCP 以及本地 vLLM 服务配合使用的 agent。
+
+这代表 AI 编码代理的一个新方向：从生成普通业务代码，走向生成可以被严格验证的数学证明和软件规格。
+如果代理能在 Lean 项目中读取目标、修改证明、调用检查工具并反复修复失败，它就不再只是“写代码助手”，而更接近一个被验证器约束的证明工程执行器。
+
+## 技术影响
+
+第一，形式化证明会成为检验 agent 能力的高质量试验场。
+普通代码任务的评价经常依赖测试覆盖率，而 Lean 任务天然带有更强的正确性信号：证明要么通过，要么失败。
+这让模型的长程规划、工具调用、错误修复和上下文管理都更容易被量化。
+
+第二，开源评测工具会让这类模型更容易被复现和比较。
+Mistral 同时公开了 `FLTEval`，它采用类似 SWE-bench 的方式处理 Lean 任务：提交 diff、应用到任务镜像、运行 Lean 与 SafeVerify 检查，再产出实例级和汇总报告。
+这比只公布排行榜分数更有价值，因为团队可以把同一套评测方式接入自己的 agent 或模型。
+
+第三，证明代理会倒逼工程团队重新看待权限边界。
+Leanstral 的使用说明中已经包含终端 agent、本地项目目录、工具调用和长时间任务执行。
+这类工作流非常强大，但也意味着 agent 需要明确的文件写入范围、依赖安装策略、超时控制和人工审查点。
+证明检查器能验证数学结论，却不能自动验证代理在本机环境中的所有操作都是安全的。
+
+## 工程启发
+
+如果团队正在评估 AI agent，不妨把 Leanstral 1.5 看作一个信号：下一阶段的竞争不只是更大的通用模型，而是“模型 + 工具协议 + 可复现评测 + 安全运行环境”的组合。
+
+对工程实践来说，有三点值得借鉴：
+
+1. 为 agent 设计任务时，尽量提供机器可执行的验收标准，而不只是自然语言描述。
+2. 把评测数据、运行镜像、提交格式和报告格式标准化，让模型改进可以被复现。
+3. 对长时间自动修复型 agent 设置清晰权限，尤其是文件写入、网络访问、依赖安装和自动批准修改。
+
+形式化证明过去是少数专家维护的高门槛领域。
+Leanstral 1.5 的热度说明，社区正在期待 AI 把这类工作流变得更可用。
+真正值得关注的不是模型是否能一次性写出完美证明，而是它能否在验证器反馈下持续推进，最终把证明工程变成一个更自动化、更可审查的循环。
+
+## 来源链接
+
+- [Hacker News: Leanstral 1.5: Proof abundance for all](https://news.ycombinator.com/item?id=48780801)
+- [Mistral AI: Leanstral 1.5: Proof Abundance for All](https://mistral.ai/news/leanstral-1-5/)
+- [Hugging Face: mistralai/Leanstral-1.5-119B-A6B](https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B)
+- [GitHub: mistralai/FLTEval](https://github.com/mistralai/FLTEval)
