@@ -1,0 +1,43 @@
+---
+title: "代码整洁度会影响编码代理吗？"
+publishedAt: "2026-07-06"
+summary: "一项 minimal-pair 实验显示，代码整洁度未明显改变 Claude Code 的任务通过率，但会降低 token 消耗和重复读文件次数。"
+tags: [AI, Agent, LLM, 工程实践]
+---
+
+## 导语
+
+今天最值得写的 AI 技术话题是：代码整洁度会影响编码代理吗？
+
+Hacker News 过去 24 小时里，论文 `Does Code Cleanliness Affect Coding Agents?` 进入前排讨论。这个话题之所以重要，是因为它把“干净代码”从人类可维护性问题，推进到了 AI 编码代理的运行成本和上下文效率问题。
+
+## 核心观点
+
+论文用 minimal-pair 方法构造了结构、依赖和外部行为相近，但静态分析违规与认知复杂度不同的代码库。作者在 33 个任务、660 次 Claude Code 试验中发现：更干净的代码没有显著提高最终通过率，但让代理少用了约 7% 到 8% 的 token，并减少了约 34% 的文件重复访问。
+
+这个结论很克制，也很实用。它没有说“代码越干净，代理越聪明”，而是说明整洁度会影响代理完成同一件事时走过的路径。对工程团队来说，token、延迟、工具调用次数和上下文污染，本来就是能否把 agent 放进日常开发流程的真实成本。
+
+## 工程影响
+
+第一，代码卫生正在变成 agent 基础设施的一部分。过去 lint、复杂度控制、死代码清理和模块边界主要服务于人类协作；现在它们也在降低代理检索、阅读和判断的成本。
+
+第二，`AGENTS.md`、提示词和 harness 不能替代代码结构。HN 讨论里很多工程师提到，代理会被遗留模式、死代码和分散的调用链牵着走。写更多规则有帮助，但如果仓库本身到处提供坏示例，模型仍然会把它们纳入上下文。
+
+第三，团队应该把“让代理少走弯路”当成可优化目标。除了要求代理运行测试，还应把静态检查、架构边界检查、重复代码检测和大文件拆分放进 CI 或 pre-commit，而不是只在聊天里提醒代理。
+
+## 工程启发
+
+如果团队已经在使用编码代理，可以从三个动作开始：
+
+1. 让 lint、typecheck、dead-code 检查和测试成为 agent harness 的默认验证步骤。
+2. 为高频目录补充清晰的模块说明，减少代理反复打开文件建立上下文。
+3. 把重构任务拆成小 PR，并用同一套 CI 约束人类和代理提交。
+
+这篇论文的真正启发不是“为了 AI 重写全部代码”，而是：传统工程纪律没有过时。它们正在从“让人更容易维护”扩展为“让机器更便宜、更快、更稳定地维护”。
+
+## 来源链接
+
+- [Hacker News: Does code cleanliness affect coding agents?](https://news.ycombinator.com/item?id=48798815)
+- [arXiv: Does Code Cleanliness Affect Coding Agents? A Controlled Minimal-Pair Study](https://arxiv.org/abs/2605.20049)
+- [Fly.io: Building Agents That Don't Break Themselves](https://fly.io/blog/building-agents-that-dont-break-themselves/)
+- [GitHub Trending: daily repositories](https://github.com/trending?since=daily)
