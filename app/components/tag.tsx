@@ -10,7 +10,7 @@ export function Tag({ tag, isActive = false }: TagProps) {
   return (
     <Link
       href={`/blog/tag/${encodeURIComponent(tag)}`}
-      className={`text-xs mr-2 px-2 py-1 rounded-md transition-colors ${
+      className={`text-xs mr-2 mb-2 px-2 py-1 rounded-md transition-colors ${
         isActive
           ? "bg-neutral-800 text-white"
           : "bg-neutral-100 text-neutral-600 hover:bg-neutral-200"
