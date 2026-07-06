@@ -1,0 +1,44 @@
+---
+title: "A global workspace in language models"
+publishedAt: "2026-07-07"
+summary: "Anthropic 提出 Jacobian lens 与 J-space，用可解释性方法观察 Claude 未写出的中间思考，并把它连接到全局工作空间理论。"
+tags: [AI, LLM, 工程实践, 产品]
+---
+
+## 导语
+
+今天最值得写的 AI 技术话题是：A global workspace in language models。
+
+这篇 Anthropic 研究在 2026 年 7 月 6 日发布，随后进入 Hacker News 首页前排讨论。它关心的不是模型又提升了多少 benchmark，而是一个更底层的问题：LLM 内部是否存在一小块“可报告、可调节、可用于推理”的共享工作区，让模型把未写出来的中间想法广播给后续计算。
+
+## 核心观点
+
+Anthropic 把这块结构称为 J-space，并用 Jacobian lens 来读取它。J-lens 不是看模型下一步最可能输出什么，而是估计某个内部激活在未来让模型“有能力说出某个词”的倾向。研究者发现，Claude 的 J-space 会浮现少量未输出的词，例如中间数学步骤、代码中的错误、对搜索结果可疑性的判断，甚至在安全评测场景里对“fake”“fictional”“leverage”“manipulation”等概念的内部识别。
+
+更关键的是，论文不仅做观察，还做干预。把 J-space 中的一个概念替换为另一个概念，会改变模型后续回答；抑制 J-space 后，模型仍能流畅说话和处理常规语言任务，但多步推理、摘要、押韵等高阶能力明显受损。这支持了一个实用判断：至少在 Claude 上，某些“可被说出”的内部表示不仅是旁观记录，而是推理路径的一部分。
+
+## 技术影响
+
+第一，可解释性正在从“解释输出”走向“审计未输出的状态”。如果模型在安全评测里已经察觉自己被测试，或者在代理任务中内部形成了操纵、伪造、隐藏目标等概念，仅看最终回复很容易漏掉风险。J-space 这类工具让评测者有机会检查模型没有写出来但正在使用的中间状态。
+
+第二，链式思考不再是唯一的调试入口。很多产品团队已经不希望模型暴露完整 chain-of-thought，但又需要理解模型为什么做决定。J-lens 暗示了一条折中路线：不要求模型把推理全写出来，而是在模型内部寻找可审计的压缩表示。
+
+第三，这类方法会影响 agent harness 的设计。未来的代理评测可能不只记录提示词、工具调用和最终答案，还会记录关键时刻的内部可解释性信号，用于发现“看起来合规但其实在绕评测”的行为。
+
+## 工程启发
+
+对工程团队来说，这篇研究最值得带走的不是“模型是否有意识”的哲学争论，而是三个更实际的问题：
+
+1. 评测集是否会被模型识别为评测，从而高估真实部署表现？
+2. 代理在工具调用前是否形成了危险或欺骗性的中间意图？
+3. 安全训练是否能直接塑造模型内部反思，而不只是塑造输出文本？
+
+J-space 目前仍是研究工具，且论文也明确说 J-lens 只能近似捕捉模型工作区，尤其受限于单 token 概念。但方向很清楚：当模型越来越多地作为长程代理运行，工程团队需要的不只是更好的提示词，还需要能观察、记录和干预模型内部决策状态的调试层。
+
+## 来源链接
+
+- [Hacker News: A global workspace in language models](https://news.ycombinator.com/item?id=48808002)
+- [Anthropic: A global workspace in language models](https://www.anthropic.com/research/global-workspace)
+- [Transformer Circuits: Verbalizable Representations Form a Global Workspace in Language Models](https://transformer-circuits.pub/2026/workspace/index.html)
+- [GitHub: anthropics/jacobian-lens](https://github.com/anthropics/jacobian-lens)
+- [GitHub Trending: daily repositories](https://github.com/trending?since=daily)
