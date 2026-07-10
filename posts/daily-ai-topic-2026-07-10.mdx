@@ -1,0 +1,43 @@
+---
+title: "GPT-5.6"
+publishedAt: "2026-07-10"
+summary: "OpenAI 发布 GPT-5.6 后迅速引发技术社区讨论，工程重点从单次能力提升转向模型迁移、agent 成本控制与可验证执行。"
+tags: [AI, LLM, Agent, 工程实践, 产品]
+---
+
+## 导语
+
+今天最值得写的 AI 技术话题是：GPT-5.6。
+
+OpenAI 的 GPT-5.6 发布页在 2026 年 7 月 9 日被提交到 Hacker News 后，该话题很快登上首页；截至本次写作，HN Algolia API 显示对应条目约 1246 分和 894 条讨论。相比单纯比较 benchmark，社区更关心的是：新的旗舰模型进入 API、Codex 和各类 coding harness 后，工程团队应该怎样迁移、评估和控成本。
+
+## 核心观点
+
+GPT-5.6 的信号不是“又一个更强模型”，而是大模型产品进入更细颗粒度的工程调度阶段。HN 提交里同时列出了 OpenAI 官方发布页、开发者模型指南和系统卡；讨论区则集中在 Codex、Claude Code、OpenCode 等 agent harness 的可替换性、配额消耗、长上下文、subagent 调用和实际代码任务可靠性。
+
+这说明模型发布正在从消费级聊天体验，转向工程系统里的运行时选择。一个团队不再只是问“哪个模型最强”，而是要问：哪些任务值得用最高推理档位，哪些任务应该落到更便宜的模型，哪些工具调用必须由确定性程序包住，哪些高风险动作必须留给人工或策略引擎确认。
+
+## 技术影响
+
+第一，模型迁移会变成持续工程，而不是一次替换。OpenAI 的开发者指南已经把模型选择、迁移指导、提示最佳实践和工具调用放在同一个页面里，这对生产系统很现实：更强模型通常也会带来更复杂的 effort、上下文和成本权衡。
+
+第二，agent 的成本边界会更重要。HN 讨论里反复出现的担忧不是“能不能完成任务”，而是长任务、深推理和 subagent 扩散会不会把配额或 API 预算迅速烧完。对 coding agent 来说，速度、成功率、输出 token、工具调用次数和重试次数都应该进入同一张评估表。
+
+第三，可靠性不能只靠模型自觉。OpenAI 开发者指南中的 Programmatic Tool Calling 思路值得注意：当流程包含过滤、聚合、校验、排序、去重等可预测步骤时，应让代码处理中间结果，再把更小、更结构化的结果交回模型。这和 agent 工程的核心方向一致：让模型做判断，让程序守住边界。
+
+## 工程启发
+
+如果团队准备试用或迁移到 GPT-5.6，可以先做三件事。
+
+1. 把真实任务拆成短跑基准：代码修改、长上下文审查、故障定位、文档生成、工具调用链，每类都记录成功率、耗时、token 和人工返工量。
+2. 给 agent 设置预算闸门：限制 subagent 数量、工具重试次数、最大上下文扩展和高档 reasoning 的使用场景，避免“模型更强”直接变成“调用更贵”。
+3. 把高风险步骤程序化：提交代码、修改配置、删除资源、发布外部消息、读取敏感数据，都应该有策略校验、可审计日志或人工批准，而不是只写进 system prompt。
+
+GPT-5.6 值得关注，不只是因为它热，而是因为它把一个现实问题推到台前：未来的 AI 工程能力，取决于模型能力、工具协议、评估体系和成本控制能否一起升级。
+
+## 来源链接
+
+- [OpenAI API docs: Model guidance](https://developers.openai.com/api/docs/guides/latest-model)
+- [OpenAI: GPT-5.6 system card PDF](https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf)
+- [Hacker News: GPT-5.6](https://news.ycombinator.com/item?id=48849066)
+- [Hacker News Algolia item API: 48849066](https://hn.algolia.com/api/v1/items/48849066)
