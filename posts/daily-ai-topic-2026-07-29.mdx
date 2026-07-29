@@ -1,0 +1,43 @@
+---
+title: "Google's Beyond Zero: Enterprise Security for the AI Era"
+publishedAt: "2026-07-29"
+summary: "Google 提出 Beyond Zero：把零信任从应用级访问推进到资源与动作级的持续授权，以应对 AI Agent 带来的高速、可扩展访问风险。"
+tags: [AI, Agent, 工程实践, 安全]
+---
+
+## 导语
+
+今天值得关注的话题是：Google's Beyond Zero: Enterprise Security for the AI Era。Google 在 7 月 27 日公布这一企业安全框架，相关 ACM Queue 论文随后在 Hacker News 获得广泛讨论。它的出发点很直接：当人和 AI Agent 都能以机器速度调用 API、读取数据和执行动作时，只在登录或打开应用时做一次访问判断，已不足以描述实际风险。
+
+## 核心观点
+
+Beyond Zero 是 Google 在既有 BeyondCorp 零信任实践之上提出的架构方向。它不把“已通过身份验证、可以进入某个应用”视为充分授权，而是主张在**特定主体对特定资源执行特定动作**时作出授权决定；Google 明确将前端、API 和 Model Context Protocol（MCP）都纳入这个边界。
+
+这不是让模型替代访问控制。Google 描述的组合是：以可静态检查的细粒度策略提供基础保证，再在高风险或复杂场景叠加动态控制。决策可引入任务、数据、动作和可用缓解措施等上下文；异常风险信号则可触发调查、额外验证或隔离。论文将其概括为面向人和 Agent 的、按资源逐次作决定的授权模型。
+
+“持续授权”也不等同于对每一步无差别加摩擦。关键是让高风险操作得到更多验证，而低风险、明确受限的操作仍能自动完成。Google 表示其早期内部原型与部署已用于改进访问滥用检测和知识产权保护；这些仍是厂商公布的早期结果，不应被视为通用效果或现成标准。
+
+## 技术影响
+
+传统零信任常以用户、设备、网络和应用会话为主要判断对象；但 Agent 的工具调用把一个会话拆成了大量异质动作：搜索一份文档、下载一段数据、创建工单、调用部署接口，风险并不相同。若只向 Agent 授予一个宽泛的应用 token，随后每次工具调用实际上都在继承同一份过大的信任。
+
+把授权粒度收缩到资源和动作，能让策略更贴近业务意图：同一个 Agent 可以被允许读取某个项目的公开运行手册，却不能导出客户数据；可以创建草稿，却不能直接发布；可以调用受限的诊断接口，却不能取得长期凭据。这样，即使提示注入或任务漂移诱导 Agent 改变目标，平台侧仍有独立于模型判断的硬边界。
+
+代价是授权系统本身会成为高吞吐、低延迟的关键路径。资源标识、动作语义、策略版本、上下文来源与审计事件必须可追踪；动态风险判断也需要可解释的降级和故障模式。否则，细粒度控制很容易变成无法排查的拒绝访问，或为了可用性被临时绕过。
+
+## 工程启发
+
+1. 为 Agent 工具建立“资源—动作”目录。不要只记录某个 token 能访问哪个系统；明确它能对哪些数据对象执行 read、write、export、deploy、approve 等动作，并把默认权限设为最小集合。
+2. 让授权在模型之外执行。将策略检查放在 API gateway、工具代理或服务端能力层；模型可以提出调用意图，但不能通过改写提示词扩大自己的权限或选择输出通道。
+3. 先为高风险动作引入逐次验证。密钥读取、数据导出、生产发布、跨租户访问和权限变更应要求额外上下文、短时授权或人工确认；把挑战与隔离流程作为产品能力，而不是事故后的人工补丁。
+4. 为每个决策保留可审计证据。记录主体、资源、动作、策略版本、上下文摘要、最终结果与关联任务 ID；同时为策略服务不可用预先定义 fail-closed、只读降级或人工接管的边界。
+
+Beyond Zero 还不是可以直接照搬的开源方案，但它把 AI 安全的重心放在了一个务实的位置：模型能否理解意图固然重要，真正决定风险上限的，是系统是否能对每一次实际动作独立地授权、观测和中止。
+
+## 来源链接
+
+- [Google Security：Going Beyond Zero: A New Paradigm For Enterprise Security](https://blog.google/security/going-beyond-zero-a-new-paradigm-for-enterprise-security/)
+- [ACM Queue：Beyond Zero: Enterprise Security for the AI Era](https://doi.org/10.1145/3819083)
+- [BeyondCorp 白皮书（2014）](https://www.usenix.org/system/files/login/articles/login_dec14_02_ward.pdf)
+- [Google DeepMind：Securing the future of AI agents](https://deepmind.google/blog/securing-the-future-of-ai-agents/)
+- [Hacker News 讨论：Google's Beyond Zero](https://news.ycombinator.com/item?id=49081644)
