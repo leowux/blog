@@ -1,0 +1,38 @@
+---
+title: "Gemini Robotics 2 brings whole body intelligence to robots"
+publishedAt: "2026-07-31"
+summary: "Google DeepMind 发布 Gemini Robotics 2，将全身控制、具身推理和多机器人协作拆成可组合的能力层；它提示机器人系统的工程重点是分层执行、可观测性与安全降级。"
+tags: [AI, Agent, 机器人, 工程实践, 产品]
+---
+
+## 导语
+
+今天最值得关注的 AI 技术话题是：Gemini Robotics 2 brings whole body intelligence to robots。Google DeepMind 于 7 月 30 日发布这一更新；它在 Hacker News 当天获得超过 550 票和数百条讨论。比起把机器人能力概括成“会走路”，更值得工程团队关注的是它给出的系统分工：具身推理模型负责理解、规划与监督，视觉—语言—动作（VLA）模型负责把计划落实为动作。
+
+## 核心观点
+
+Gemini Robotics 2 将控制范围从桌面上的上肢操作延展到全身动作。官方演示中，Apptronik Apollo 2 能根据自然语言指令走到物体前、抓取浇水壶，再将其放入指定货架；发布方同时强调，这仍是迈向更快、更复杂真实世界任务的一步，而非已经成熟的通用机器人。
+
+其中，Gemini Robotics ER 2 充当高层的具身推理层：观察环境、把用户目标拆成步骤、与 VLA 协调执行，并在跨越数百个决策的任务中跟踪进度。新加入的多机器人协作则让异构机器人可以通信、共同完成单机难以完成的工作流。VLA 模型主打本地运行和多本体适配；Google 称，对新的双臂机器人通常可用不到 200 个示例、数小时适配时间完成迁移。这些均是发布方的实验与产品说明，不应视作独立基准或生产 SLA。
+
+## 技术影响
+
+这次发布的重点不是单一端到端模型，而是把物理任务拆成不同速度和责任边界的层。高层模型可以处理目标、上下文与异常，低层控制器则需满足实时性、硬件约束和动作安全。这样的边界使工程团队能够分别压测推理延迟、动作成功率、恢复次数和硬件兼容性，也避免让语言模型直接承担每一个电机级决策。
+
+多机器人协作还会把“调用工具”升级为分布式任务编排：谁拥有某项资源、任务何时完成、通信失败后如何回滚，都必须是明确的协议，而不能只依赖自然语言交接。对系统设计而言，计划、动作、观测和人工接管都应带有可关联的任务 ID、时间戳与状态转移记录。
+
+## 工程启发
+
+1. 先定义层间契约。高层规划输出应是受约束、可校验的动作意图，而不是直接输出执行器命令；低层必须返回成功、失败、超时和不可达等结构化状态。
+2. 将不确定性视为正常分支。官方引入的 ASIMOV-Agentic 基准特别评估拒绝不安全工具调用、判断任务是否可行以及不确定时请求人工介入。这对应生产系统中的安全停机、权限闸门和人工接管路径。
+3. 用端到端任务而非演示片段验收。测试应覆盖遮挡、物体位置变化、网络中断、协作机器人掉线与人进入工作区，并分别记录规划错误、感知错误、控制错误和安全中止。
+4. 以可用性边界安排试验。当前 Gemini Robotics ER 2 可在 Google AI Studio 使用，并在 Gemini Enterprise Agent Platform 私有预览；VLA 与 On-Device 模型仍面向早期合作伙伴。团队应先确认模型、硬件和部署渠道的可得性，再承诺集成时间表。
+
+Gemini Robotics 2 的价值在于把“具身 agent”从一次模型调用，推进为需要分层、编排和安全治理的系统工程。真正的门槛不只是让机器人完成一次动作，而是让它在环境变化、协作中断与人类接近时仍能可预测地停下、报告并恢复。
+
+## 来源链接
+
+- [Google DeepMind：Gemini Robotics 2 发布说明](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/)
+- [Google DeepMind：Gemini Robotics 2 模型与可用性](https://deepmind.google/models/gemini-robotics/)
+- [Google DeepMind：Gemini Robotics 2 安全技术报告](https://storage.googleapis.com/deepmind-media/gemini-robotics/Gemini-Robotics-2-Safety.pdf)
+- [Hacker News 讨论：Gemini Robotics 2](https://news.ycombinator.com/item?id=49111237)
