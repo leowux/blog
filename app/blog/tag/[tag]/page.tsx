@@ -1,6 +1,22 @@
-import { formatDate, getAllTags, getPostsByTag } from "lib/blog";
+import {
+  getAllTags,
+  getPostsByTag,
+  paginateBlogPosts,
+} from "lib/blog";
+import type { PageParam } from "lib/blog";
 import { Tag } from "app/components/tag";
+import { BlogPosts } from "app/components/posts";
+import { Pagination } from "app/components/pagination";
 import Link from "next/link";
+
+type TagPageProps = {
+  params: {
+    tag: string;
+  };
+  searchParams?: {
+    page?: PageParam;
+  };
+};
 
 export async function generateStaticParams() {
   let tags = getAllTags();
@@ -9,7 +25,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }) {
+export function generateMetadata({ params }: TagPageProps) {
   const decodedTag = decodeURIComponent(params.tag);
   return {
     title: `文章标签: ${decodedTag}`,
@@ -17,9 +33,13 @@ export function generateMetadata({ params }) {
   };
 }
 
-export default function TagPage({ params }) {
+export default function TagPage({ params, searchParams }: TagPageProps) {
   const decodedTag = decodeURIComponent(params.tag);
-  const posts = getPostsByTag(decodedTag);
+  const taggedPosts = getPostsByTag(decodedTag);
+  const { posts, currentPage, totalPages } = paginateBlogPosts(
+    taggedPosts,
+    searchParams?.page,
+  );
   const allTags = getAllTags();
   return (
     <section>
@@ -30,32 +50,17 @@ export default function TagPage({ params }) {
         ))}
       </div>
 
-      {posts.length === 0 ? (
+      {taggedPosts.length === 0 ? (
         <p className="text-neutral-600">没有找到带有此标签的文章。</p>
       ) : (
-        <div>
-          {posts
-            .sort((a, b) => {
-              if (new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)) {
-                return -1;
-              }
-              return 1;
-            })
-            .map((post) => (
-              <Link
-                key={post.slug}
-                className="flex flex-col space-y-1 mb-4"
-                href={`/blog/${post.slug}`}
-              >
-                <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2 justify-between">
-                  <p className="text-neutral-900 tracking-tight">{post.metadata.title}</p>
-                  <p className="text-neutral-600 min-w-[150px] text-right tabular-nums">
-                    {formatDate(post.metadata.publishedAt)}
-                  </p>
-                </div>
-              </Link>
-            ))}
-        </div>
+        <>
+          <BlogPosts posts={posts} />
+          <Pagination
+            basePath={`/blog/tag/${encodeURIComponent(decodedTag)}`}
+            currentPage={currentPage}
+            totalPages={totalPages}
+          />
+        </>
       )}
 
       <div className="mt-8">

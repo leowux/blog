@@ -1,13 +1,23 @@
 import fs from 'fs'
 import path from 'path'
 
-type Metadata = {
+export type Metadata = {
   title: string
   publishedAt: string
   summary: string
   image?: string
   tags?: string[]
 }
+
+export type BlogPost = {
+  metadata: Metadata
+  slug: string
+  content: string
+}
+
+export const POSTS_PER_PAGE = 10
+
+export type PageParam = string | string[] | undefined
 
 function parseFrontmatter(fileContent: string) {
   const frontmatterRegex = /---\s*([\s\S]*?)\s*---/
@@ -61,6 +71,37 @@ function getMDXData(dir: string) {
 
 export function getBlogPosts() {
   return getMDXData(path.join(process.cwd(), 'posts'))
+}
+
+function parsePageParam(page: PageParam) {
+  if (typeof page !== 'string' || !/^\d+$/.test(page)) {
+    return 1
+  }
+
+  const parsedPage = Number(page)
+  return Number.isSafeInteger(parsedPage) && parsedPage > 0 ? parsedPage : 1
+}
+
+export function paginateBlogPosts(
+  posts: BlogPost[],
+  page: PageParam,
+  pageSize = POSTS_PER_PAGE,
+) {
+  const sortedPosts = [...posts].sort(
+    (a, b) =>
+      new Date(b.metadata.publishedAt).getTime() -
+      new Date(a.metadata.publishedAt).getTime(),
+  )
+  const totalPages = Math.ceil(sortedPosts.length / pageSize)
+  const requestedPage = parsePageParam(page)
+  const currentPage = totalPages === 0 ? 1 : Math.min(requestedPage, totalPages)
+  const startIndex = (currentPage - 1) * pageSize
+
+  return {
+    posts: sortedPosts.slice(startIndex, startIndex + pageSize),
+    currentPage,
+    totalPages,
+  }
 }
 
 export function formatDate(date: string) {
