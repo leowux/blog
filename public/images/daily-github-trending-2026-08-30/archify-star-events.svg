@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title description">
+  <title id="title">Archify 公开 Star 事件样本</title>
+  <desc id="description">GitHub 最近 100 条公开仓库事件中，2026 年 8 月 30 日 UTC 09 时有 41 条 WatchEvent，UTC 10 时有 51 条。</desc>
+  <rect width="720" height="360" fill="#f8fafc" rx="16"/>
+  <text x="48" y="45" fill="#0f172a" font-family="Arial, sans-serif" font-size="20" font-weight="700">公开 Star 事件样本（最近 100 条仓库事件）</text>
+  <text x="48" y="70" fill="#475569" font-family="Arial, sans-serif" font-size="13">单位：WatchEvent 条数；UTC，2026-08-30</text>
+  <g stroke="#cbd5e1" stroke-width="1">
+    <line x1="90" y1="95" x2="660" y2="95"/><line x1="90" y1="150" x2="660" y2="150"/><line x1="90" y1="205" x2="660" y2="205"/><line x1="90" y1="260" x2="660" y2="260"/>
+  </g>
+  <g fill="#475569" font-family="Arial, sans-serif" font-size="13"><text x="56" y="264">0</text><text x="48" y="209">20</text><text x="48" y="154">40</text><text x="48" y="154">40</text><text x="48" y="99">60</text><text x="175" y="292">09:00</text><text x="545" y="292">10:00</text></g>
+  <path d="M 190 147.25 L 560 119.75" fill="none" stroke="#0284c7" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="190" cy="147.25" r="8" fill="#0284c7"/><circle cx="560" cy="119.75" r="8" fill="#0284c7"/>
+  <g fill="#0f172a" font-family="Arial, sans-serif" font-size="16" font-weight="700"><text x="175" y="132">41</text><text x="545" y="105">51</text></g>
+  <text x="48" y="332" fill="#64748b" font-family="Arial, sans-serif" font-size="12">该公开事件流只返回最近事件，不能据此推断全天或历史累计 Star 增长。</text>
+</svg>

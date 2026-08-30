@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title description">
+  <title id="title">Archify 近期社区互动构成</title>
+  <desc id="description">GitHub issues 接口返回的首 100 个近期更新条目中，30 个是 issue，70 个是 pull request。</desc>
+  <rect width="720" height="360" fill="#f8fafc" rx="16"/>
+  <text x="48" y="45" fill="#0f172a" font-family="Arial, sans-serif" font-size="20" font-weight="700">近期社区互动构成（API 返回样本）</text>
+  <text x="48" y="70" fill="#475569" font-family="Arial, sans-serif" font-size="13">窗口：2026-08-23 起；按最近更新排序的前 100 个条目</text>
+  <path d="M 220 185 L 220 75 A 110 110 0 0 1 324.6 219 L 220 185 Z" fill="#0ea5e9"/>
+  <path d="M 220 185 L 324.6 219 A 110 110 0 1 1 220 75 Z" fill="#7dd3fc"/>
+  <circle cx="220" cy="185" r="48" fill="#f8fafc"/>
+  <text x="202" y="180" fill="#0f172a" font-family="Arial, sans-serif" font-size="22" font-weight="700">100</text><text x="183" y="202" fill="#64748b" font-family="Arial, sans-serif" font-size="12">个条目</text>
+  <rect x="420" y="130" width="16" height="16" rx="3" fill="#0ea5e9"/><text x="448" y="143" fill="#0f172a" font-family="Arial, sans-serif" font-size="16">Issue：30（30%）</text>
+  <rect x="420" y="175" width="16" height="16" rx="3" fill="#7dd3fc"/><text x="448" y="188" fill="#0f172a" font-family="Arial, sans-serif" font-size="16">Pull request：70（70%）</text>
+  <text x="48" y="332" fill="#64748b" font-family="Arial, sans-serif" font-size="12">这是公开协作条目构成，不是对社区情绪或满意度的判断。</text>
+</svg>

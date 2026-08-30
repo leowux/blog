@@ -63,6 +63,18 @@ html {
   line-height: 1.5;
 }
 
+.mermaid-diagram {
+  @apply my-6 overflow-x-auto rounded-lg border border-neutral-200 bg-neutral-50 p-4;
+}
+
+.mermaid-diagram svg {
+  @apply mx-auto h-auto min-w-[520px] max-w-none;
+}
+
+.mermaid-error {
+  @apply my-6 rounded-lg border border-red-200 bg-red-50 p-4 text-red-700;
+}
+
 .prose code span {
   @apply font-medium;
 }

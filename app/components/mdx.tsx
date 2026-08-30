@@ -1,8 +1,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { MDXRemote } from 'next-mdx-remote/rsc'
+import remarkGfm from 'remark-gfm'
 import { highlight } from 'sugar-high'
 import React from 'react'
+import { Mermaid } from 'app/components/mermaid'
 
 function Table({ data }) {
   let headers = data.headers.map((header, index) => (
@@ -53,6 +55,25 @@ function Code({ children, ...props }) {
   return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />
 }
 
+function Pre({ children, ...props }) {
+  const code = React.isValidElement<{
+    className?: string
+    children?: React.ReactNode
+  }>(children)
+    ? children
+    : null
+
+  if (
+    code &&
+    typeof code.props.className === 'string' &&
+    code.props.className.includes('language-mermaid')
+  ) {
+    return <Mermaid chart={String(code.props.children).trim()} />
+  }
+
+  return <pre {...props}>{children}</pre>
+}
+
 function slugify(str) {
   return str
     .toString()
@@ -96,6 +117,7 @@ let components = {
   Image: RoundedImage,
   a: CustomLink,
   code: Code,
+  pre: Pre,
   Table,
 }
 
@@ -104,6 +126,16 @@ export function CustomMDX(props) {
     <MDXRemote
       {...props}
       components={{ ...components, ...(props.components || {}) }}
+      options={{
+        ...props.options,
+        mdxOptions: {
+          ...props.options?.mdxOptions,
+          remarkPlugins: [
+            ...(props.options?.mdxOptions?.remarkPlugins || []),
+            remarkGfm,
+          ],
+        },
+      }}
     />
   )
 }

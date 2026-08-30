@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title description">
+  <title id="title">Archify 提交数量</title>
+  <desc id="description">2026 年 8 月 25 日至 30 日 UTC 的提交数量依次为 3、13、9、5、1、8。</desc>
+  <rect width="720" height="360" fill="#f8fafc" rx="16"/>
+  <text x="48" y="45" fill="#0f172a" font-family="Arial, sans-serif" font-size="20" font-weight="700">提交情况（GitHub REST 列表）</text>
+  <text x="48" y="70" fill="#475569" font-family="Arial, sans-serif" font-size="13">单位：commit；UTC，窗口 2026-08-23 至 2026-08-30 10:30</text>
+  <g stroke="#cbd5e1" stroke-width="1"><line x1="80" y1="260" x2="670" y2="260"/><line x1="80" y1="196" x2="670" y2="196"/><line x1="80" y1="132" x2="670" y2="132"/><line x1="80" y1="68" x2="670" y2="68"/></g>
+  <g fill="#475569" font-family="Arial, sans-serif" font-size="13"><text x="50" y="264">0</text><text x="43" y="200">5</text><text x="36" y="136">10</text><text x="36" y="72">15</text></g>
+  <g fill="#0ea5e9"><rect x="120" y="221.6" width="52" height="38.4" rx="4"/><rect x="205" y="93.6" width="52" height="166.4" rx="4"/><rect x="290" y="144.8" width="52" height="115.2" rx="4"/><rect x="375" y="196" width="52" height="64" rx="4"/><rect x="460" y="247.2" width="52" height="12.8" rx="4"/><rect x="545" y="157.6" width="52" height="102.4" rx="4"/></g>
+  <g fill="#0f172a" font-family="Arial, sans-serif" font-size="14" font-weight="700"><text x="139" y="214">3</text><text x="222" y="86">13</text><text x="309" y="137">9</text><text x="394" y="189">5</text><text x="479" y="240">1</text><text x="564" y="150">8</text></g>
+  <g fill="#475569" font-family="Arial, sans-serif" font-size="12"><text x="121" y="286">08-25</text><text x="206" y="286">08-26</text><text x="291" y="286">08-27</text><text x="376" y="286">08-28</text><text x="461" y="286">08-29</text><text x="546" y="286">08-30</text></g>
+  <text x="48" y="332" fill="#64748b" font-family="Arial, sans-serif" font-size="12">按 API 返回的 commit 原样计数，包含合并提交及可能的自动化账号提交。</text>
+</svg>
