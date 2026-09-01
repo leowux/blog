@@ -71,6 +71,16 @@ html {
   @apply mx-auto h-auto min-w-[520px] max-w-none;
 }
 
+@media (max-width: 640px) {
+  .mermaid-diagram {
+    @apply overflow-hidden p-2;
+  }
+
+  .mermaid-diagram svg {
+    @apply min-w-0 w-full max-w-full;
+  }
+}
+
 .mermaid-error {
   @apply my-6 rounded-lg border border-red-200 bg-red-50 p-4 text-red-700;
 }
