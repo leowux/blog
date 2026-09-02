@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">pdf-inspector 近期公开协作条目构成</title>
+  <desc id="desc">2026 年 8 月 24 日至 9 月 2 日抓取的 32 个近期更新协作条目中，Pull request 有 18 个，Issue 有 14 个。</desc>
+  <rect width="760" height="360" fill="#ffffff"/>
+  <text x="56" y="34" fill="#171717" font-family="Arial, sans-serif" font-size="20" font-weight="700">近期公开协作条目构成</text>
+  <text x="56" y="58" fill="#666666" font-family="Arial, sans-serif" font-size="13">GitHub Issues API 返回的 32 个近期更新条目（UTC）</text>
+  <circle cx="250" cy="202" r="112" fill="none" stroke="#2563eb" stroke-width="56" stroke-dasharray="395 704" stroke-dashoffset="0" transform="rotate(-90 250 202)"/>
+  <circle cx="250" cy="202" r="112" fill="none" stroke="#f59e0b" stroke-width="56" stroke-dasharray="309 704" stroke-dashoffset="-395" transform="rotate(-90 250 202)"/>
+  <text x="250" y="195" fill="#171717" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">32</text>
+  <text x="250" y="221" fill="#666666" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">公开协作条目</text>
+  <g font-family="Arial, sans-serif"><rect x="460" y="128" width="18" height="18" rx="3" fill="#2563eb"/><text x="490" y="143" fill="#171717" font-size="17" font-weight="700">Pull request：18（56.3%）</text><rect x="460" y="188" width="18" height="18" rx="3" fill="#f59e0b"/><text x="490" y="203" fill="#171717" font-size="17" font-weight="700">Issue：14（43.8%）</text><text x="460" y="246" fill="#666666" font-size="13">分类依据：是否含 pull_request 字段</text></g>
+</svg>
