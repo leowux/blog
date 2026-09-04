@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">anthropics/skills 每日提交情况</title>
+  <desc id="desc">从 2026 年 8 月 27 日至 9 月 4 日 10:00 UTC，非机器人、非合并提交数依次为 0、0、0、0、0、1、0、1、0。</desc>
+  <rect width="760" height="360" fill="#ffffff"/>
+  <text x="56" y="34" fill="#171717" font-family="Arial, sans-serif" font-size="20" font-weight="700">仓库提交数（UTC）</text>
+  <text x="56" y="58" fill="#666666" font-family="Arial, sans-serif" font-size="13">2026-08-27 至 2026-09-04 10:00；已排除 merge 与 [bot] 提交</text>
+  <g stroke="#e5e5e5" stroke-width="1"><line x1="64" y1="92" x2="720" y2="92"/><line x1="64" y1="198" x2="720" y2="198"/><line x1="64" y1="304" x2="720" y2="304"/></g>
+  <g fill="#666666" font-family="Arial, sans-serif" font-size="12" text-anchor="end"><text x="54" y="96">1</text><text x="54" y="202">0.5</text><text x="54" y="308">0</text></g>
+  <g fill="#0f766e"><rect x="70" y="302" width="38" height="2" rx="1"/><rect x="143" y="302" width="38" height="2" rx="1"/><rect x="216" y="302" width="38" height="2" rx="1"/><rect x="289" y="302" width="38" height="2" rx="1"/><rect x="362" y="302" width="38" height="2" rx="1"/><rect x="435" y="92" width="38" height="212" rx="4"/><rect x="508" y="302" width="38" height="2" rx="1"/><rect x="581" y="92" width="38" height="212" rx="4"/><rect x="654" y="302" width="38" height="2" rx="1"/></g>
+  <g fill="#115e59" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle"><text x="89" y="290">0</text><text x="162" y="290">0</text><text x="235" y="290">0</text><text x="308" y="290">0</text><text x="381" y="290">0</text><text x="454" y="82">1</text><text x="527" y="290">0</text><text x="600" y="82">1</text><text x="673" y="290">0</text></g>
+  <g fill="#666666" font-family="Arial, sans-serif" font-size="10" text-anchor="middle"><text x="89" y="330">08-27</text><text x="162" y="330">08-28</text><text x="235" y="330">08-29</text><text x="308" y="330">08-30</text><text x="381" y="330">08-31</text><text x="454" y="330">09-01</text><text x="527" y="330">09-02</text><text x="600" y="330">09-03</text><text x="673" y="330">09-04</text></g>
+</svg>

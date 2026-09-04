@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">anthropics/skills 公开 Star 事件样本趋势</title>
+  <desc id="desc">2026 年 9 月 4 日 UTC 的五个小时窗口，公开 WatchEvent 数依次为 12、21、26、17、18。</desc>
+  <rect width="760" height="360" fill="#ffffff"/>
+  <text x="56" y="34" fill="#171717" font-family="Arial, sans-serif" font-size="20" font-weight="700">公开 Star 事件样本（小时窗口，UTC）</text>
+  <text x="56" y="58" fill="#666666" font-family="Arial, sans-serif" font-size="13">GitHub Events API 最近 100 条事件中的 94 条 WatchEvent</text>
+  <g stroke="#e5e5e5" stroke-width="1"><line x1="64" y1="92" x2="720" y2="92"/><line x1="64" y1="163" x2="720" y2="163"/><line x1="64" y1="234" x2="720" y2="234"/><line x1="64" y1="304" x2="720" y2="304"/></g>
+  <g fill="#666666" font-family="Arial, sans-serif" font-size="12" text-anchor="end"><text x="54" y="96">30</text><text x="54" y="167">20</text><text x="54" y="238">10</text><text x="54" y="308">0</text></g>
+  <path d="M64 219 L228 156 L392 120 L556 184 L720 177" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#2563eb" stroke="#ffffff" stroke-width="3"><circle cx="64" cy="219" r="6"/><circle cx="228" cy="156" r="6"/><circle cx="392" cy="120" r="6"/><circle cx="556" cy="184" r="6"/><circle cx="720" cy="177" r="6"/></g>
+  <g fill="#1d4ed8" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle"><text x="64" y="205">12</text><text x="228" y="142">21</text><text x="392" y="106">26</text><text x="556" y="170">17</text><text x="720" y="163">18</text></g>
+  <g fill="#666666" font-family="Arial, sans-serif" font-size="12" text-anchor="middle"><text x="64" y="330">07:00</text><text x="228" y="330">08:00</text><text x="392" y="330">09:00</text><text x="556" y="330">10:00</text><text x="720" y="330">11:00</text></g>
+</svg>
