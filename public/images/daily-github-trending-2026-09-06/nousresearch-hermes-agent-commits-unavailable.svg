@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">NousResearch/hermes-agent 提交情况：数据不足，未绘制</title>
+  <desc id="desc">GitHub REST commit 列表在本次抓取时返回 HTTP 500，无法获得可复核的提交时间序列。</desc>
+  <rect width="760" height="360" fill="#ffffff"/>
+  <text x="56" y="34" fill="#171717" font-family="Arial, sans-serif" font-size="20" font-weight="700">仓库提交数（UTC）</text>
+  <text x="56" y="58" fill="#666666" font-family="Arial, sans-serif" font-size="13">2026-08-30 09:00 至 2026-09-06 09:00；未取得可复核数据</text>
+  <rect x="64" y="96" width="656" height="196" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+  <text x="392" y="171" fill="#9a3412" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">数据不足，未绘制</text>
+  <text x="392" y="211" fill="#7c2d12" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">GitHub REST commit 列表请求两次返回 HTTP 500</text>
+  <text x="392" y="240" fill="#7c2d12" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">无法按日期汇总或排除 merge / bot 提交</text>
+</svg>

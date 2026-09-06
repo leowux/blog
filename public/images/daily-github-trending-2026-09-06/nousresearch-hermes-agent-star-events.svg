@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">NousResearch/hermes-agent 公开 Star 事件样本趋势</title>
+  <desc id="desc">2026 年 9 月 6 日 UTC 的三个事件窗口，公开 WatchEvent 数依次为 4、3、5。</desc>
+  <rect width="760" height="360" fill="#ffffff"/>
+  <text x="56" y="34" fill="#171717" font-family="Arial, sans-serif" font-size="20" font-weight="700">公开 Star 事件样本（UTC）</text>
+  <text x="56" y="58" fill="#666666" font-family="Arial, sans-serif" font-size="13">GitHub Events API 最近 100 条事件中的 12 条 WatchEvent</text>
+  <g stroke="#e5e5e5" stroke-width="1"><line x1="64" y1="92" x2="720" y2="92"/><line x1="64" y1="163" x2="720" y2="163"/><line x1="64" y1="234" x2="720" y2="234"/><line x1="64" y1="304" x2="720" y2="304"/></g>
+  <g fill="#666666" font-family="Arial, sans-serif" font-size="12" text-anchor="end"><text x="54" y="96">6</text><text x="54" y="167">4</text><text x="54" y="238">2</text><text x="54" y="308">0</text></g>
+  <path d="M64 163 L392 198 L720 128" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#2563eb" stroke="#ffffff" stroke-width="3"><circle cx="64" cy="163" r="6"/><circle cx="392" cy="198" r="6"/><circle cx="720" cy="128" r="6"/></g>
+  <g fill="#1d4ed8" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle"><text x="64" y="149">4</text><text x="392" y="184">3</text><text x="720" y="114">5</text></g>
+  <g fill="#666666" font-family="Arial, sans-serif" font-size="12" text-anchor="middle"><text x="64" y="330">08:25–08:33</text><text x="392" y="330">08:34–08:43</text><text x="720" y="330">08:44–08:50</text></g>
+</svg>
