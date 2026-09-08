@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">HyperFrames 近期公开协作条目构成</title>
+  <desc id="desc">最近更新的 100 个公开协作条目中，91 个为 Pull request，9 个为 Issue。</desc>
+  <rect width="720" height="360" fill="#f8fafc" rx="16"/>
+  <text x="48" y="52" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">近期公开协作条目构成</text>
+  <text x="48" y="79" fill="#475569" font-family="Arial, sans-serif" font-size="15">Issues API · 按是否含 pull_request 字段分类</text>
+  <circle cx="245" cy="207" r="112" fill="#e2e8f0"/>
+  <path d="M245 95 A112 112 0 1 1 184.5 301.2 L245 207 Z" fill="#0284c7"/>
+  <path d="M184.5 301.2 A112 112 0 0 1 245 95 L245 207 Z" fill="#f59e0b"/>
+  <circle cx="245" cy="207" r="58" fill="#f8fafc"/>
+  <text x="245" y="201" fill="#0f172a" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">100</text>
+  <text x="245" y="226" fill="#475569" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">近期条目</text>
+  <rect x="440" y="137" width="16" height="16" rx="3" fill="#0284c7"/><text x="470" y="151" fill="#0f172a" font-family="Arial, sans-serif" font-size="18" font-weight="700">Pull request：91（91%）</text>
+  <rect x="440" y="193" width="16" height="16" rx="3" fill="#f59e0b"/><text x="470" y="207" fill="#0f172a" font-family="Arial, sans-serif" font-size="18" font-weight="700">Issue：9（9%）</text>
+  <text x="440" y="254" fill="#475569" font-family="Arial, sans-serif" font-size="14">这不是情感分析或满意度统计</text>
+</svg>

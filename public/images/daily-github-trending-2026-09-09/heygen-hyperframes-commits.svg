@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">HyperFrames 每日提交样本</title>
+  <desc id="desc">2026 年 9 月 1 日至 8 日 UTC 的非机器人、非合并提交数为 0、9、8、39、19、11、11、1。</desc>
+  <rect width="720" height="360" fill="#f8fafc" rx="16"/>
+  <text x="48" y="52" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">每日提交样本</text>
+  <text x="48" y="79" fill="#475569" font-family="Arial, sans-serif" font-size="15">Commits API · UTC · 排除 2 条 bot 提交与合并提交</text>
+  <g stroke="#cbd5e1" stroke-width="1"><line x1="58" y1="280" x2="684" y2="280"/><line x1="58" y1="225" x2="684" y2="225"/><line x1="58" y1="170" x2="684" y2="170"/><line x1="58" y1="115" x2="684" y2="115"/></g>
+  <g fill="#64748b" font-family="Arial, sans-serif" font-size="13"><text x="34" y="284">0</text><text x="26" y="229">10</text><text x="26" y="174">20</text><text x="26" y="119">30</text><text x="26" y="84">40</text></g>
+  <g fill="#7c3aed"><rect x="82" y="280" width="42" height="0"/><rect x="158" y="231" width="42" height="49"/><rect x="234" y="236" width="42" height="44"/><rect x="310" y="66" width="42" height="214"/><rect x="386" y="176" width="42" height="104"/><rect x="462" y="220" width="42" height="60"/><rect x="538" y="220" width="42" height="60"/><rect x="614" y="274" width="42" height="6"/></g>
+  <g fill="#0f172a" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle"><text x="103" y="264">0</text><text x="179" y="216">9</text><text x="255" y="221">8</text><text x="331" y="51">39</text><text x="407" y="161">19</text><text x="483" y="205">11</text><text x="559" y="205">11</text><text x="635" y="259">1</text></g>
+  <g fill="#475569" font-family="Arial, sans-serif" font-size="12" text-anchor="middle"><text x="103" y="312">09-01</text><text x="179" y="312">09-02</text><text x="255" y="312">09-03</text><text x="331" y="312">09-04</text><text x="407" y="312">09-05</text><text x="483" y="312">09-06</text><text x="559" y="312">09-07</text><text x="635" y="312">09-08</text></g>
+</svg>

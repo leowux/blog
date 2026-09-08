@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">HyperFrames 近期公开 Star 事件样本</title>
+  <desc id="desc">GitHub Events API 样本的五个 UTC 时间桶分别有 10、12、7、8、15 个 WatchEvent。</desc>
+  <rect width="720" height="360" fill="#f8fafc" rx="16"/>
+  <text x="48" y="52" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">近期公开 Star 事件样本</text>
+  <text x="48" y="79" fill="#475569" font-family="Arial, sans-serif" font-size="15">Events API · UTC · 最近 100 条事件中的时间窗口</text>
+  <g stroke="#cbd5e1" stroke-width="1"><line x1="68" y1="280" x2="676" y2="280"/><line x1="68" y1="224" x2="676" y2="224"/><line x1="68" y1="168" x2="676" y2="168"/><line x1="68" y1="112" x2="676" y2="112"/></g>
+  <g fill="#64748b" font-family="Arial, sans-serif" font-size="13"><text x="43" y="284">0</text><text x="35" y="228">5</text><text x="28" y="172">10</text><text x="28" y="116">15</text></g>
+  <polyline fill="none" stroke="#0284c7" stroke-width="4" points="108,168 245,146 382,202 519,190 656,112"/>
+  <g fill="#0284c7"><circle cx="108" cy="168" r="6"/><circle cx="245" cy="146" r="6"/><circle cx="382" cy="202" r="6"/><circle cx="519" cy="190" r="6"/><circle cx="656" cy="112" r="6"/></g>
+  <g fill="#0f172a" font-family="Arial, sans-serif" font-size="15" font-weight="700"><text x="99" y="153">10</text><text x="236" y="131">12</text><text x="373" y="187">7</text><text x="510" y="175">8</text><text x="647" y="97">15</text></g>
+  <g fill="#475569" font-family="Arial, sans-serif" font-size="12" text-anchor="middle"><text x="108" y="312">15:15–15:29</text><text x="245" y="312">15:30–15:44</text><text x="382" y="312">15:45–15:59</text><text x="519" y="312">16:00–16:14</text><text x="656" y="312">16:15–16:30</text></g>
+</svg>
