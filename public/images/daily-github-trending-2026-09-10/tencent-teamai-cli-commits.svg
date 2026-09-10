@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" role="img" aria-labelledby="title desc">
+  <title id="title">Tencent teamai-cli 非合并提交柱状图</title>
+  <desc id="desc">2026 年 9 月 3 日至 10 日 UTC 的非合并提交数为 12、20、0、1、11、21、30、6。</desc>
+  <rect width="760" height="390" fill="#0f172a" rx="18"/>
+  <text x="48" y="56" fill="#f8fafc" font-family="Arial, sans-serif" font-size="24" font-weight="700">非合并提交（UTC）</text>
+  <text x="48" y="84" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="15">统计 GitHub commits API 的 main 分支；09-10 为截点前的部分日</text>
+  <g stroke="#334155" stroke-width="1"><line x1="82" y1="316" x2="720" y2="316"/><line x1="82" y1="244" x2="720" y2="244"/><line x1="82" y1="172" x2="720" y2="172"/><line x1="82" y1="100" x2="720" y2="100"/></g>
+  <g fill="#94a3b8" font-family="Arial, sans-serif" font-size="13"><text x="55" y="320">0</text><text x="48" y="248">10</text><text x="48" y="176">20</text><text x="48" y="104">30</text></g>
+  <g fill="#34d399"><rect x="106" y="230" width="48" height="86" rx="5"/><rect x="181" y="172" width="48" height="144" rx="5"/><rect x="256" y="315" width="48" height="1" rx="1"/><rect x="331" y="309" width="48" height="7" rx="5"/><rect x="406" y="237" width="48" height="79" rx="5"/><rect x="481" y="165" width="48" height="151" rx="5"/><rect x="556" y="100" width="48" height="216" rx="5"/><rect x="631" y="273" width="48" height="43" rx="5"/></g>
+  <g fill="#f8fafc" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle"><text x="130" y="220">12</text><text x="205" y="162">20</text><text x="280" y="300">0</text><text x="355" y="299">1</text><text x="430" y="227">11</text><text x="505" y="155">21</text><text x="580" y="90">30</text><text x="655" y="263">6</text></g>
+  <g fill="#cbd5e1" font-family="Arial, sans-serif" font-size="12" text-anchor="middle"><text x="130" y="345">09-03</text><text x="205" y="345">09-04</text><text x="280" y="345">09-05</text><text x="355" y="345">09-06</text><text x="430" y="345">09-07</text><text x="505" y="345">09-08</text><text x="580" y="345">09-09</text><text x="655" y="345">09-10</text></g>
+</svg>

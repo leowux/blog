@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Tencent teamai-cli 近期公开协作条目构成饼图</title>
+  <desc id="desc">2026 年 9 月 3 日至 10 日 UTC 创建的公开协作条目中，Pull request 60 个，Issue 31 个。</desc>
+  <rect width="760" height="360" fill="#0f172a" rx="18"/>
+  <text x="48" y="58" fill="#f8fafc" font-family="Arial, sans-serif" font-size="24" font-weight="700">近期公开协作条目构成</text>
+  <text x="48" y="86" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="15">按创建时间统计；衡量条目类型，不是情感分析</text>
+  <circle cx="245" cy="212" r="105" fill="none" stroke="#38bdf8" stroke-width="62" stroke-dasharray="435 660" transform="rotate(-90 245 212)"/>
+  <circle cx="245" cy="212" r="105" fill="none" stroke="#f59e0b" stroke-width="62" stroke-dasharray="225 660" stroke-dashoffset="-435" transform="rotate(-90 245 212)"/>
+  <text x="245" y="205" fill="#f8fafc" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">91</text><text x="245" y="231" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">公开条目</text>
+  <rect x="450" y="151" width="18" height="18" rx="3" fill="#38bdf8"/><text x="482" y="166" fill="#f8fafc" font-family="Arial, sans-serif" font-size="20" font-weight="700">Pull request</text><text x="482" y="193" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="16">60 个 · 66%</text>
+  <rect x="450" y="232" width="18" height="18" rx="3" fill="#f59e0b"/><text x="482" y="247" fill="#f8fafc" font-family="Arial, sans-serif" font-size="20" font-weight="700">Issue</text><text x="482" y="274" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="16">31 个 · 34%</text>
+</svg>
