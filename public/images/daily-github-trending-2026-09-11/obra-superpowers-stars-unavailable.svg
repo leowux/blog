@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Star 趋势：数据不足，未绘制</title>
+  <desc id="desc">GitHub stargazers 事件端点在 2026 年 9 月 11 日抓取时返回 401，无法取得带时间戳的公开 Star 事件，因此没有绘制趋势线。</desc>
+  <rect width="960" height="360" fill="#fafafa"/>
+  <rect x="32" y="30" width="896" height="286" rx="12" fill="#fff" stroke="#d1d5db"/>
+  <path d="M116 250H850M116 105V250" fill="none" stroke="#d1d5db" stroke-width="2"/>
+  <path d="M260 190H706" stroke="#f59e0b" stroke-width="3" stroke-dasharray="10 10"/>
+  <text x="480" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#374151">数据不足，未绘制 Star 趋势</text>
+  <text x="480" y="207" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" fill="#4b5563">stargazers 事件端点抓取时返回 HTTP 401</text>
+  <text x="480" y="238" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#6b7280">可确认：日榜页面显示当日新增 732 Star；仓库快照为 284,974 Star</text>
+  <text x="116" y="282" font-family="system-ui, sans-serif" font-size="14" fill="#6b7280">不把“今日新增”伪装为历史曲线</text>
+</svg>

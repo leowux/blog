@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">公开协作条目构成：Issue 14，Pull request 14</title>
+  <desc id="desc">2026 年 9 月 4 日至 11 日 UTC 创建的 28 个公开条目中，Issue 与 Pull request 各 14 个，占比均为 50%。</desc>
+  <rect width="960" height="360" fill="#fafafa"/>
+  <rect x="32" y="30" width="896" height="286" rx="12" fill="#fff" stroke="#d1d5db"/>
+  <text x="70" y="73" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#1f2937">公开协作条目构成（UTC，2026-09-04 至 09-11）</text>
+  <path d="M290 125 A95 95 0 0 1 290 315 L290 220 Z" fill="#2563eb"/>
+  <path d="M290 315 A95 95 0 0 1 290 125 L290 220 Z" fill="#f59e0b"/>
+  <circle cx="290" cy="220" r="48" fill="#fff"/>
+  <text x="290" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#1f2937">28</text>
+  <text x="290" y="238" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b7280">公开条目</text>
+  <rect x="500" y="150" width="18" height="18" rx="3" fill="#2563eb"/><text x="532" y="166" font-family="system-ui, sans-serif" font-size="18" fill="#1f2937">Issue：14（50%）</text>
+  <rect x="500" y="204" width="18" height="18" rx="3" fill="#f59e0b"/><text x="532" y="220" font-family="system-ui, sans-serif" font-size="18" fill="#1f2937">Pull request：14（50%）</text>
+  <text x="500" y="270" font-family="system-ui, sans-serif" font-size="14" fill="#6b7280">这是公开协作的类型，不是情感或满意度分析。</text>
+</svg>
