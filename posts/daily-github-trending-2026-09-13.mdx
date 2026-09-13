@@ -1,0 +1,95 @@
+---
+title: "bilawalsidhu/gods-eye-view"
+publishedAt: "2026-09-13"
+summary: "GitHub Trending 日榜项目 bilawalsidhu/gods-eye-view 是一套在浏览器本地运行的开源 3D 地球应用，整合公开的空间与实时数据源；本文依据 README、目录、许可证、Release 和 GitHub API 快照梳理其能力、结构与公开活动。"
+tags: [GitHub, 开源, 开发者工具, AI, 地理空间, 可视化, JavaScript]
+---
+
+## 导语
+
+`bilawalsidhu/gods-eye-view` 是 GitHub 2026 年 9 月 13 日日榜项目。2026-09-13 08:56（北京时间，UTC+8）抓取的 Trending `daily` 页面显示其当日新增 2,265 Star；同一抓取窗口的仓库元数据 API 快照为 29,914 Star、6,022 Fork、207 个开放 issue，默认分支为 `main`，主语言为 JavaScript。仓库在 2026-09-13 00:44 UTC 仍有推送；最近正式 Release 是 `v0.1.1`，发布时间为 2026-09-01 19:43 UTC。
+
+日榜新增数与仓库总 Star 都是当时的页面/API 快照，不能被当作长期增长率。下文将 README 和代码树可核对的事实、公开 API 的数据观察，以及基于它们的有限判断分开说明。
+
+## 产品介绍
+
+README 将 God's Eye View 描述为一个在浏览器中运行的写实 3D 地球界面：在同一画布中呈现飞机、船舶、卫星、地震、交通与公开摄像头等公开或开放数据，并可跟踪对象、切换视觉样式、生成分享链接和录制镜头路径。它提供无需 API Key 的起步路径；部分数据源、3D 地形/影像、地点搜索和语音功能则按 README 要求使用对应服务的 Key 或适用额度。
+
+语音层是可选能力：README 明确说明它使用 OpenAI Realtime API，且 OpenAI Key 保留在服务端，浏览器只取得短期会话令牌。项目也提醒，交通是依据聚合位置数据在真实道路上模拟，摄像头姿态和火箭轨迹属于粗略估计；因此这些可视化不应被理解为精确、完整或实时的态势结论。
+
+仓库的 `LICENSE` 是 MIT，但许可证同时注明：源码以外，内置数据集和运行时从第三方取得的数据分别归各自来源所有。这是许可范围的事实说明，不是对任何数据源可商用性、连续性或准确度的保证。
+
+## 目标人群
+
+从 README 的本地启动方式、逐层数据源和可扩展模块看，它适合希望把多种公开空间信号放到一个探索界面中的开发者、地理空间爱好者与可视化原型团队。典型诉求包括：检查一个地点周边的公开航空、船舶、轨道或环境信号，制作演示用的地球镜头，或以现有 layer 为模板接入自己的数据。
+
+也适合愿意审阅数据来源、配额和密钥边界的开发者。需要把结果用于执法、安全处置、商业监控或任何高风险判断的人，不应只依赖这个前端：README 本身已标注模拟、估计和第三方配额等限制。这是基于文档和模块结构的适用性分析，并非实际用户规模、准确度或效果评测。
+
+## 技术架构
+
+仓库根目录包含 `src/`、`server/`、`config/`、`scripts/`、`public/` 与 Vite 配置。`package.json` 和 README 表明前端为原生 JavaScript，使用 CesiumJS 与 Vite；`src/main.js` 负责启动和图层注册，`src/ui.js` 负责面板/HUD，`src/data/` 按图层组织数据模块，`src/voice/` 管理 Realtime 会话与语音工具。`server/providers/` 按航空、船舶、空间、交通、地点、摄像头和 OpenAI 等来源拆分服务端适配器；README 说明涉及私有 Key 的 API 通过服务端代理处理。
+
+```mermaid
+flowchart LR
+    A[本地浏览器用户] --> B[Vite / 原生 JavaScript 前端]
+    B --> C[CesiumJS 地球、UI 与图层模块\nsrc/main.js、src/ui.js、src/data/]
+    C --> D[公开/第三方空间数据\n航空、船舶、卫星、地震等]
+    B --> E[server/providers/\n本地服务端适配器与代理]
+    E --> F[需凭据的服务\nOpenAI、AISStream、OpenSky 等]
+    E --> B
+    C --> G[画面、跟踪信息与分享链接]
+    F --> G
+```
+
+图中路径依据 README、`package.json` 和目录树整理。具体可用图层会随网络、第三方服务状态、用户 Key 与额度而改变；仓库并不自己托管这些外部数据服务。
+
+## 数据分析
+
+### Star 趋势折线图
+
+![Star 趋势数据不足：GitHub 的带时间戳 stargazers API 在匿名抓取时返回 401，未绘制趋势线。](/images/daily-github-trending-2026-09-13/bilawalsidhu-gods-eye-view-stars-unavailable.svg)
+
+| 可复核指标 | 数值 | 说明 |
+| --- | ---: | --- |
+| 日榜当日新增 Star | 2,265 | Trending `daily` 页面在抓取时的展示值 |
+| 仓库 Star 快照 | 29,914 | 仓库元数据 API 快照 |
+| 历史 Star 事件 | 数据不足，未绘制 | 带时间戳的 `stargazers` 端点匿名请求返回 HTTP 401 |
+
+数据抓取于 2026-09-13 08:56（北京时间，UTC+8）。日榜窗口为 GitHub Trending 的 `daily`；历史折线原计划使用 [带时间戳的 stargazers API](https://api.github.com/repos/bilawalsidhu/gods-eye-view/stargazers?per_page=100)，但它要求认证，本次返回 HTTP 401。故图中使用可见占位图；2,265 个“今日新增”不能冒充历史点位，也不能据此推出增长曲线。
+
+### Commit 情况柱状图
+
+![2026 年 9 月 11 日、12 日与 13 日截至 00:56 UTC 的非合并提交数分别为 25、42、3。](/images/daily-github-trending-2026-09-13/bilawalsidhu-gods-eye-view-commits.svg)
+
+| UTC 日期 | API 返回提交 | 排除的 Merge 提交 | 非合并提交 |
+| --- | ---: | ---: | ---: |
+| 2026-09-11 | 41 | 16 | 25 |
+| 2026-09-12 | 58 | 16 | 42 |
+| 2026-09-13（截至 00:56） | 9 | 6 | 3 |
+
+数据于 2026-09-13 08:56（北京时间，UTC+8）从 [commits API，第 1 页](https://api.github.com/repos/bilawalsidhu/gods-eye-view/commits?since=2026-09-11T00%3A00%3A00Z&until=2026-09-13T00%3A56%3A25Z&per_page=100) 与 [第 2 页](https://api.github.com/repos/bilawalsidhu/gods-eye-view/commits?since=2026-09-11T00%3A00%3A00Z&until=2026-09-13T00%3A56%3A25Z&per_page=100&page=2) 抓取。窗口为 2026-09-11 00:00 至 2026-09-13 00:56 UTC；按 API 返回的 `commit.author.date` 分日，共 110 条。为减少合并操作对柱高的影响，提交信息以 `Merge ` 开头的条目不计入柱图。它描述的是这个窗口和该口径下的提交频率，不代表代码质量、发布数量或总开发投入。
+
+### 社区反馈饼图
+
+![2026 年 9 月 12 日 00:00 UTC 至 9 月 13 日 00:56 UTC 创建的 67 个公开条目中，Issue 为 18 个，Pull Request 为 49 个。](/images/daily-github-trending-2026-09-13/bilawalsidhu-gods-eye-view-community.svg)
+
+| 公开协作条目类型 | 数量 | 样本占比 |
+| --- | ---: | ---: |
+| Issue | 18 | 26.9% |
+| Pull request | 49 | 73.1% |
+
+数据于 2026-09-13 08:56（北京时间，UTC+8）从 [issues API](https://api.github.com/repos/bilawalsidhu/gods-eye-view/issues?state=all&sort=created&direction=desc&per_page=100) 第 1 页抓取。该页按创建时间倒序返回 100 条，最早一条创建于 2026-09-11 03:34 UTC，因此完整覆盖 2026-09-12 00:00 至 2026-09-13 00:56 UTC 的 67 条样本；含 `pull_request` 字段者计为 Pull request，其余计为 Issue。此饼图只衡量公开协作条目的类型构成，不是情感分析、满意度、阅读量或实际使用量。
+
+## 来源链接
+
+- [GitHub Trending 日榜：Repositories](https://github.com/trending?since=daily)
+- [bilawalsidhu/gods-eye-view 仓库与 README](https://github.com/bilawalsidhu/gods-eye-view)
+- [README 原文](https://raw.githubusercontent.com/bilawalsidhu/gods-eye-view/main/README.md)
+- [MIT 许可证及第三方数据说明](https://github.com/bilawalsidhu/gods-eye-view/blob/main/LICENSE)
+- [仓库元数据 API 快照](https://api.github.com/repos/bilawalsidhu/gods-eye-view)
+- [Release API](https://api.github.com/repos/bilawalsidhu/gods-eye-view/releases?per_page=10)
+- [仓库目录树 API](https://api.github.com/repos/bilawalsidhu/gods-eye-view/git/trees/main?recursive=1)
+- [提交 API，第 1 页](https://api.github.com/repos/bilawalsidhu/gods-eye-view/commits?since=2026-09-11T00%3A00%3A00Z&until=2026-09-13T00%3A56%3A25Z&per_page=100)
+- [提交 API，第 2 页](https://api.github.com/repos/bilawalsidhu/gods-eye-view/commits?since=2026-09-11T00%3A00%3A00Z&until=2026-09-13T00%3A56%3A25Z&per_page=100&page=2)
+- [Issue / Pull request API](https://api.github.com/repos/bilawalsidhu/gods-eye-view/issues?state=all&sort=created&direction=desc&per_page=100)
+- [GitHub Star 事件端点文档（本次匿名请求返回 401）](https://docs.github.com/en/rest/activity/starring#list-stargazers)

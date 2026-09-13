@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" role="img" aria-labelledby="title desc">
+  <title id="title">Star 历史趋势数据不足</title>
+  <desc id="desc">GitHub 的带时间戳 stargazers API 在匿名抓取时返回 401，因此未绘制 Star 历史折线。</desc>
+  <rect width="800" height="300" fill="#f8fafc"/>
+  <rect x="32" y="32" width="736" height="236" rx="16" fill="#fff" stroke="#cbd5e1"/>
+  <circle cx="112" cy="123" r="32" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
+  <path d="M112 102v28m0 18h.1" stroke="#92400e" stroke-width="7" stroke-linecap="round"/>
+  <text x="168" y="112" fill="#0f172a" font-family="Arial, sans-serif" font-size="25" font-weight="700">数据不足，未绘制 Star 趋势线</text>
+  <text x="168" y="151" fill="#475569" font-family="Arial, sans-serif" font-size="18">带时间戳的 stargazers 端点要求认证，本次匿名请求返回 HTTP 401。</text>
+  <text x="168" y="184" fill="#475569" font-family="Arial, sans-serif" font-size="18">可核实的快照：29,914 Star；Trending 日榜：当日新增 2,265 Star。</text>
+  <text x="168" y="225" fill="#64748b" font-family="Arial, sans-serif" font-size="15">单日新增值不能替代历史数据点，故不据此推断增长曲线。</text>
+</svg>
