@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">tech-leads-club/agent-skills 近期公开协作条目构成</title>
+  <desc id="desc">2026 年 9 月 9 日至 14 日的 13 个公开协作条目中，Issue 7 个，占 53.8%，Pull request 6 个，占 46.2%。</desc>
+  <rect width="720" height="340" fill="#fff" rx="12"/>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><text x="56" y="34" font-size="18" font-weight="700">近期公开协作条目构成</text><text x="56" y="57" font-size="12" fill="#6b7280">Issue / Pull request 类型，不代表情感</text></g>
+  <circle cx="266" cy="185" r="105" fill="#e0e7ff"/>
+  <path d="M266 80 A105 105 0 1 1 223 281 L266 185 Z" fill="#4f46e5"/>
+  <path d="M223 281 A105 105 0 0 1 266 80 L266 185 Z" fill="#14b8a6"/>
+  <circle cx="266" cy="185" r="58" fill="#fff"/>
+  <g font-family="system-ui, sans-serif" text-anchor="middle"><text x="266" y="179" font-size="28" font-weight="700" fill="#1f2937">13</text><text x="266" y="200" font-size="12" fill="#6b7280">公开条目</text></g>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><rect x="445" y="124" width="14" height="14" rx="2" fill="#4f46e5"/><text x="470" y="136" font-size="15" font-weight="700">Issue：7（53.8%）</text><text x="470" y="157" font-size="12" fill="#6b7280">不含 pull_request 字段</text><rect x="445" y="204" width="14" height="14" rx="2" fill="#14b8a6"/><text x="470" y="216" font-size="15" font-weight="700">Pull request：6（46.2%）</text><text x="470" y="237" font-size="12" fill="#6b7280">含 pull_request 字段</text></g>
+</svg>

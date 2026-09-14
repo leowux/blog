@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">tech-leads-club/agent-skills 近期公开 Star 事件</title>
+  <desc id="desc">GitHub Events API 最近一页的 98 个 WatchEvent 按 UTC 小时汇总：04 时 9，05 时 22，06 时 18，07 时 27，08 时 19，09 时 3。</desc>
+  <rect width="720" height="340" fill="#fff" rx="12"/>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><text x="56" y="34" font-size="18" font-weight="700">近期公开 Star 事件（UTC，滚动样本）</text><text x="56" y="57" font-size="12" fill="#6b7280">98 个 WatchEvent；非完整 Star 历史</text></g>
+  <g stroke="#e5e7eb" stroke-width="1"><path d="M56 96H680M56 151H680M56 206H680M56 261H680"/><path d="M56 78V261H680"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b7280"><text x="34" y="265">0</text><text x="27" y="210">10</text><text x="27" y="155">20</text><text x="27" y="100">30</text><text x="89" y="285">04</text><text x="201" y="285">05</text><text x="313" y="285">06</text><text x="425" y="285">07</text><text x="537" y="285">08</text><text x="649" y="285">09</text><text x="648" y="310">UTC 小时</text></g>
+  <polyline fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="96,211 208,140 320,162 432,112 544,157 656,245"/>
+  <g fill="#2563eb" stroke="#fff" stroke-width="3"><circle cx="96" cy="211" r="6"/><circle cx="208" cy="140" r="6"/><circle cx="320" cy="162" r="6"/><circle cx="432" cy="112" r="6"/><circle cx="544" cy="157" r="6"/><circle cx="656" cy="245" r="6"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8"><text x="91" y="200">9</text><text x="201" y="129">22</text><text x="313" y="151">18</text><text x="425" y="101">27</text><text x="537" y="146">19</text><text x="651" y="234">3</text></g>
+</svg>

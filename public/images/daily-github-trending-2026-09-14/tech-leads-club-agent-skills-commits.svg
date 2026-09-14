@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">tech-leads-club/agent-skills 非机器人非合并提交</title>
+  <desc id="desc">2026 年 9 月 8 日至 12 日 UTC 的非机器人、非合并提交数依次为 3、12、1、0、1。</desc>
+  <rect width="720" height="340" fill="#fff" rx="12"/>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><text x="56" y="34" font-size="18" font-weight="700">非机器人、非合并提交（UTC）</text><text x="56" y="57" font-size="12" fill="#6b7280">按 commit.author.date 分日；查询窗口 2026-09-07 至 14</text></g>
+  <g stroke="#e5e7eb" stroke-width="1"><path d="M56 96H680M56 151H680M56 206H680M56 261H680"/><path d="M56 78V261H680"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b7280"><text x="34" y="265">0</text><text x="34" y="210">4</text><text x="34" y="155">8</text><text x="27" y="100">12</text><text x="108" y="285">09-08</text><text x="225" y="285">09-09</text><text x="342" y="285">09-10</text><text x="459" y="285">09-11</text><text x="576" y="285">09-12</text><text x="631" y="310">UTC 日期</text></g>
+  <g fill="#0f766e"><rect x="105" y="220" width="54" height="41" rx="3"/><rect x="222" y="96" width="54" height="165" rx="3"/><rect x="339" y="247" width="54" height="14" rx="3"/><rect x="456" y="260" width="54" height="1" rx="1"/><rect x="573" y="247" width="54" height="14" rx="3"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#115e59"><text x="126" y="212">3</text><text x="239" y="88">12</text><text x="360" y="239">1</text><text x="477" y="252">0</text><text x="594" y="239">1</text></g>
+</svg>
