@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">OpenBMB/VoxCPM 近期非机器人、非合并提交</title>
+  <desc id="desc">2026 年 8 月 26 日至 9 月 2 日 UTC 的非机器人、非合并提交数依次为 1、0、0、0、0、0、0、4。</desc>
+  <rect width="720" height="340" fill="#fff" rx="12"/>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><text x="56" y="34" font-size="18" font-weight="700">近期提交（UTC）</text><text x="56" y="57" font-size="12" fill="#6b7280">排除 [bot] 账户与多父 merge 提交</text></g>
+  <g stroke="#e5e7eb" stroke-width="1"><path d="M56 96H680M56 151H680M56 206H680M56 261H680"/><path d="M56 78V261H680"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b7280"><text x="35" y="265">0</text><text x="35" y="210">2</text><text x="35" y="155">4</text><text x="35" y="100">6</text><text x="68" y="285">08-26</text><text x="143" y="285">08-27</text><text x="218" y="285">08-28</text><text x="293" y="285">08-29</text><text x="368" y="285">08-30</text><text x="443" y="285">08-31</text><text x="518" y="285">09-01</text><text x="593" y="285">09-02</text><text x="619" y="310">UTC 日期</text></g>
+  <g fill="#0f766e"><rect x="79" y="233" width="42" height="28" rx="3"/><rect x="154" y="261" width="42" height="0" rx="3"/><rect x="229" y="261" width="42" height="0" rx="3"/><rect x="304" y="261" width="42" height="0" rx="3"/><rect x="379" y="261" width="42" height="0" rx="3"/><rect x="454" y="261" width="42" height="0" rx="3"/><rect x="529" y="261" width="42" height="0" rx="3"/><rect x="604" y="151" width="42" height="110" rx="3"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#115e59"><text x="94" y="222">1</text><text x="619" y="140">4</text></g>
+</svg>

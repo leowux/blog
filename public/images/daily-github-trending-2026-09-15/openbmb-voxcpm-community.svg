@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">OpenBMB/VoxCPM 近期公开协作条目构成</title>
+  <desc id="desc">2026 年 9 月 1 日至 15 日的 8 个公开协作条目中，Issue 2 个，占 25%；Pull request 6 个，占 75%。</desc>
+  <rect width="720" height="340" fill="#fff" rx="12"/>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><text x="56" y="34" font-size="18" font-weight="700">近期公开协作条目构成</text><text x="56" y="57" font-size="12" fill="#6b7280">Issue / Pull request 类型，不代表情感倾向</text></g>
+  <circle cx="252" cy="181" r="106" fill="#7c3aed"/>
+  <path d="M252 181 L252 75 A106 106 0 0 1 358 181 Z" fill="#f59e0b"/>
+  <circle cx="252" cy="181" r="59" fill="#fff"/>
+  <g font-family="system-ui, sans-serif" text-anchor="middle" fill="#1f2937"><text x="252" y="176" font-size="28" font-weight="700">8</text><text x="252" y="198" font-size="13">公开条目</text></g>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><rect x="444" y="121" width="14" height="14" rx="2" fill="#f59e0b"/><text x="470" y="133" font-size="15">Issue：2（25%）</text><rect x="444" y="166" width="14" height="14" rx="2" fill="#7c3aed"/><text x="470" y="178" font-size="15">Pull request：6（75%）</text><text x="444" y="226" font-size="12" fill="#6b7280">窗口：2026-09-01 至 09-15 UTC</text></g>
+</svg>

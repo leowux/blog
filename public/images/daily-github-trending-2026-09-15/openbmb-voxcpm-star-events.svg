@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">OpenBMB/VoxCPM 近期公开 Star 事件</title>
+  <desc id="desc">GitHub Events API 最近一页的 93 个 WatchEvent 按 UTC 小时汇总：03 时 20，04 时 17，05 时 17，06 时 14，07 时 15，08 时 10。</desc>
+  <rect width="720" height="340" fill="#fff" rx="12"/>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><text x="56" y="34" font-size="18" font-weight="700">近期公开 Star 事件（UTC，滚动样本）</text><text x="56" y="57" font-size="12" fill="#6b7280">93 个 WatchEvent；非完整 Star 历史</text></g>
+  <g stroke="#e5e7eb" stroke-width="1"><path d="M56 96H680M56 151H680M56 206H680M56 261H680"/><path d="M56 78V261H680"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b7280"><text x="34" y="265">0</text><text x="27" y="210">10</text><text x="27" y="155">20</text><text x="27" y="100">30</text><text x="89" y="285">03</text><text x="201" y="285">04</text><text x="313" y="285">05</text><text x="425" y="285">06</text><text x="537" y="285">07</text><text x="649" y="285">08</text><text x="648" y="310">UTC 小时</text></g>
+  <polyline fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="96,151 208,168 320,168 432,185 544,178 656,206"/>
+  <g fill="#2563eb" stroke="#fff" stroke-width="3"><circle cx="96" cy="151" r="6"/><circle cx="208" cy="168" r="6"/><circle cx="320" cy="168" r="6"/><circle cx="432" cy="185" r="6"/><circle cx="544" cy="178" r="6"/><circle cx="656" cy="206" r="6"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8"><text x="89" y="140">20</text><text x="201" y="157">17</text><text x="313" y="157">17</text><text x="425" y="174">14</text><text x="537" y="167">15</text><text x="651" y="195">10</text></g>
+</svg>
