@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">JustVugg/colibri 近期非机器人、非合并提交</title>
+  <desc id="desc">2026 年 9 月 9 日至 15 日 UTC 的非机器人、非合并提交数为 4、15、11、28、10、0、1。</desc>
+  <rect width="720" height="340" fill="#fff" rx="12"/>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><text x="56" y="34" font-size="18" font-weight="700">近期提交（UTC）</text><text x="56" y="57" font-size="12" fill="#6b7280">排除 [bot] 账户与多父 merge 提交</text></g>
+  <g stroke="#e5e7eb" stroke-width="1"><path d="M56 96H680M56 151H680M56 206H680M56 261H680"/><path d="M56 78V261H680"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b7280"><text x="35" y="265">0</text><text x="28" y="210">10</text><text x="28" y="155">20</text><text x="28" y="100">30</text><text x="75" y="285">09-09</text><text x="163" y="285">09-10</text><text x="251" y="285">09-11</text><text x="339" y="285">09-12</text><text x="427" y="285">09-13</text><text x="515" y="285">09-14</text><text x="603" y="285">09-15</text><text x="619" y="310">UTC 日期</text></g>
+  <g fill="#0f766e"><rect x="83" y="239" width="42" height="22" rx="3"/><rect x="171" y="179" width="42" height="82" rx="3"/><rect x="259" y="201" width="42" height="60" rx="3"/><rect x="347" y="107" width="42" height="154" rx="3"/><rect x="435" y="206" width="42" height="55" rx="3"/><rect x="523" y="261" width="42" height="0" rx="3"/><rect x="611" y="256" width="42" height="5" rx="3"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#115e59"><text x="98" y="228">4</text><text x="186" y="168">15</text><text x="274" y="190">11</text><text x="362" y="96">28</text><text x="450" y="195">10</text><text x="626" y="245">1</text></g>
+</svg>
