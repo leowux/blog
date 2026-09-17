@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">alibaba/open-code-review 近期公开协作条目</title>
+  <desc id="desc">2026 年 9 月 10 日起至抓取时刻的新建公开协作条目中，Issue 57 个，占 39.6%；Pull request 87 个，占 60.4%。</desc>
+  <rect width="720" height="340" fill="#fff" rx="12"/>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><text x="56" y="34" font-size="18" font-weight="700">近期公开协作条目类型</text><text x="56" y="57" font-size="12" fill="#6b7280">2026-09-10 00:00 UTC 至抓取时刻；共 144 条</text></g>
+  <circle cx="250" cy="185" r="105" fill="#e5e7eb"/>
+  <path d="M250 80 A105 105 0 1 1 188.6 270.2 L250 185 Z" fill="#2563eb"/>
+  <path d="M188.6 270.2 A105 105 0 0 1 250 80 L250 185 Z" fill="#f59e0b"/>
+  <circle cx="250" cy="185" r="57" fill="#fff"/>
+  <text x="250" y="181" text-anchor="middle" font-family="system-ui, sans-serif" font-size="25" font-weight="700" fill="#1f2937">144</text><text x="250" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b7280">公开条目</text>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><rect x="440" y="130" width="14" height="14" rx="3" fill="#f59e0b"/><text x="466" y="142" font-size="15" font-weight="700">Issue：57（39.6%）</text><rect x="440" y="178" width="14" height="14" rx="3" fill="#2563eb"/><text x="466" y="190" font-size="15" font-weight="700">Pull request：87（60.4%）</text><text x="440" y="232" font-size="12" fill="#6b7280">衡量新建公开协作条目，</text><text x="440" y="250" font-size="12" fill="#6b7280">不是情感或满意度。</text></g>
+</svg>

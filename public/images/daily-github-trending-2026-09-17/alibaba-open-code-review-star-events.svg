@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">alibaba/open-code-review 近期公开 Star 事件</title>
+  <desc id="desc">GitHub Events API 前三页近期 300 条事件中的 227 条 WatchEvent 按 UTC 小时分桶：07 时 38 条、08 时 181 条、09 时截至 09:02 为 8 条。</desc>
+  <rect width="720" height="340" fill="#fff" rx="12"/>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><text x="56" y="34" font-size="18" font-weight="700">近期公开 Star 事件（UTC，滚动样本）</text><text x="56" y="57" font-size="12" fill="#6b7280">227 个 WatchEvent；非完整 Star 历史</text></g>
+  <g stroke="#e5e7eb" stroke-width="1"><path d="M56 96H680M56 151H680M56 206H680M56 261H680"/><path d="M56 78V261H680"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b7280"><text x="28" y="265">0</text><text x="21" y="210">60</text><text x="14" y="155">120</text><text x="14" y="100">180</text><text x="156" y="285">07:00</text><text x="355" y="285">08:00</text><text x="554" y="285">09:00</text><text x="622" y="310">UTC</text></g>
+  <polyline fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="176,226 376,95 576,254"/>
+  <g fill="#2563eb" stroke="#fff" stroke-width="3"><circle cx="176" cy="226" r="6"/><circle cx="376" cy="95" r="6"/><circle cx="576" cy="254" r="6"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8"><text x="168" y="215">38</text><text x="364" y="84">181</text><text x="570" y="243">8</text></g>
+</svg>
