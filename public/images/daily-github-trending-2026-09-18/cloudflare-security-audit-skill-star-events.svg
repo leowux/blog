@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">cloudflare/security-audit-skill 近期公开 Star 事件</title>
+  <desc id="desc">GitHub Events API 第一页近期事件中有 93 条 WatchEvent：2026 年 9 月 18 日 08 时 UTC 有 85 条，09 时 UTC 截至 09:01 有 8 条。</desc>
+  <rect width="720" height="340" fill="#fff" rx="12"/>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><text x="56" y="34" font-size="18" font-weight="700">近期公开 Star 事件（UTC，滚动样本）</text><text x="56" y="57" font-size="12" fill="#6b7280">93 个 WatchEvent；非完整 Star 历史</text></g>
+  <g stroke="#e5e7eb" stroke-width="1"><path d="M56 96H680M56 151H680M56 206H680M56 261H680"/><path d="M56 78V261H680"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b7280"><text x="35" y="265">0</text><text x="28" y="210">30</text><text x="28" y="155">60</text><text x="28" y="100">90</text><text x="200" y="285">08:00</text><text x="506" y="285">09:00</text><text x="622" y="310">UTC</text></g>
+  <polyline fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="225,105 525,245"/>
+  <g fill="#2563eb" stroke="#fff" stroke-width="3"><circle cx="225" cy="105" r="6"/><circle cx="525" cy="245" r="6"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8"><text x="214" y="94">85</text><text x="519" y="234">8</text></g>
+</svg>
