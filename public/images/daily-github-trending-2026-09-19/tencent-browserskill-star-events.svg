@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">Tencent/BrowserSkill 近期公开 Star 事件</title>
+  <desc id="desc">GitHub Events API 第一页近期事件中有 94 条 WatchEvent：2026 年 9 月 19 日 UTC 05、06、07、08、09 时分别有 7、29、29、28、1 条；09 时仅截至 09:01。</desc>
+  <rect width="720" height="340" fill="#fff" rx="12"/>
+  <g font-family="system-ui, sans-serif" fill="#1f2937"><text x="56" y="34" font-size="18" font-weight="700">近期公开 Star 事件（UTC，滚动样本）</text><text x="56" y="57" font-size="12" fill="#6b7280">94 个 WatchEvent；非完整 Star 历史</text></g>
+  <g stroke="#e5e7eb" stroke-width="1"><path d="M56 96H680M56 151H680M56 206H680M56 261H680"/><path d="M56 78V261H680"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b7280"><text x="35" y="265">0</text><text x="28" y="210">10</text><text x="28" y="155">20</text><text x="28" y="100">30</text><text x="100" y="285">05:00</text><text x="240" y="285">06:00</text><text x="380" y="285">07:00</text><text x="520" y="285">08:00</text><text x="650" y="285">09:00</text><text x="622" y="310">UTC</text></g>
+  <polyline fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="120,218 260,102 400,102 540,108 660,255"/>
+  <g fill="#2563eb" stroke="#fff" stroke-width="3"><circle cx="120" cy="218" r="6"/><circle cx="260" cy="102" r="6"/><circle cx="400" cy="102" r="6"/><circle cx="540" cy="108" r="6"/><circle cx="660" cy="255" r="6"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1d4ed8"><text x="114" y="207">7</text><text x="253" y="91">29</text><text x="393" y="91">29</text><text x="533" y="97">28</text><text x="656" y="244">1</text></g>
+</svg>
