@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" role="img" aria-labelledby="title desc">
+  <title id="title">trycua/cua 近期 WatchEvent 折线图</title>
+  <desc id="desc">GitHub Events API 第一页中，2026 年 9 月 20 日 UTC 07、08、09 时的 WatchEvent 数分别为 42、39、2；09 时仅统计至 09:02。</desc>
+  <rect width="760" height="280" fill="#ffffff" rx="12"/>
+  <g stroke="#d1d5db" stroke-width="1">
+    <line x1="70" y1="40" x2="720" y2="40"/><line x1="70" y1="95" x2="720" y2="95"/>
+    <line x1="70" y1="150" x2="720" y2="150"/><line x1="70" y1="205" x2="720" y2="205"/>
+  </g>
+  <g fill="#4b5563" font-family="system-ui, sans-serif" font-size="14"><text x="38" y="45">45</text><text x="38" y="100">30</text><text x="38" y="155">15</text><text x="47" y="210">0</text><text x="105" y="240">07:00</text><text x="382" y="240">08:00</text><text x="655" y="240">09:00*</text></g>
+  <path d="M125 51 L405 62 L685 198" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#2563eb"><circle cx="125" cy="51" r="6"/><circle cx="405" cy="62" r="6"/><circle cx="685" cy="198" r="6"/></g>
+  <g fill="#1e3a8a" font-family="system-ui, sans-serif" font-size="15" font-weight="700"><text x="116" y="34">42</text><text x="396" y="45">39</text><text x="676" y="181">2</text></g>
+  <text x="70" y="268" fill="#6b7280" font-family="system-ui, sans-serif" font-size="13">UTC 小时；*09:00 仅截至 09:02。数据为近期公开事件样本。</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+  <title id="title">trycua/cua 最近七个完整 UTC 日的提交柱状图</title>
+  <desc id="desc">2026 年 9 月 13 至 19 日的非合并、非机器人提交数依次为 3、12、6、3、5、6、2。</desc>
+  <rect width="760" height="300" fill="#ffffff" rx="12"/>
+  <g stroke="#d1d5db" stroke-width="1"><line x1="65" y1="40" x2="725" y2="40"/><line x1="65" y1="90" x2="725" y2="90"/><line x1="65" y1="140" x2="725" y2="140"/><line x1="65" y1="190" x2="725" y2="190"/><line x1="65" y1="240" x2="725" y2="240"/></g>
+  <g fill="#4b5563" font-family="system-ui, sans-serif" font-size="13"><text x="38" y="45">12</text><text x="45" y="95">9</text><text x="45" y="145">6</text><text x="45" y="195">3</text><text x="50" y="245">0</text></g>
+  <g fill="#0f766e"><rect x="90" y="190" width="55" height="50" rx="4"/><rect x="180" y="40" width="55" height="200" rx="4"/><rect x="270" y="140" width="55" height="100" rx="4"/><rect x="360" y="190" width="55" height="50" rx="4"/><rect x="450" y="157" width="55" height="83" rx="4"/><rect x="540" y="140" width="55" height="100" rx="4"/><rect x="630" y="207" width="55" height="33" rx="4"/></g>
+  <g fill="#134e4a" font-family="system-ui, sans-serif" font-size="14" font-weight="700"><text x="110" y="180">3</text><text x="196" y="30">12</text><text x="290" y="130">6</text><text x="380" y="180">3</text><text x="470" y="147">5</text><text x="560" y="130">6</text><text x="650" y="197">2</text></g>
+  <g fill="#4b5563" font-family="system-ui, sans-serif" font-size="13"><text x="95" y="265">09-13</text><text x="185" y="265">09-14</text><text x="275" y="265">09-15</text><text x="365" y="265">09-16</text><text x="455" y="265">09-17</text><text x="545" y="265">09-18</text><text x="635" y="265">09-19</text></g>
+  <text x="65" y="288" fill="#6b7280" font-family="system-ui, sans-serif" font-size="13">UTC 日期；排除合并提交与登录名以 [bot] 结尾的提交。</text>
+</svg>
