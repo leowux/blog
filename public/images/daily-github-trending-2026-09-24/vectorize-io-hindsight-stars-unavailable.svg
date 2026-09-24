@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-labelledby="title desc">
+  <title id="title">vectorize-io/hindsight Star 趋势数据不足</title>
+  <desc id="desc">GitHub Stargazers API 在本次抓取时返回 401，无法取得带时间戳的 Star 事件，因此未绘制历史趋势。</desc>
+  <rect width="800" height="360" fill="#f8fafc"/>
+  <text x="64" y="52" fill="#0f172a" font-family="Arial, sans-serif" font-size="25" font-weight="700">Star 趋势：数据不足，未绘制</text>
+  <text x="64" y="84" fill="#64748b" font-family="Arial, sans-serif" font-size="16">需要带时间戳的 Stargazer 事件才能构成可复核的历史折线</text>
+  <rect x="64" y="116" width="672" height="156" rx="12" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+  <path d="M140 225 L250 192 L350 218 L470 164 L585 204 L680 150" fill="none" stroke="#94a3b8" stroke-width="4" stroke-dasharray="10 9"/>
+  <g fill="#94a3b8"><circle cx="140" cy="225" r="8"/><circle cx="250" cy="192" r="8"/><circle cx="350" cy="218" r="8"/><circle cx="470" cy="164" r="8"/><circle cx="585" cy="204" r="8"/><circle cx="680" cy="150" r="8"/></g>
+  <text x="238" y="306" fill="#0f172a" font-family="Arial, sans-serif" font-size="20" font-weight="700">无法验证历史点位</text>
+  <text x="64" y="337" fill="#64748b" font-family="Arial, sans-serif" font-size="14">本次可用的仅是 Trending 日榜“今日新增 1,607 Star”和仓库 API 的 26,925 Star 快照；两者不能替代历史曲线。</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" role="img" aria-labelledby="title desc">
+  <title id="title">vectorize-io/hindsight 公开协作条目构成</title>
+  <desc id="desc">2026 年 9 月 17 日至 24 日创建的 257 个公开协作条目中，Issue 为 78 个，占 30.4%；Pull Request 为 179 个，占 69.6%。</desc>
+  <rect width="800" height="350" fill="#f8fafc"/>
+  <text x="64" y="45" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">公开协作条目构成</text>
+  <text x="64" y="72" fill="#64748b" font-family="Arial, sans-serif" font-size="15">创建日期：2026-09-17 至 2026-09-24 UTC；按 GitHub Search 的 Issue / PR 类型</text>
+  <circle cx="250" cy="200" r="110" fill="none" stroke="#e2e8f0" stroke-width="54"/>
+  <circle cx="250" cy="200" r="110" fill="none" stroke="#0ea5e9" stroke-width="54" stroke-dasharray="210 691" stroke-dashoffset="0" transform="rotate(-90 250 200)"/>
+  <circle cx="250" cy="200" r="110" fill="none" stroke="#8b5cf6" stroke-width="54" stroke-dasharray="481 691" stroke-dashoffset="-210" transform="rotate(-90 250 200)"/>
+  <text x="215" y="194" fill="#0f172a" font-family="Arial, sans-serif" font-size="28" font-weight="700">257</text>
+  <text x="206" y="220" fill="#64748b" font-family="Arial, sans-serif" font-size="15">公开条目</text>
+  <rect x="462" y="133" width="18" height="18" rx="3" fill="#0ea5e9"/><text x="494" y="148" fill="#0f172a" font-family="Arial, sans-serif" font-size="20" font-weight="700">Issue：78（30.4%）</text><text x="494" y="177" fill="#64748b" font-family="Arial, sans-serif" font-size="15">公开新建议题，不含 Pull Request</text>
+  <rect x="462" y="226" width="18" height="18" rx="3" fill="#8b5cf6"/><text x="494" y="241" fill="#0f172a" font-family="Arial, sans-serif" font-size="20" font-weight="700">Pull Request：179（69.6%）</text><text x="494" y="270" fill="#64748b" font-family="Arial, sans-serif" font-size="15">公开新建拉取请求</text>
+  <text x="64" y="326" fill="#64748b" font-family="Arial, sans-serif" font-size="14">这是公开协作条目的类型构成，不是情感、满意度、阅读量或实际使用量分析。</text>
+</svg>
