@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 410" role="img" aria-labelledby="title desc">
+  <title id="title">paperclipai/paperclip 近期公开协作条目构成</title>
+  <desc id="desc">2026 年 9 月 19 日至 26 日 09:03 UTC 创建的 453 个公开协作条目中，Issue 为 131 个，占 28.9%；Pull request 为 322 个，占 71.1%。</desc>
+  <rect width="800" height="410" fill="#f8fafc"/>
+  <text x="64" y="48" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">公开协作条目构成</text>
+  <text x="64" y="75" fill="#64748b" font-family="Arial, sans-serif" font-size="15">按创建日期统计 Issue 与 Pull request；不是情感分析</text>
+  <circle cx="290" cy="220" r="110" fill="none" stroke="#e2e8f0" stroke-width="54"/>
+  <circle cx="290" cy="220" r="110" fill="none" stroke="#0284c7" stroke-width="54" stroke-dasharray="199.7 491.2" transform="rotate(-90 290 220)"/>
+  <circle cx="290" cy="220" r="110" fill="none" stroke="#8b5cf6" stroke-width="54" stroke-dasharray="491.2 199.7" stroke-dashoffset="-199.7" transform="rotate(-90 290 220)"/>
+  <text x="290" y="214" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="30" font-weight="700">453</text>
+  <text x="290" y="242" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif" font-size="16">公开条目</text>
+  <rect x="490" y="145" width="18" height="18" rx="3" fill="#0284c7"/><text x="520" y="160" fill="#0f172a" font-family="Arial, sans-serif" font-size="18">Issue：131（28.9%）</text>
+  <rect x="490" y="205" width="18" height="18" rx="3" fill="#8b5cf6"/><text x="520" y="220" fill="#0f172a" font-family="Arial, sans-serif" font-size="18">Pull request：322（71.1%）</text>
+  <text x="64" y="370" fill="#64748b" font-family="Arial, sans-serif" font-size="14">统计窗口：2026-09-19 00:00 至 2026-09-26 09:03 UTC；仅表示可公开查询的新建条目类型。</text>
+</svg>

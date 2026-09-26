@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-labelledby="title desc">
+  <title id="title">paperclipai/paperclip Star 历史数据不足</title>
+  <desc id="desc">GitHub Stargazers API 在本次匿名抓取中要求认证，无法取得带时间戳的 Star 事件，故未绘制历史趋势。</desc>
+  <rect width="800" height="360" fill="#f8fafc"/>
+  <path d="M92 84V278H730" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M120 228L238 190L350 210L476 142L590 180L700 120" fill="none" stroke="#cbd5e1" stroke-width="4" stroke-dasharray="10 10"/>
+  <circle cx="400" cy="176" r="65" fill="#fff7ed" stroke="#f97316" stroke-width="3"/>
+  <text x="400" y="164" text-anchor="middle" fill="#9a3412" font-family="Arial, sans-serif" font-size="23" font-weight="700">数据不足</text>
+  <text x="400" y="194" text-anchor="middle" fill="#9a3412" font-family="Arial, sans-serif" font-size="16">未绘制历史折线</text>
+  <text x="64" y="326" fill="#475569" font-family="Arial, sans-serif" font-size="16">需要带时间戳的 Stargazer 事件；本次匿名 API 响应为 HTTP 401。</text>
+  <text x="64" y="52" fill="#0f172a" font-family="Arial, sans-serif" font-size="26" font-weight="700">Star 趋势（不可复核）</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">paperclipai/paperclip 近期非合并、非机器人提交数</title>
+  <desc id="desc">2026 年 9 月 19 日至 26 日 09:03 UTC 的提交数依次为二十二、四、十九、二十六、二十一、十二、十、六。</desc>
+  <rect width="800" height="450" fill="#f8fafc"/>
+  <text x="64" y="45" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">默认分支近期提交（UTC）</text>
+  <text x="64" y="72" fill="#64748b" font-family="Arial, sans-serif" font-size="15">按 commit.author.date 分日；排除多父 merge 与以 [bot] 结尾的账号</text>
+  <path d="M90 350H746M90 250H746M90 150H746M90 50H746" stroke="#cbd5e1" stroke-width="1"/>
+  <path d="M90 50V350H746" fill="none" stroke="#64748b" stroke-width="2"/>
+  <g fill="#64748b" font-family="Arial, sans-serif" font-size="14"><text x="60" y="355">0</text><text x="52" y="255">10</text><text x="52" y="155">20</text><text x="52" y="55">30</text></g>
+  <g fill="#0284c7"><rect x="110" y="130" width="48" height="220" rx="5"/><rect x="190" y="310" width="48" height="40" rx="5"/><rect x="270" y="160" width="48" height="190" rx="5"/><rect x="350" y="90" width="48" height="260" rx="5"/><rect x="430" y="140" width="48" height="210" rx="5"/><rect x="510" y="230" width="48" height="120" rx="5"/><rect x="590" y="250" width="48" height="100" rx="5"/><rect x="670" y="290" width="48" height="60" rx="5"/></g>
+  <g fill="#0f172a" font-family="Arial, sans-serif" font-size="17" font-weight="700"><text x="120" y="119">22</text><text x="206" y="299">4</text><text x="280" y="149">19</text><text x="360" y="79">26</text><text x="440" y="129">21</text><text x="520" y="219">12</text><text x="600" y="239">10</text><text x="686" y="279">6</text></g>
+  <g fill="#334155" font-family="Arial, sans-serif" font-size="14"><text x="105" y="380">09-19</text><text x="185" y="380">09-20</text><text x="265" y="380">09-21</text><text x="345" y="380">09-22</text><text x="425" y="380">09-23</text><text x="505" y="380">09-24</text><text x="585" y="380">09-25</text><text x="665" y="380">09-26*</text></g>
+  <text x="64" y="425" fill="#64748b" font-family="Arial, sans-serif" font-size="14">* 截至 09:03 UTC；柱图仅描述此 API 窗口中可核对的提交频率。</text>
+</svg>
