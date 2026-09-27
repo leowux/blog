@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">NVIDIA Model Optimizer 近八日非合并非机器人提交数</title>
+  <desc id="desc">2026 年 9 月 20 日至 27 日 09:10 UTC 的提交数依次为 0、3、5、9、2、1、0、0。</desc>
+  <rect width="720" height="360" rx="16" fill="#f8fafc"/>
+  <text x="54" y="42" fill="#0f172a" font-family="system-ui, sans-serif" font-size="20" font-weight="700">非合并、非机器人提交（UTC）</text>
+  <path d="M72 284H678M72 82V284M72 217H678M72 150H678M72 82H678" stroke="#cbd5e1" stroke-width="1"/>
+  <g fill="#0ea5e9">
+    <rect x="98" y="284" width="42" height="0" rx="4"/>
+    <rect x="172" y="217" width="42" height="67" rx="4"/>
+    <rect x="246" y="172" width="42" height="112" rx="4"/>
+    <rect x="320" y="82" width="42" height="202" rx="4"/>
+    <rect x="394" y="239" width="42" height="45" rx="4"/>
+    <rect x="468" y="262" width="42" height="22" rx="4"/>
+    <rect x="542" y="284" width="42" height="0" rx="4"/>
+    <rect x="616" y="284" width="42" height="0" rx="4"/>
+  </g>
+  <g fill="#0f172a" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle"><text x="119" y="306">9/20</text><text x="193" y="306">9/21</text><text x="267" y="306">9/22</text><text x="341" y="306">9/23</text><text x="415" y="306">9/24</text><text x="489" y="306">9/25</text><text x="563" y="306">9/26</text><text x="637" y="306">9/27</text></g>
+  <g fill="#475569" font-family="system-ui, sans-serif" font-size="13" text-anchor="end"><text x="62" y="288">0</text><text x="62" y="221">3</text><text x="62" y="154">6</text><text x="62" y="86">9</text></g>
+  <g fill="#0f172a" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle"><text x="119" y="274">0</text><text x="193" y="207">3</text><text x="267" y="162">5</text><text x="341" y="72">9</text><text x="415" y="229">2</text><text x="489" y="252">1</text><text x="563" y="274">0</text><text x="637" y="274">0</text></g>
+  <text x="678" y="336" text-anchor="end" fill="#64748b" font-family="system-ui, sans-serif" font-size="12">9/27 截至 09:10 UTC</text>
+</svg>
