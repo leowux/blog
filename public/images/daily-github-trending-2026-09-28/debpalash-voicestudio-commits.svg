@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">VoiceStudio 近七日非合并非机器人提交数</title>
+  <desc id="desc">2026 年 9 月 21 日至 27 日 UTC 的提交数依次为 16、10、13、13、6、34、44。</desc>
+  <rect width="720" height="360" rx="16" fill="#f8fafc"/>
+  <text x="54" y="42" fill="#0f172a" font-family="system-ui, sans-serif" font-size="20" font-weight="700">非合并、非机器人提交（UTC）</text>
+  <path d="M72 284H678M72 82V284M72 233H678M72 183H678M72 132H678M72 82H678" stroke="#cbd5e1" stroke-width="1"/>
+  <g fill="#0ea5e9">
+    <rect x="98" y="211" width="48" height="73" rx="4"/>
+    <rect x="181" y="239" width="48" height="45" rx="4"/>
+    <rect x="264" y="225" width="48" height="59" rx="4"/>
+    <rect x="347" y="225" width="48" height="59" rx="4"/>
+    <rect x="430" y="257" width="48" height="27" rx="4"/>
+    <rect x="513" y="130" width="48" height="154" rx="4"/>
+    <rect x="596" y="84" width="48" height="200" rx="4"/>
+  </g>
+  <g fill="#0f172a" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle"><text x="122" y="306">9/21</text><text x="205" y="306">9/22</text><text x="288" y="306">9/23</text><text x="371" y="306">9/24</text><text x="454" y="306">9/25</text><text x="537" y="306">9/26</text><text x="620" y="306">9/27</text></g>
+  <g fill="#475569" font-family="system-ui, sans-serif" font-size="13" text-anchor="end"><text x="62" y="288">0</text><text x="62" y="237">11</text><text x="62" y="187">22</text><text x="62" y="136">33</text><text x="62" y="86">44</text></g>
+  <g fill="#0f172a" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle"><text x="122" y="201">16</text><text x="205" y="229">10</text><text x="288" y="215">13</text><text x="371" y="215">13</text><text x="454" y="247">6</text><text x="537" y="120">34</text><text x="620" y="74">44</text></g>
+  <text x="678" y="336" text-anchor="end" fill="#64748b" font-family="system-ui, sans-serif" font-size="12">2026-09-21 至 2026-09-27 UTC</text>
+</svg>

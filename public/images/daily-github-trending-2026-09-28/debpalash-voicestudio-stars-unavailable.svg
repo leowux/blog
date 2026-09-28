@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-labelledby="title desc">
+  <title id="title">VoiceStudio Star 历史趋势数据不足</title>
+  <desc id="desc">GitHub 的匿名 Stargazers API 要求认证，无法取得带时间戳的 Star 事件，因此未绘制趋势线。</desc>
+  <rect width="720" height="260" rx="16" fill="#f8fafc"/>
+  <rect x="24" y="24" width="672" height="212" rx="12" fill="#fff" stroke="#cbd5e1"/>
+  <path d="M84 184H644M84 76V184" stroke="#cbd5e1" stroke-width="2"/>
+  <path d="M108 150L190 134L270 142L352 108L434 124L516 96L600 110" fill="none" stroke="#94a3b8" stroke-width="5" stroke-dasharray="10 10"/>
+  <circle cx="352" cy="108" r="9" fill="#fff" stroke="#94a3b8" stroke-width="4"/>
+  <text x="360" y="58" text-anchor="middle" fill="#0f172a" font-family="system-ui, sans-serif" font-size="20" font-weight="700">数据不足，未绘制</text>
+  <text x="360" y="215" text-anchor="middle" fill="#475569" font-family="system-ui, sans-serif" font-size="15">Stargazers API 本次返回 HTTP 401；“今日新增 3,086 Star”不能替代历史曲线。</text>
+</svg>
