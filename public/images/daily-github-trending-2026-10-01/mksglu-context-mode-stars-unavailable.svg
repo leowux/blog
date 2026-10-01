@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+  <title id="title">context-mode 的 Star 历史趋势数据不足</title>
+  <desc id="desc">本次只能复核 2026 年 10 月 1 日的 24,607 个 Star 总数和 Trending 日榜的 90 个当日新增 Star。Stargazers API 返回 HTTP 401 要求认证，无法得到带时间戳的历史事件，故未绘制折线。</desc>
+  <rect width="720" height="300" rx="16" fill="#f8fafc"/>
+  <path d="M82 226H658M82 78V226" stroke="#cbd5e1" stroke-width="2"/>
+  <path d="M124 185 L235 164 L346 177 L457 139 L568 151" fill="none" stroke="#cbd5e1" stroke-width="4" stroke-dasharray="9 10"/>
+  <g fill="#94a3b8"><circle cx="124" cy="185" r="7"/><circle cx="235" cy="164" r="7"/><circle cx="346" cy="177" r="7"/><circle cx="457" cy="139" r="7"/><circle cx="568" cy="151" r="7"/></g>
+  <text x="54" y="43" fill="#0f172a" font-family="system-ui, sans-serif" font-size="20" font-weight="700">Star 历史趋势：数据不足，未绘制</text>
+  <text x="370" y="259" text-anchor="middle" fill="#475569" font-family="system-ui, sans-serif" font-size="15">Stargazers API 返回 HTTP 401（需要认证），无可复核的时间序列</text>
+  <text x="370" y="285" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="13">可用快照：2026-10-01 17:01 BJT，24,607 Star；Trending 当日新增 90</text>
+</svg>

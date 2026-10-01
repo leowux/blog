@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">context-mode 公开协作条目类型构成</title>
+  <desc id="desc">2026 年 9 月 24 日 09:01 至 10 月 1 日 09:01 UTC 新建的 35 个公开协作条目中，Issue 为 21 个，占 60%；Pull request 为 14 个，占 40%。</desc>
+  <rect width="720" height="360" rx="16" fill="#f8fafc"/>
+  <text x="54" y="42" fill="#0f172a" font-family="system-ui, sans-serif" font-size="20" font-weight="700">公开协作条目类型（35 个样本）</text>
+  <g transform="rotate(-90 240 190)"><circle cx="240" cy="190" r="105" fill="none" stroke="#e2e8f0" stroke-width="54"/><circle cx="240" cy="190" r="105" fill="none" stroke="#0ea5e9" stroke-width="54" stroke-dasharray="395.84 659.73"/><circle cx="240" cy="190" r="105" fill="none" stroke="#a855f7" stroke-width="54" stroke-dasharray="263.89 659.73" stroke-dashoffset="-395.84"/></g>
+  <text x="240" y="184" text-anchor="middle" fill="#0f172a" font-family="system-ui, sans-serif" font-size="32" font-weight="700">35</text>
+  <text x="240" y="210" text-anchor="middle" fill="#475569" font-family="system-ui, sans-serif" font-size="15">公开条目</text>
+  <rect x="450" y="128" width="18" height="18" rx="3" fill="#0ea5e9"/><text x="480" y="143" fill="#0f172a" font-family="system-ui, sans-serif" font-size="17">Issue：21（60.0%）</text>
+  <rect x="450" y="180" width="18" height="18" rx="3" fill="#a855f7"/><text x="480" y="195" fill="#0f172a" font-family="system-ui, sans-serif" font-size="17">Pull request：14（40.0%）</text>
+  <text x="450" y="246" fill="#64748b" font-family="system-ui, sans-serif" font-size="13">窗口：2026-09-24 09:01 至</text>
+  <text x="450" y="266" fill="#64748b" font-family="system-ui, sans-serif" font-size="13">2026-10-01 09:01 UTC</text>
+</svg>
