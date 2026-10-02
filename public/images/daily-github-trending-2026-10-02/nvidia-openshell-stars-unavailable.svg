@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+  <title id="title">OpenShell Star 历史趋势数据不足</title>
+  <desc id="desc">截至 2026 年 10 月 2 日的仓库 Star 总数为 14,182，Trending 页面显示当日新增 2,456 Star。带时间戳的 Stargazer 历史数据需要认证，故未绘制折线。</desc>
+  <rect width="720" height="300" rx="16" fill="#f8fafc"/>
+  <path d="M72 236H674M72 82V236M72 159H674M72 82H674" stroke="#cbd5e1" stroke-width="1"/>
+  <path d="M114 194L208 181L302 185L396 156L490 166L584 128" fill="none" stroke="#94a3b8" stroke-width="3" stroke-dasharray="8 8"/>
+  <g fill="#94a3b8"><circle cx="114" cy="194" r="5"/><circle cx="208" cy="181" r="5"/><circle cx="302" cy="185" r="5"/><circle cx="396" cy="156" r="5"/><circle cx="490" cy="166" r="5"/><circle cx="584" cy="128" r="5"/></g>
+  <rect x="130" y="104" width="470" height="92" rx="12" fill="#fff" stroke="#f59e0b" stroke-width="2"/>
+  <text x="365" y="142" text-anchor="middle" fill="#92400e" font-family="system-ui, sans-serif" font-size="19" font-weight="700">数据不足，未绘制 Star 历史折线</text>
+  <text x="365" y="171" text-anchor="middle" fill="#92400e" font-family="system-ui, sans-serif" font-size="14">带时间戳的 Stargazer API 本次要求认证</text>
+  <text x="72" y="42" fill="#0f172a" font-family="system-ui, sans-serif" font-size="20" font-weight="700">Star 趋势（不可复核的示意线未作数据解读）</text>
+  <text x="674" y="276" text-anchor="end" fill="#64748b" font-family="system-ui, sans-serif" font-size="12">抓取：2026-10-02 17:03 BJT</text>
+</svg>

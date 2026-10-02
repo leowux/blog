@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">OpenShell 近七日非合并且非机器人提交数</title>
+  <desc id="desc">2026 年 9 月 26 日至 10 月 2 日 UTC，提交 API 返回并经排除合并和 bot 作者后的每日提交数为 5、4、15、14、13、21、1。</desc>
+  <rect width="720" height="360" rx="16" fill="#f8fafc"/>
+  <text x="54" y="42" fill="#0f172a" font-family="system-ui, sans-serif" font-size="20" font-weight="700">提交数（排除合并与 bot 作者）</text>
+  <path d="M72 284H678M72 82V284M72 188H678M72 82H678" stroke="#cbd5e1" stroke-width="1"/>
+  <g fill="#0ea5e9"><rect x="90" y="236" width="46" height="48" rx="4"/><rect x="171" y="246" width="46" height="38" rx="4"/><rect x="252" y="140" width="46" height="144" rx="4"/><rect x="333" y="150" width="46" height="134" rx="4"/><rect x="414" y="159" width="46" height="125" rx="4"/><rect x="495" y="82" width="46" height="202" rx="4"/><rect x="576" y="274" width="46" height="10" rx="4"/></g>
+  <g fill="#0f172a" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle"><text x="113" y="306">9/26</text><text x="194" y="306">9/27</text><text x="275" y="306">9/28</text><text x="356" y="306">9/29</text><text x="437" y="306">9/30</text><text x="518" y="306">10/1</text><text x="599" y="306">10/2*</text></g>
+  <g fill="#475569" font-family="system-ui, sans-serif" font-size="13" text-anchor="end"><text x="62" y="288">0</text><text x="62" y="192">10</text><text x="62" y="86">21</text></g>
+  <g fill="#0f172a" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle"><text x="113" y="226">5</text><text x="194" y="236">4</text><text x="275" y="130">15</text><text x="356" y="140">14</text><text x="437" y="149">13</text><text x="518" y="72">21</text><text x="599" y="264">1</text></g>
+  <text x="678" y="336" text-anchor="end" fill="#64748b" font-family="system-ui, sans-serif" font-size="12">UTC；* 为抓取时的未完整自然日</text>
+</svg>
