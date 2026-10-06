@@ -1,0 +1,46 @@
+{
+  "time_axis_utc": [
+    "10-05 12",
+    "10-05 18",
+    "10-06 00"
+  ],
+  "bin_seconds": 21600,
+  "counts": [
+    1,
+    20,
+    0
+  ],
+  "first_last_bins_partial": true,
+  "threads": [
+    {
+      "root_id": 49968424,
+      "count": 15
+    },
+    {
+      "root_id": 49969829,
+      "count": 2
+    },
+    {
+      "root_id": 49968041,
+      "count": 1
+    },
+    {
+      "root_id": 49968502,
+      "count": 1
+    },
+    {
+      "root_id": 49971205,
+      "count": 1
+    },
+    {
+      "root_id": 49972184,
+      "count": 1
+    }
+  ],
+  "composition": {
+    "top_level": 6,
+    "replies": 15
+  },
+  "n": 21,
+  "source": "hn-data.json"
+}

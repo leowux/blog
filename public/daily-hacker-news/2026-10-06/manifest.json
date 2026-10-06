@@ -1,0 +1,70 @@
+{
+  "story_id": 49965118,
+  "original_title": "Linux containers in 500 lines of code (2016)",
+  "rank": 27,
+  "score": 93,
+  "descendants": 21,
+  "posted_at_utc": "2026-10-05T14:09:15+00:00",
+  "fetched_start_utc": "2026-10-06T01:04:46.534274+00:00",
+  "fetched_end_utc": "2026-10-06T01:05:20.382745+00:00",
+  "fetched_end_asia_shanghai": "2026-10-06T09:05:20.382745+08:00",
+  "sources": [
+    {
+      "url": "https://blog.lizzie.io/linux-containers-in-500-loc.html",
+      "status": 200,
+      "sha256": "f05018eb5b4f17549a7a53a90cbd41113af32802502de4186cf300077483535f"
+    },
+    {
+      "url": "https://blog.lizzie.io/linux-containers-in-500-loc/contained.c",
+      "status": 200,
+      "sha256": "3ca7917400caff6f8a7cc25b68cceadedff7ba007d38086fd54ef567e13203f1"
+    },
+    {
+      "url": "https://github.com/HackerNews/API",
+      "status": 200,
+      "sha256": "95a8654ee05db7304343035eaa75b918937a50f367f96d0f6d35647bf0b9f51f"
+    },
+    {
+      "url": "https://hacker-news.firebaseio.com/v0/item/49965118.json",
+      "status": 200,
+      "sha256": "16d5b6d0665c16f49115eb8fab5d3b3fdd76c5eceda015ff3363a0d5868b0547"
+    },
+    {
+      "url": "https://hacker-news.firebaseio.com/v0/topstories.json",
+      "status": 200,
+      "sha256": "722b3d127464b01dca00e0f2d7479f32b66b4db7471510493e4008f93a584400"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49965118",
+      "status": 200,
+      "sha256": "473b4da8545b9aecc5c1f9be1ee1f4fdefcf589ace3d1edbec918b678d2be0bf"
+    },
+    {
+      "url": "https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v1/cgroups.html",
+      "status": 200,
+      "sha256": "d65408f15a392128c7cb686183578e7118e29ab3b353643df36d1dd66a74bf56"
+    },
+    {
+      "url": "https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v2.html",
+      "status": 200,
+      "sha256": "accd07d731de0c1567117c4d632c8de35bbc49d6e8c26833d5e8e6217a1fe914"
+    },
+    {
+      "url": "https://www.kernel.org/doc/html/latest/scheduler/sched-bwc.html",
+      "status": 200,
+      "sha256": "d639905601de8a7c0c8b55a62b55521e17f855a7b31c6e49b4f70fdc8a1c0e1b"
+    }
+  ],
+  "method": "Recursively fetch story kids. Exclude dead/deleted union. Count visible comment creation times in 6-hour UTC bins; first and last partial. Compare visible subtree counts, then mutually exclusive direct-story replies versus replies to comments. Not sentiment or performance. n=21 from23 nodes,2 dead. Requests non-atomic.",
+  "validation": {
+    "markdown_lint": "passed,74 files",
+    "production_build": "passed",
+    "diff_check": "passed",
+    "svg_xml": "passed",
+    "mermaid": "11.12.2 parse passed using jsdom; no rendered browser QA",
+    "independent_review": "passed, facts/data/chart consistency/title/dedup",
+    "source_links": "9 external URLs returned200",
+    "browser": "not run; optional",
+    "runtime_experiment": "contained.c not compiled or executed"
+  }
+}
