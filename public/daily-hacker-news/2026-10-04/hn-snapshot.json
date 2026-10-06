@@ -1,0 +1,24 @@
+{
+  "rank": 30,
+  "fetched_at_utc": "2026-10-04T00:57:33Z",
+  "story": {
+    "descendants": 27,
+    "id": 49928361,
+    "kids": [
+      49944577,
+      49945476,
+      49944344,
+      49928362,
+      49944296,
+      49947785,
+      49945579,
+      49945482,
+      49946337
+    ],
+    "score": 135,
+    "time": 1790898816,
+    "title": "C++ Insights – See your source code with the eyes of a Compiler",
+    "type": "story",
+    "url": "https://github.com/andreasfertig/cppinsights"
+  }
+}

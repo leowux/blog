@@ -1,0 +1,43 @@
+{
+  "story_id": 49958569,
+  "title": "Self-hosted HTTP tunnels with SSH and Nginx",
+  "rank": 5,
+  "score": 45,
+  "descendants": 11,
+  "ranking_snapshot_utc": "2026-10-05T01:04:02.347133+00:00",
+  "ranking_snapshot_asia_shanghai": "2026-10-05T09:04:02.347133+08:00",
+  "data_start_utc": "2026-10-05T01:05:19.222576+00:00",
+  "data_end_utc": "2026-10-05T01:05:34.757475+00:00",
+  "data_end_asia_shanghai": "2026-10-05T09:05:34.757475+08:00",
+  "sources": [
+    "https://hacker-news.firebaseio.com/v0/topstories.json",
+    "https://hacker-news.firebaseio.com/v0/item/49958569.json",
+    "https://news.ycombinator.com/item?id=49958569",
+    "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+    "https://man.openbsd.org/ssh.1",
+    "https://nginx.org/en/docs/http/ngx_http_secure_link_module.html",
+    "https://github.com/vincentbernat/nixops-take1/blob/master/tags/http-over-ssh.sh"
+  ],
+  "methodology": {
+    "retrieved_nodes": 13,
+    "visible_nodes": 11,
+    "excluded_deleted_or_dead_union": 2,
+    "time_chart": "Visible comment creation times bucketed by UTC hour; first and last buckets partial. Not a historical score series.",
+    "bar_chart": "Visible nodes per root thread, including root itself.",
+    "pie_chart": "Visible top-level7 vs nested4; mutually exclusive; no sentiment inference."
+  },
+  "source_checksums_sha256": {
+    "author_page": "fe5fbcdeb7c7d4edb842833dd32adefa98d4ecaf3b669a895953772df373e845",
+    "helper_script": "2bc5817bbc8a2902e0f8a8d5d513821c555cb6d978794fc72ba76e2cd7fa0f62"
+  },
+  "validation": {
+    "checked_at_utc": "2026-10-06T12:46:43Z",
+    "markdown_lint": "passed; 77 files",
+    "production_build": "passed",
+    "svg_xml": "passed; 3 charts",
+    "mermaid_syntax": "passed; Mermaid 11.12.2",
+    "source_links": "passed; all article external links HTTP 200",
+    "data_consistency": "passed; counts recomputed",
+    "browser": "not run"
+  }
+}

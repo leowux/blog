@@ -1,0 +1,47 @@
+{
+  "fetchedAt": "2026-10-03T04:02:38.768000+00:00",
+  "ids": [
+    49940394,
+    49933869,
+    49927754,
+    49925184,
+    49932147,
+    49940467,
+    49937276,
+    49940219,
+    49937504,
+    49933740,
+    49926411,
+    49936575,
+    49929391,
+    49912091,
+    49925974,
+    49921825,
+    49940233,
+    49937631,
+    49933235,
+    49927747,
+    49928566,
+    49933230,
+    49936398,
+    49937916,
+    49934620,
+    49925602,
+    49932340,
+    49938616,
+    49932191,
+    49932911
+  ],
+  "items": [
+    {
+      "descendants": 64,
+      "id": 49933869,
+      "score": 148,
+      "time": 1790950932,
+      "title": "The Forgetful CPU (Linux on M4)",
+      "type": "story",
+      "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html"
+    }
+  ],
+  "snapshotFormat": "First 30 ranked IDs and story metadata from the original API snapshot; story text, author names and child IDs omitted."
+}

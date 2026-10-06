@@ -1,0 +1,42 @@
+{
+  "storyId": 49933869,
+  "selectionRank": 2,
+  "originalTitle": "The Forgetful CPU (Linux on M4)",
+  "score": 148,
+  "storyTimeUtc": "2026-10-02T14:22:12Z",
+  "fetchedAtUtc": "2026-10-03T04:04:37.413115+00:00",
+  "fetchedAtAsiaShanghai": "2026-10-03T12:04:37+08:00",
+  "sources": [
+    "https://hacker-news.firebaseio.com/v0/topstories.json",
+    "https://hacker-news.firebaseio.com/v0/item/49933869.json",
+    "https://news.ycombinator.com/item?id=49933869",
+    "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+    "https://api.github.com/repos/torvalds/linux/commits/d97afae6f16a4f8ac7d50af0070816270b5380c1",
+    "https://api.github.com/repos/torvalds/linux/commits/baaa9b126b875b40ffd9356da52c7c871917e5bb",
+    "https://api.github.com/repos/AsahiLinux/m1n1/pulls/672/files"
+  ],
+  "method": "Traverse all returned kids recursively; exclude deleted/dead. Count retained comment creation times in UTC hours and tree depth including excluded ancestors. Snapshot traversal is non-atomic; not historical ranking, score, sentiment or performance. n=65 of 74 nodes. Final hour incomplete.",
+  "rankingFetchedAtUtc": "2026-10-03T04:02:38.768000+00:00",
+  "rankingSnapshotDescendants": 64,
+  "storySnapshotDescendants": 65,
+  "artifacts": {
+    "rankingSnapshot": "top30.json",
+    "commentMetadata": "story-comments.json",
+    "chartData": "chart-data.json",
+    "charts": [
+      "trend.svg",
+      "depth.svg",
+      "composition.svg"
+    ]
+  },
+  "validation": {
+    "checked_at_utc": "2026-10-06T12:46:43Z",
+    "markdown_lint": "passed; 77 files",
+    "production_build": "passed",
+    "svg_xml": "passed; 3 charts",
+    "mermaid_syntax": "passed; Mermaid 11.12.2",
+    "source_links": "passed; all article external links HTTP 200",
+    "data_consistency": "passed; counts recomputed",
+    "browser": "not run"
+  }
+}

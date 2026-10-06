@@ -1,0 +1,689 @@
+{
+  "fetchedAt": "2026-10-03T04:04:37.413115+00:00",
+  "story": {
+    "descendants": 65,
+    "id": 49933869,
+    "kids": [
+      49940241,
+      49940141,
+      49940194,
+      49940331
+    ],
+    "score": 148,
+    "time": 1790950932,
+    "title": "The Forgetful CPU (Linux on M4)",
+    "type": "story",
+    "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html"
+  },
+  "comments": [
+    {
+      "id": 49940241,
+      "type": "comment",
+      "time": 1790987232,
+      "parent": 49933869,
+      "kids": [
+        49940491,
+        49940940,
+        49940305,
+        49940422,
+        49940258,
+        49940402
+      ],
+      "depth": 1
+    },
+    {
+      "id": 49940141,
+      "type": "comment",
+      "time": 1790986066,
+      "parent": 49933869,
+      "deleted": true,
+      "depth": 1
+    },
+    {
+      "id": 49940194,
+      "type": "comment",
+      "time": 1790986642,
+      "parent": 49933869,
+      "kids": [
+        49940319,
+        49940798,
+        49940257
+      ],
+      "depth": 1
+    },
+    {
+      "id": 49940331,
+      "type": "comment",
+      "time": 1790988188,
+      "parent": 49933869,
+      "kids": [
+        49940495,
+        49940418,
+        49940506
+      ],
+      "depth": 1
+    },
+    {
+      "id": 49940491,
+      "type": "comment",
+      "time": 1790989940,
+      "parent": 49940241,
+      "kids": [
+        49941074,
+        49940537,
+        49940622,
+        49940611
+      ],
+      "depth": 2
+    },
+    {
+      "id": 49940940,
+      "type": "comment",
+      "time": 1790995228,
+      "parent": 49940241,
+      "kids": [
+        49940983
+      ],
+      "depth": 2
+    },
+    {
+      "id": 49940305,
+      "type": "comment",
+      "time": 1790987905,
+      "parent": 49940241,
+      "kids": [
+        49940499,
+        49940368,
+        49940631,
+        49940334
+      ],
+      "depth": 2
+    },
+    {
+      "id": 49940422,
+      "type": "comment",
+      "time": 1790989324,
+      "parent": 49940241,
+      "kids": [
+        49940563
+      ],
+      "depth": 2
+    },
+    {
+      "id": 49940258,
+      "type": "comment",
+      "time": 1790987412,
+      "parent": 49940241,
+      "deleted": true,
+      "depth": 2
+    },
+    {
+      "id": 49940402,
+      "type": "comment",
+      "time": 1790989058,
+      "parent": 49940241,
+      "dead": true,
+      "depth": 2
+    },
+    {
+      "id": 49940319,
+      "type": "comment",
+      "time": 1790988088,
+      "parent": 49940194,
+      "kids": [
+        49940366,
+        49940349,
+        49941218,
+        49940326
+      ],
+      "depth": 2
+    },
+    {
+      "id": 49940798,
+      "type": "comment",
+      "time": 1790993781,
+      "parent": 49940194,
+      "depth": 2
+    },
+    {
+      "id": 49940257,
+      "type": "comment",
+      "time": 1790987385,
+      "parent": 49940194,
+      "kids": [
+        49940713
+      ],
+      "depth": 2
+    },
+    {
+      "id": 49940495,
+      "type": "comment",
+      "time": 1790990026,
+      "parent": 49940331,
+      "depth": 2
+    },
+    {
+      "id": 49940418,
+      "type": "comment",
+      "time": 1790989232,
+      "parent": 49940331,
+      "kids": [
+        49940929
+      ],
+      "depth": 2
+    },
+    {
+      "id": 49940506,
+      "type": "comment",
+      "time": 1790990124,
+      "parent": 49940331,
+      "kids": [
+        49941093
+      ],
+      "depth": 2
+    },
+    {
+      "id": 49941074,
+      "type": "comment",
+      "time": 1790997155,
+      "parent": 49940491,
+      "depth": 3
+    },
+    {
+      "id": 49940537,
+      "type": "comment",
+      "time": 1790990594,
+      "parent": 49940491,
+      "deleted": true,
+      "depth": 3
+    },
+    {
+      "id": 49940622,
+      "type": "comment",
+      "time": 1790991644,
+      "parent": 49940491,
+      "kids": [
+        49940923,
+        49940787
+      ],
+      "depth": 3
+    },
+    {
+      "id": 49940611,
+      "type": "comment",
+      "time": 1790991540,
+      "parent": 49940491,
+      "deleted": true,
+      "depth": 3
+    },
+    {
+      "id": 49940983,
+      "type": "comment",
+      "time": 1790995856,
+      "parent": 49940940,
+      "depth": 3
+    },
+    {
+      "id": 49940499,
+      "type": "comment",
+      "time": 1790990098,
+      "parent": 49940305,
+      "kids": [
+        49940705,
+        49940981,
+        49940831,
+        49940558
+      ],
+      "depth": 3
+    },
+    {
+      "id": 49940368,
+      "type": "comment",
+      "time": 1790988715,
+      "parent": 49940305,
+      "kids": [
+        49940602
+      ],
+      "depth": 3
+    },
+    {
+      "id": 49940631,
+      "type": "comment",
+      "time": 1790991780,
+      "parent": 49940305,
+      "kids": [
+        49940962
+      ],
+      "depth": 3
+    },
+    {
+      "id": 49940334,
+      "type": "comment",
+      "time": 1790988225,
+      "parent": 49940305,
+      "kids": [
+        49940519,
+        49940515
+      ],
+      "depth": 3
+    },
+    {
+      "id": 49940563,
+      "type": "comment",
+      "time": 1790990916,
+      "parent": 49940422,
+      "kids": [
+        49940617,
+        49940681
+      ],
+      "depth": 3
+    },
+    {
+      "id": 49940366,
+      "type": "comment",
+      "time": 1790988689,
+      "parent": 49940319,
+      "kids": [
+        49940610
+      ],
+      "depth": 3
+    },
+    {
+      "id": 49940349,
+      "type": "comment",
+      "time": 1790988419,
+      "parent": 49940319,
+      "kids": [
+        49940511
+      ],
+      "depth": 3
+    },
+    {
+      "id": 49941218,
+      "type": "comment",
+      "time": 1790999329,
+      "parent": 49940319,
+      "deleted": true,
+      "depth": 3
+    },
+    {
+      "id": 49940326,
+      "type": "comment",
+      "time": 1790988150,
+      "parent": 49940319,
+      "depth": 3
+    },
+    {
+      "id": 49940713,
+      "type": "comment",
+      "time": 1790992792,
+      "parent": 49940257,
+      "depth": 3
+    },
+    {
+      "id": 49940929,
+      "type": "comment",
+      "time": 1790995154,
+      "parent": 49940418,
+      "deleted": true,
+      "depth": 3
+    },
+    {
+      "id": 49941093,
+      "type": "comment",
+      "time": 1790997311,
+      "parent": 49940506,
+      "depth": 3
+    },
+    {
+      "id": 49940923,
+      "type": "comment",
+      "time": 1790995095,
+      "parent": 49940622,
+      "kids": [
+        49941006,
+        49940995
+      ],
+      "depth": 4
+    },
+    {
+      "id": 49940787,
+      "type": "comment",
+      "time": 1790993673,
+      "parent": 49940622,
+      "depth": 4
+    },
+    {
+      "id": 49940705,
+      "type": "comment",
+      "time": 1790992699,
+      "parent": 49940499,
+      "kids": [
+        49941267,
+        49940959
+      ],
+      "depth": 4
+    },
+    {
+      "id": 49940981,
+      "type": "comment",
+      "time": 1790995842,
+      "parent": 49940499,
+      "depth": 4
+    },
+    {
+      "id": 49940831,
+      "type": "comment",
+      "time": 1790994143,
+      "parent": 49940499,
+      "depth": 4
+    },
+    {
+      "id": 49940558,
+      "type": "comment",
+      "time": 1790990847,
+      "parent": 49940499,
+      "kids": [
+        49940712,
+        49940581
+      ],
+      "depth": 4
+    },
+    {
+      "id": 49940602,
+      "type": "comment",
+      "time": 1790991425,
+      "parent": 49940368,
+      "kids": [
+        49940654
+      ],
+      "depth": 4
+    },
+    {
+      "id": 49940962,
+      "type": "comment",
+      "time": 1790995523,
+      "parent": 49940631,
+      "depth": 4
+    },
+    {
+      "id": 49940519,
+      "type": "comment",
+      "time": 1790990298,
+      "parent": 49940334,
+      "kids": [
+        49940678
+      ],
+      "depth": 4
+    },
+    {
+      "id": 49940515,
+      "type": "comment",
+      "time": 1790990231,
+      "parent": 49940334,
+      "depth": 4
+    },
+    {
+      "id": 49940617,
+      "type": "comment",
+      "time": 1790991606,
+      "parent": 49940563,
+      "kids": [
+        49940709,
+        49940911
+      ],
+      "depth": 4
+    },
+    {
+      "id": 49940681,
+      "type": "comment",
+      "time": 1790992455,
+      "parent": 49940563,
+      "dead": true,
+      "depth": 4
+    },
+    {
+      "id": 49940610,
+      "type": "comment",
+      "time": 1790991523,
+      "parent": 49940366,
+      "depth": 4
+    },
+    {
+      "id": 49940511,
+      "type": "comment",
+      "time": 1790990190,
+      "parent": 49940349,
+      "kids": [
+        49940585
+      ],
+      "depth": 4
+    },
+    {
+      "id": 49941006,
+      "type": "comment",
+      "time": 1790996223,
+      "parent": 49940923,
+      "kids": [
+        49941136,
+        49941193,
+        49941145,
+        49941013
+      ],
+      "depth": 5
+    },
+    {
+      "id": 49940995,
+      "type": "comment",
+      "time": 1790996000,
+      "parent": 49940923,
+      "deleted": true,
+      "depth": 5
+    },
+    {
+      "id": 49941267,
+      "type": "comment",
+      "time": 1791000202,
+      "parent": 49940705,
+      "depth": 5
+    },
+    {
+      "id": 49940959,
+      "type": "comment",
+      "time": 1790995475,
+      "parent": 49940705,
+      "depth": 5
+    },
+    {
+      "id": 49940712,
+      "type": "comment",
+      "time": 1790992770,
+      "parent": 49940558,
+      "depth": 5
+    },
+    {
+      "id": 49940581,
+      "type": "comment",
+      "time": 1790991090,
+      "parent": 49940558,
+      "kids": [
+        49940957
+      ],
+      "depth": 5
+    },
+    {
+      "id": 49940654,
+      "type": "comment",
+      "time": 1790992028,
+      "parent": 49940602,
+      "kids": [
+        49940932
+      ],
+      "depth": 5
+    },
+    {
+      "id": 49940678,
+      "type": "comment",
+      "time": 1790992424,
+      "parent": 49940519,
+      "depth": 5
+    },
+    {
+      "id": 49940709,
+      "type": "comment",
+      "time": 1790992747,
+      "parent": 49940617,
+      "depth": 5
+    },
+    {
+      "id": 49940911,
+      "type": "comment",
+      "time": 1790994978,
+      "parent": 49940617,
+      "kids": [
+        49941044
+      ],
+      "depth": 5
+    },
+    {
+      "id": 49940585,
+      "type": "comment",
+      "time": 1790991147,
+      "parent": 49940511,
+      "kids": [
+        49940595,
+        49940625
+      ],
+      "depth": 5
+    },
+    {
+      "id": 49941136,
+      "type": "comment",
+      "time": 1790997918,
+      "parent": 49941006,
+      "depth": 6
+    },
+    {
+      "id": 49941193,
+      "type": "comment",
+      "time": 1790998928,
+      "parent": 49941006,
+      "depth": 6
+    },
+    {
+      "id": 49941145,
+      "type": "comment",
+      "time": 1790998083,
+      "parent": 49941006,
+      "depth": 6
+    },
+    {
+      "id": 49941013,
+      "type": "comment",
+      "time": 1790996313,
+      "parent": 49941006,
+      "kids": [
+        49941057,
+        49941146
+      ],
+      "depth": 6
+    },
+    {
+      "id": 49940957,
+      "type": "comment",
+      "time": 1790995419,
+      "parent": 49940581,
+      "kids": [
+        49941011
+      ],
+      "depth": 6
+    },
+    {
+      "id": 49940932,
+      "type": "comment",
+      "time": 1790995165,
+      "parent": 49940654,
+      "kids": [
+        49941024
+      ],
+      "depth": 6
+    },
+    {
+      "id": 49941044,
+      "type": "comment",
+      "time": 1790996712,
+      "parent": 49940911,
+      "depth": 6
+    },
+    {
+      "id": 49940595,
+      "type": "comment",
+      "time": 1790991324,
+      "parent": 49940585,
+      "kids": [
+        49941124,
+        49940833
+      ],
+      "depth": 6
+    },
+    {
+      "id": 49940625,
+      "type": "comment",
+      "time": 1790991709,
+      "parent": 49940585,
+      "kids": [
+        49940793
+      ],
+      "depth": 6
+    },
+    {
+      "id": 49941057,
+      "type": "comment",
+      "time": 1790996951,
+      "parent": 49941013,
+      "depth": 7
+    },
+    {
+      "id": 49941146,
+      "type": "comment",
+      "time": 1790998097,
+      "parent": 49941013,
+      "depth": 7
+    },
+    {
+      "id": 49941011,
+      "type": "comment",
+      "time": 1790996295,
+      "parent": 49940957,
+      "depth": 7
+    },
+    {
+      "id": 49941024,
+      "type": "comment",
+      "time": 1790996426,
+      "parent": 49940932,
+      "depth": 7
+    },
+    {
+      "id": 49941124,
+      "type": "comment",
+      "time": 1790997639,
+      "parent": 49940595,
+      "depth": 7
+    },
+    {
+      "id": 49940833,
+      "type": "comment",
+      "time": 1790994144,
+      "parent": 49940595,
+      "depth": 7
+    },
+    {
+      "id": 49940793,
+      "type": "comment",
+      "time": 1790993730,
+      "parent": 49940625,
+      "depth": 7
+    }
+  ]
+}

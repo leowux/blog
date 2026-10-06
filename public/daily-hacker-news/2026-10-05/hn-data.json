@@ -1,0 +1,156 @@
+{
+  "start_utc": "2026-10-05T01:05:19.222576+00:00",
+  "end_utc": "2026-10-05T01:05:34.757475+00:00",
+  "ranking_snapshot_utc": "2026-10-05T01:04:02.347133+00:00",
+  "ranking": 5,
+  "ranking_story": {
+    "descendants": 11,
+    "id": 49958569,
+    "kids": [
+      49959059,
+      49958868,
+      49959358,
+      49958903,
+      49959165,
+      49959366,
+      49959440,
+      49959567,
+      49959538
+    ],
+    "score": 45,
+    "time": 1791152710,
+    "title": "Self-hosted HTTP tunnels with SSH and Nginx",
+    "type": "story",
+    "url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh"
+  },
+  "story": {
+    "descendants": 11,
+    "id": 49958569,
+    "kids": [
+      49959059,
+      49958868,
+      49959358,
+      49958903,
+      49959165,
+      49959366,
+      49959440,
+      49959567,
+      49959538
+    ],
+    "score": 49,
+    "time": 1791152710,
+    "title": "Self-hosted HTTP tunnels with SSH and Nginx",
+    "type": "story",
+    "url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh"
+  },
+  "comments": [
+    {
+      "id": 49959059,
+      "parent": 49958569,
+      "time": 1791156897,
+      "type": "comment",
+      "root": 49959059,
+      "depth": 0
+    },
+    {
+      "id": 49958868,
+      "parent": 49958569,
+      "time": 1791155112,
+      "type": "comment",
+      "root": 49958868,
+      "depth": 0
+    },
+    {
+      "id": 49959358,
+      "parent": 49958569,
+      "time": 1791159414,
+      "type": "comment",
+      "root": 49959358,
+      "depth": 0
+    },
+    {
+      "id": 49958903,
+      "parent": 49958569,
+      "time": 1791155401,
+      "type": "comment",
+      "root": 49958903,
+      "depth": 0
+    },
+    {
+      "id": 49959165,
+      "parent": 49958569,
+      "time": 1791157801,
+      "type": "comment",
+      "root": 49959165,
+      "depth": 0
+    },
+    {
+      "id": 49959366,
+      "parent": 49958569,
+      "time": 1791159481,
+      "type": "comment",
+      "root": 49959366,
+      "depth": 0
+    },
+    {
+      "id": 49959440,
+      "parent": 49958569,
+      "time": 1791160129,
+      "type": "comment",
+      "root": 49959440,
+      "depth": 0
+    },
+    {
+      "id": 49959567,
+      "parent": 49958569,
+      "time": 1791161675,
+      "type": "comment",
+      "deleted": true,
+      "dead": true,
+      "root": 49959567,
+      "depth": 0
+    },
+    {
+      "id": 49959538,
+      "parent": 49958569,
+      "time": 1791161229,
+      "type": "comment",
+      "deleted": true,
+      "dead": true,
+      "root": 49959538,
+      "depth": 0
+    },
+    {
+      "id": 49959357,
+      "parent": 49959059,
+      "time": 1791159410,
+      "type": "comment",
+      "root": 49959059,
+      "depth": 1
+    },
+    {
+      "id": 49959330,
+      "parent": 49958868,
+      "time": 1791159231,
+      "type": "comment",
+      "root": 49958868,
+      "depth": 1
+    },
+    {
+      "id": 49958922,
+      "parent": 49958903,
+      "time": 1791155572,
+      "type": "comment",
+      "root": 49958903,
+      "depth": 1
+    },
+    {
+      "id": 49959362,
+      "parent": 49959330,
+      "time": 1791159459,
+      "type": "comment",
+      "root": 49958868,
+      "depth": 2
+    }
+  ]
+}

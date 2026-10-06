@@ -1,0 +1,26 @@
+{
+  "article": "daily-hacker-news-2026-10-04",
+  "source_commit": "e98716c35910812ad0ea9848d50b1b2da47fef37",
+  "data_fetched_at_utc": "2026-10-04T01:00:31.979941+00:00",
+  "data_fetched_at_asia_shanghai": "2026-10-04T09:00:31.979941+08:00",
+  "sources": [
+    "https://hacker-news.firebaseio.com/v0/topstories.json",
+    "https://hacker-news.firebaseio.com/v0/item/49928361.json",
+    "https://github.com/andreasfertig/cppinsights"
+  ],
+  "statistics": {
+    "trend": "reachable non-merge commits, committer timestamp UTC; 2025-10-01 inclusive through 2026-10-01 exclusive; bots not separately excluded",
+    "bars": "physical text lines including comments and blanks in four named source files",
+    "pie": "git ls-files tests; mutually exclusive suffix groups; denominator 1211"
+  },
+  "validation": {
+    "checked_at_utc": "2026-10-06T12:46:43Z",
+    "markdown_lint": "passed; 77 files",
+    "production_build": "passed",
+    "svg_xml": "passed; 3 charts",
+    "mermaid_syntax": "passed; Mermaid 11.12.2",
+    "source_links": "passed; all article external links HTTP 200",
+    "data_consistency": "passed; counts recomputed",
+    "browser": "not run"
+  }
+}

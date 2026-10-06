@@ -1,0 +1,51 @@
+{
+  "time_axis_utc": [
+    "2026-10-04T22",
+    "2026-10-04T23",
+    "2026-10-05T00",
+    "2026-10-05T01"
+  ],
+  "hour_counts": [
+    0,
+    5,
+    6,
+    0
+  ],
+  "first_last_hours_partial": true,
+  "threads": [
+    {
+      "root_id": 49958868,
+      "count": 3
+    },
+    {
+      "root_id": 49958903,
+      "count": 2
+    },
+    {
+      "root_id": 49959059,
+      "count": 2
+    },
+    {
+      "root_id": 49959165,
+      "count": 1
+    },
+    {
+      "root_id": 49959358,
+      "count": 1
+    },
+    {
+      "root_id": 49959366,
+      "count": 1
+    },
+    {
+      "root_id": 49959440,
+      "count": 1
+    }
+  ],
+  "composition": {
+    "top_level": 7,
+    "replies": 4
+  },
+  "n": 11,
+  "source": "hn-data.json"
+}
