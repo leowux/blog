@@ -1,0 +1,37 @@
+{
+  "topic": "Gleam v1.19 Erlang abstract forms",
+  "source_revision": "904f81cc85f3bdc03fc3d0a6695055ce7ce4a64c",
+  "sources": [
+    "https://hacker-news.firebaseio.com/v0/topstories.json",
+    "https://hacker-news.firebaseio.com/v0/item/49975619.json",
+    "https://news.ycombinator.com/",
+    "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+    "https://github.com/gleam-lang/gleam/tree/904f81cc85f3bdc03fc3d0a6695055ce7ce4a64c"
+  ],
+  "snapshot_saved_utc": "2026-10-07T01:02:34Z",
+  "snapshot_saved_asia_shanghai": "2026-10-07T09:02:34+08:00",
+  "comments_fetch_start_utc": "2026-10-07T01:03:17.696497+00:00",
+  "comments_fetch_end_utc": "2026-10-07T01:04:16.334614+00:00",
+  "comments_fetch_start_asia_shanghai": "2026-10-07T09:03:17+08:00",
+  "comments_fetch_end_asia_shanghai": "2026-10-07T09:04:16+08:00",
+  "methodology": {
+    "selection": "Top 30, rank 27; official release and pinned source; no previous Gleam topic found",
+    "sample": "Recursively traverse kids starting from saved story, all 131 retrieved comment nodes; no text or usernames published",
+    "line": "123 visible nodes by time field grouped UTC calendar date; final date partial; survivor distribution, not score history",
+    "bar": "123 visible nodes grouped depth 1, 2, >=3; ancestors retain depth even if deleted",
+    "pie": "All 131 nodes: deleted first, then dead, otherwise visible; mutually exclusive; not sentiment"
+  },
+  "validation": {
+    "markdown_lint": "passed 78 files",
+    "production_build": "passed",
+    "diff_check": "passed",
+    "sources": "7 unique article external links returned HTTP 200",
+    "data_review": "independently recomputed 131 nodes and all tables/chart values",
+    "svg": "all 3 parsed; line zero baseline corrected to match scale",
+    "mermaid": "11.12.2 parse passed",
+    "package_lock": "unchanged",
+    "dependencies": "frozen install; speed-insights lifecycle script skipped; production build passed",
+    "browser": "not run; optional",
+    "compiler_benchmark": "not run"
+  }
+}

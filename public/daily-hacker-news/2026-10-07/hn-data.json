@@ -1,0 +1,1003 @@
+{
+  "story": {
+    "descendants": 123,
+    "id": 49975619,
+    "kids": [
+      49977014,
+      49986366,
+      49978937,
+      49976968,
+      49978159,
+      49984537,
+      49981091,
+      49980106,
+      49977713,
+      49977966,
+      49984460,
+      49976749,
+      49977289,
+      49984335,
+      49981539,
+      49982785,
+      49978439,
+      49979533,
+      49979527,
+      49979838,
+      49976491,
+      49976857,
+      49977913,
+      49977062,
+      49977312,
+      49980567
+    ],
+    "score": 293,
+    "time": 1791274100,
+    "title": "Gleam doesn't compile to Erlang source anymore",
+    "type": "story",
+    "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/"
+  },
+  "rank": 27,
+  "fetch_start_utc": "2026-10-07T01:03:17.696497+00:00",
+  "fetch_end_utc": "2026-10-07T01:04:16.334614+00:00",
+  "comments": [
+    {
+      "id": 49977014,
+      "parent": 49975619,
+      "time": 1791286671,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49986366,
+      "parent": 49975619,
+      "time": 1791333752,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49978937,
+      "parent": 49975619,
+      "time": 1791296467,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49976968,
+      "parent": 49975619,
+      "time": 1791286240,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49978159,
+      "parent": 49975619,
+      "time": 1791293408,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49984537,
+      "parent": 49975619,
+      "time": 1791322918,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49981091,
+      "parent": 49975619,
+      "time": 1791305632,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49980106,
+      "parent": 49975619,
+      "time": 1791301053,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49977713,
+      "parent": 49975619,
+      "time": 1791291354,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49977966,
+      "parent": 49975619,
+      "time": 1791292489,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49984460,
+      "parent": 49975619,
+      "time": 1791322488,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49976749,
+      "parent": 49975619,
+      "time": 1791284389,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49977289,
+      "parent": 49975619,
+      "time": 1791288671,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49984335,
+      "parent": 49975619,
+      "time": 1791321711,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49981539,
+      "parent": 49975619,
+      "time": 1791307615,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49982785,
+      "parent": 49975619,
+      "time": 1791314341,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49978439,
+      "parent": 49975619,
+      "time": 1791294459,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49979533,
+      "parent": 49975619,
+      "time": 1791298886,
+      "dead": true,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49979527,
+      "parent": 49975619,
+      "time": 1791298867,
+      "dead": true,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49979838,
+      "parent": 49975619,
+      "time": 1791299975,
+      "dead": true,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49976491,
+      "parent": 49975619,
+      "time": 1791281981,
+      "deleted": true,
+      "dead": true,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49976857,
+      "parent": 49975619,
+      "time": 1791285425,
+      "dead": true,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49977913,
+      "parent": 49975619,
+      "time": 1791292265,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49977062,
+      "parent": 49975619,
+      "time": 1791287087,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49977312,
+      "parent": 49975619,
+      "time": 1791288871,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49980567,
+      "parent": 49975619,
+      "time": 1791303045,
+      "type": "comment",
+      "depth": 1
+    },
+    {
+      "id": 49981557,
+      "parent": 49977014,
+      "time": 1791307725,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49980600,
+      "parent": 49978937,
+      "time": 1791303177,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49979403,
+      "parent": 49978937,
+      "time": 1791298395,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49979118,
+      "parent": 49976968,
+      "time": 1791297115,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49980146,
+      "parent": 49976968,
+      "time": 1791301204,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49982399,
+      "parent": 49976968,
+      "time": 1791312295,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49976995,
+      "parent": 49976968,
+      "time": 1791286501,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49977322,
+      "parent": 49976968,
+      "time": 1791288918,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49980098,
+      "parent": 49978159,
+      "time": 1791301032,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49978465,
+      "parent": 49978159,
+      "time": 1791294587,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49979021,
+      "parent": 49978159,
+      "time": 1791296736,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49980840,
+      "parent": 49978159,
+      "time": 1791304499,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49978195,
+      "parent": 49978159,
+      "time": 1791293522,
+      "dead": true,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49984632,
+      "parent": 49984537,
+      "time": 1791323500,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49981483,
+      "parent": 49981091,
+      "time": 1791307313,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49978293,
+      "parent": 49977713,
+      "time": 1791293869,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49978285,
+      "parent": 49977966,
+      "time": 1791293827,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49984321,
+      "parent": 49981539,
+      "time": 1791321642,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49979460,
+      "parent": 49978439,
+      "time": 1791298583,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49979469,
+      "parent": 49978439,
+      "time": 1791298624,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49976869,
+      "parent": 49976857,
+      "time": 1791285569,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49976928,
+      "parent": 49976857,
+      "time": 1791285972,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49978366,
+      "parent": 49977913,
+      "time": 1791294176,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49978026,
+      "parent": 49977913,
+      "time": 1791292790,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49977445,
+      "parent": 49977062,
+      "time": 1791289915,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49977324,
+      "parent": 49977062,
+      "time": 1791288947,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49978343,
+      "parent": 49977312,
+      "time": 1791294097,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49980619,
+      "parent": 49980567,
+      "time": 1791303251,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49980610,
+      "parent": 49980567,
+      "time": 1791303216,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49980620,
+      "parent": 49980567,
+      "time": 1791303257,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49980756,
+      "parent": 49980567,
+      "time": 1791304063,
+      "type": "comment",
+      "depth": 2
+    },
+    {
+      "id": 49983045,
+      "parent": 49980600,
+      "time": 1791315681,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49983044,
+      "parent": 49980600,
+      "time": 1791315679,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49982391,
+      "parent": 49980600,
+      "time": 1791312236,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49979484,
+      "parent": 49979403,
+      "time": 1791298674,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49982411,
+      "parent": 49979118,
+      "time": 1791312384,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49981507,
+      "parent": 49980146,
+      "time": 1791307456,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49977835,
+      "parent": 49976995,
+      "time": 1791291966,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49981505,
+      "parent": 49977322,
+      "time": 1791307426,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49979378,
+      "parent": 49978465,
+      "time": 1791298281,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49979393,
+      "parent": 49979021,
+      "time": 1791298345,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49980857,
+      "parent": 49979021,
+      "time": 1791304554,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49978530,
+      "parent": 49978366,
+      "time": 1791294816,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49979160,
+      "parent": 49978366,
+      "time": 1791297284,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49977522,
+      "parent": 49977324,
+      "time": 1791290343,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49982537,
+      "parent": 49980619,
+      "time": 1791313029,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49982553,
+      "parent": 49980756,
+      "time": 1791313089,
+      "type": "comment",
+      "depth": 3
+    },
+    {
+      "id": 49983735,
+      "parent": 49983045,
+      "time": 1791318994,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49984985,
+      "parent": 49982391,
+      "time": 1791325385,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49979622,
+      "parent": 49979484,
+      "time": 1791299204,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49979688,
+      "parent": 49979484,
+      "time": 1791299452,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49977956,
+      "parent": 49977835,
+      "time": 1791292435,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49977927,
+      "parent": 49977835,
+      "time": 1791292312,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49984820,
+      "parent": 49979378,
+      "time": 1791324484,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49979461,
+      "parent": 49979393,
+      "time": 1791298583,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49979571,
+      "parent": 49979393,
+      "time": 1791299019,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49984527,
+      "parent": 49980857,
+      "time": 1791322891,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49978683,
+      "parent": 49978530,
+      "time": 1791295413,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49979437,
+      "parent": 49978530,
+      "time": 1791298485,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49979412,
+      "parent": 49979160,
+      "time": 1791298426,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49979213,
+      "parent": 49979160,
+      "time": 1791297511,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49977951,
+      "parent": 49977522,
+      "time": 1791292408,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49977749,
+      "parent": 49977522,
+      "time": 1791291542,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49978109,
+      "parent": 49977522,
+      "time": 1791293129,
+      "type": "comment",
+      "depth": 4
+    },
+    {
+      "id": 49983796,
+      "parent": 49983735,
+      "time": 1791319332,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49985148,
+      "parent": 49984985,
+      "time": 1791326300,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49979662,
+      "parent": 49979622,
+      "time": 1791299362,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49979741,
+      "parent": 49979688,
+      "time": 1791299619,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49979222,
+      "parent": 49977956,
+      "time": 1791297533,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49985005,
+      "parent": 49979461,
+      "time": 1791325511,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49979631,
+      "parent": 49979571,
+      "time": 1791299267,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49979916,
+      "parent": 49979571,
+      "time": 1791300249,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49980656,
+      "parent": 49979412,
+      "time": 1791303462,
+      "deleted": true,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49979250,
+      "parent": 49979213,
+      "time": 1791297660,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49978309,
+      "parent": 49977749,
+      "time": 1791293973,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49978992,
+      "parent": 49977749,
+      "time": 1791296646,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49978266,
+      "parent": 49977749,
+      "time": 1791293781,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49978075,
+      "parent": 49977749,
+      "time": 1791293005,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49978005,
+      "parent": 49977749,
+      "time": 1791292696,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49978348,
+      "parent": 49978109,
+      "time": 1791294115,
+      "type": "comment",
+      "depth": 5
+    },
+    {
+      "id": 49985948,
+      "parent": 49983796,
+      "time": 1791331080,
+      "type": "comment",
+      "depth": 6
+    },
+    {
+      "id": 49979706,
+      "parent": 49979662,
+      "time": 1791299512,
+      "type": "comment",
+      "depth": 6
+    },
+    {
+      "id": 49984206,
+      "parent": 49979662,
+      "time": 1791321080,
+      "type": "comment",
+      "depth": 6
+    },
+    {
+      "id": 49984298,
+      "parent": 49979741,
+      "time": 1791321469,
+      "type": "comment",
+      "depth": 6
+    },
+    {
+      "id": 49980442,
+      "parent": 49979631,
+      "time": 1791302442,
+      "type": "comment",
+      "depth": 6
+    },
+    {
+      "id": 49979377,
+      "parent": 49979250,
+      "time": 1791298277,
+      "type": "comment",
+      "depth": 6
+    },
+    {
+      "id": 49979316,
+      "parent": 49978992,
+      "time": 1791297954,
+      "type": "comment",
+      "depth": 6
+    },
+    {
+      "id": 49985896,
+      "parent": 49978348,
+      "time": 1791330828,
+      "type": "comment",
+      "depth": 6
+    },
+    {
+      "id": 49979947,
+      "parent": 49979706,
+      "time": 1791300396,
+      "type": "comment",
+      "depth": 7
+    },
+    {
+      "id": 49980073,
+      "parent": 49979706,
+      "time": 1791300929,
+      "type": "comment",
+      "depth": 7
+    },
+    {
+      "id": 49984257,
+      "parent": 49984206,
+      "time": 1791321311,
+      "type": "comment",
+      "depth": 7
+    },
+    {
+      "id": 49980547,
+      "parent": 49980442,
+      "time": 1791302966,
+      "type": "comment",
+      "depth": 7
+    },
+    {
+      "id": 49979586,
+      "parent": 49979377,
+      "time": 1791299090,
+      "type": "comment",
+      "depth": 7
+    },
+    {
+      "id": 49979610,
+      "parent": 49979316,
+      "time": 1791299164,
+      "type": "comment",
+      "depth": 7
+    },
+    {
+      "id": 49980925,
+      "parent": 49979947,
+      "time": 1791304812,
+      "type": "comment",
+      "depth": 8
+    },
+    {
+      "id": 49980617,
+      "parent": 49980073,
+      "time": 1791303249,
+      "type": "comment",
+      "depth": 8
+    },
+    {
+      "id": 49981081,
+      "parent": 49980073,
+      "time": 1791305586,
+      "type": "comment",
+      "depth": 8
+    },
+    {
+      "id": 49984796,
+      "parent": 49979586,
+      "time": 1791324361,
+      "type": "comment",
+      "depth": 8
+    },
+    {
+      "id": 49980794,
+      "parent": 49979586,
+      "time": 1791304208,
+      "deleted": true,
+      "type": "comment",
+      "depth": 8
+    },
+    {
+      "id": 49981069,
+      "parent": 49979610,
+      "time": 1791305536,
+      "type": "comment",
+      "depth": 8
+    },
+    {
+      "id": 49982846,
+      "parent": 49980925,
+      "time": 1791314623,
+      "type": "comment",
+      "depth": 9
+    },
+    {
+      "id": 49981143,
+      "parent": 49980617,
+      "time": 1791305849,
+      "type": "comment",
+      "depth": 9
+    },
+    {
+      "id": 49981114,
+      "parent": 49981081,
+      "time": 1791305712,
+      "type": "comment",
+      "depth": 9
+    },
+    {
+      "id": 49981378,
+      "parent": 49981069,
+      "time": 1791306920,
+      "type": "comment",
+      "depth": 9
+    },
+    {
+      "id": 49984431,
+      "parent": 49982846,
+      "time": 1791322231,
+      "type": "comment",
+      "depth": 10
+    }
+  ],
+  "snapshot_saved_utc": "2026-10-07T01:02:34Z",
+  "top30_ids": [
+    49984923,
+    49977979,
+    49985664,
+    49984025,
+    49985524,
+    49984716,
+    49980487,
+    49976265,
+    49983404,
+    49985292,
+    49980715,
+    49981905,
+    49983703,
+    49973644,
+    49985643,
+    49981197,
+    49984652,
+    49984834,
+    49985905,
+    49972125,
+    49967427,
+    49981186,
+    49983780,
+    49985861,
+    49977531,
+    49982735,
+    49975619,
+    49983791,
+    49984484,
+    49982471
+  ]
+}
