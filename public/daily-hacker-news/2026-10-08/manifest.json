@@ -1,0 +1,38 @@
+{
+  "topic": "Docker Agent 用 YAML 组织多代理协作",
+  "published_date_asia_shanghai": "2026-10-08",
+  "source_revision": "ef10abf85d53175551d1528544df841a4c98bd5c",
+  "sources": [
+    "https://hacker-news.firebaseio.com/v0/topstories.json",
+    "https://hacker-news.firebaseio.com/v0/item/49996259.json",
+    "https://news.ycombinator.com/",
+    "https://github.com/docker/docker-agent/tree/ef10abf85d53175551d1528544df841a4c98bd5c",
+    "https://api.github.com/repos/docker/docker-agent/languages"
+  ],
+  "hn_snapshot_saved_utc": "2026-10-08T04:01:43+00:00",
+  "hn_snapshot_saved_asia_shanghai": "2026-10-08T12:01:43+08:00",
+  "data_fetch_completed_utc": "2026-10-08T04:04:25+00:00",
+  "data_fetch_completed_asia_shanghai": "2026-10-08T12:04:25+08:00",
+  "methodology": {
+    "selection": "Official top 30, rank 11; 199 points and descendants 88; source-backed technical topic not covered in earlier posts. Rank and points are collection snapshots, not all-day ranking.",
+    "line": "120 unique GitHub commits reachable from pinned main; committer timestamps in [2026-10-01T00:00:00+08:00,2026-10-08T00:00:00+08:00); merge commits included, two pages 100+20; not push times.",
+    "bar": "Five non-Go language byte counts, 181469 bytes; Go omitted for readability.",
+    "pie": "Same language snapshot as bar; Go and other five languages mutually exclusive, total 21418995 bytes. Not performance or complete repository storage.",
+    "source_details": "data/provenance.json",
+    "hn_details": "hn-snapshot.json"
+  },
+  "validation": {
+    "markdown_lint": "passed; all 79 files",
+    "production_build": "passed again after reviewed content correction; 146 static pages",
+    "diff_check": "passed",
+    "mermaid": "11.12.2 parse passed with DOM implementation",
+    "svg": "3 SVG XML/accessibility checks passed; rendered and inspected; tables recomputed",
+    "mdx": "built article HTML and all 3 chart references verified",
+    "package_lock": "package.json and pnpm-lock.yaml unchanged",
+    "dependencies": "frozen install completed with ignore-scripts after reviewing optional speed-insights postinstall advisory; no lifecycle behavior needed for successful build",
+    "independent_review": "passed after narrowing workspace mount claim to local sandbox; independently checked pinned sources, 120 commit records, all chart/table values and SVG geometry",
+    "browser_page_check": "not run; optional",
+    "agent_runtime_benchmark": "not run",
+    "sources": "15 unique article links: 13 direct HTTP 200; two GitHub API links anonymously rate-limited (403). Commit pagination verified through authenticated connector; languages re-fetched through authenticated official API with values identical to saved snapshot."
+  }
+}

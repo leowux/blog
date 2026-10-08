@@ -1,0 +1,37 @@
+Docker Agent 数据与图表说明（2026-10-08）
+
+采集完成：2026-10-08 04:04:25 UTC；2026-10-08 12:04:25 Asia/Shanghai。
+语言 API 采集：04:03:56–04:04:06 UTC。
+来源：GitHub 官方 REST API；各请求完整端点和起止时刻见 data/provenance.json。
+仓库：https://github.com/docker/docker-agent
+API：https://api.github.com/repos/docker/docker-agent
+语言：https://api.github.com/repos/docker/docker-agent/languages
+分支：https://api.github.com/repos/docker/docker-agent/commits/main
+固定 HEAD：ef10abf85d53175551d1528544df841a4c98bd5c
+
+折线图：line-commits.svg
+统计窗口：[2026-10-01 00:00:00, 2026-10-08 00:00:00)，Asia/Shanghai (UTC+08:00)。
+对应 UTC：[2026-09-30 16:00:00Z, 2026-10-07 16:00:00Z)。
+使用固定 main HEAD，List commits 接口每页 100 条；第 1 页 100 条、第 2 页 20 条，后者为末页。
+120 个不同 SHA，按 commit.committer.date 精确过滤上述半开区间，120 个均在窗口中；按上海日期分桶。
+10/01:32；10/02:8；10/03:2；10/04:2；10/05:35；10/06:9；10/07:32；合计 120。
+包含 HEAD 可达历史中的合并提交；不是仅第一父链，不表示 push 次数、新编写变更数或开发产出。
+接口查询参数完整记录在 provenance.json。统计所需 SHA、时间、公开链接保存在逐页 JSON 和 counted-commits.csv。
+
+柱状图：bar-language-bytes.svg
+单位：GitHub language API 报告的字节。为保证较小分类可读，仅画五种非 Go 语言，线性横轴从零起。
+Shell:58,215；JavaScript:46,940；HTML:37,560；CSS:34,266；Dockerfile:4,488；本图合计 181,469。
+Go 的 21,237,526 字节排除在本柱状图之外，但保留于完整语言 JSON 和 CSV。
+
+饼图：pie-language-share.svg
+分母：完整 language API 返回的六种语言字节之和 21,418,995。
+Go:21,237,526，99.1527660378%；其他五种语言合计:181,469，0.8472339622%。
+两个分类互斥且穷尽上述分母；图中百分比保留三位小数，两项为 99.153% 与 0.847%。
+“其他”包括 Shell、JavaScript、HTML、CSS、Dockerfile。
+
+限制：语言数据是采集时的即时快照，不是 10 月 7 日收盘历史快照，GitHub 语言分析可能延迟。
+语言字节不是行数、文件数、完整仓库存储量、用户数、性能或质量指标。提交时间也不等于发布时间。
+JSON 保存说明：语言响应完整保留；仓库、HEAD 和逐页提交响应仅保留可核验统计所需公开字段，去除提交人姓名、邮箱、消息等无关字段。
+复现：在外部已配置好的标准 gh 环境运行 python collect-data.py；此操作会更新快照和采集时刻。
+无需网络重画原有图表：python generate-charts.py。
+SVG 含 title、desc 与可选择的文本；文章仍应提供相邻数据表及文字解释。图表不依赖截图。

@@ -1,0 +1,67 @@
+{
+  "repository": "docker/docker-agent",
+  "default_branch": "main",
+  "pinned_head_sha": "ef10abf85d53175551d1528544df841a4c98bd5c",
+  "window_start_inclusive": "2026-10-01T00:00:00+08:00",
+  "window_end_exclusive": "2026-10-08T00:00:00+08:00",
+  "timezone": "Asia/Shanghai (UTC+08:00)",
+  "commit_method": "GitHub REST List commits, pinned default-branch head; paginated 100/page to final short page. Deduplicate SHA, filter commit.committer.date into the half-open window, bin in Asia/Shanghai. Includes merge commits and all reachable history, not first-parent-only. Commit timestamps are not push times or counts of newly authored changes.",
+  "raw_commits_returned": 120,
+  "unique_commits_returned": 120,
+  "counted_commits": 120,
+  "commit_api_pages": 2,
+  "daily_counts": {
+    "2026-10-01": 32,
+    "2026-10-02": 8,
+    "2026-10-03": 2,
+    "2026-10-04": 2,
+    "2026-10-05": 35,
+    "2026-10-06": 9,
+    "2026-10-07": 32
+  },
+  "language_method": "GitHub REST languages reports bytes per detected language. All returned language categories are mutually exclusive for this denominator; denominator is their sum. Not lines, files, performance, quality, users, or complete repository storage. Snapshot is not a historical October 7 measurement and language analysis may lag.",
+  "language_denominator_bytes": 21418995,
+  "languages": {
+    "Go": 21237526,
+    "Shell": 58215,
+    "JavaScript": 46940,
+    "HTML": 37560,
+    "CSS": 34266,
+    "Dockerfile": 4488
+  },
+  "fetch_completed_utc": "2026-10-08T04:04:25+00:00",
+  "fetch_completed_asia_shanghai": "2026-10-08T12:04:25+08:00",
+  "requests": [
+    {
+      "url": "https://api.github.com/repos/docker/docker-agent",
+      "file": "data/repository.json",
+      "started_utc": "2026-10-08T04:03:36+00:00",
+      "completed_utc": "2026-10-08T04:03:44+00:00"
+    },
+    {
+      "url": "https://api.github.com/repos/docker/docker-agent/commits/main",
+      "file": "data/default-branch-head.json",
+      "started_utc": "2026-10-08T04:03:44+00:00",
+      "completed_utc": "2026-10-08T04:03:56+00:00"
+    },
+    {
+      "url": "https://api.github.com/repos/docker/docker-agent/languages",
+      "file": "data/languages.json",
+      "started_utc": "2026-10-08T04:03:56+00:00",
+      "completed_utc": "2026-10-08T04:04:06+00:00"
+    },
+    {
+      "url": "https://api.github.com/repos/docker/docker-agent/commits?sha=ef10abf85d53175551d1528544df841a4c98bd5c&since=2026-09-30T16%3A00%3A00Z&until=2026-10-07T16%3A00%3A00Z&per_page=100&page=1",
+      "file": "data/commits-page-1.json",
+      "started_utc": "2026-10-08T04:04:06+00:00",
+      "completed_utc": "2026-10-08T04:04:15+00:00"
+    },
+    {
+      "url": "https://api.github.com/repos/docker/docker-agent/commits?sha=ef10abf85d53175551d1528544df841a4c98bd5c&since=2026-09-30T16%3A00%3A00Z&until=2026-10-07T16%3A00%3A00Z&per_page=100&page=2",
+      "file": "data/commits-page-2.json",
+      "started_utc": "2026-10-08T04:04:15+00:00",
+      "completed_utc": "2026-10-08T04:04:25+00:00"
+    }
+  ],
+  "preservation_note": "Commit and repository JSON preserve selected public API fields needed to verify statistics; contributor names, emails, messages and unrelated fields are excluded. Language response is complete."
+}
