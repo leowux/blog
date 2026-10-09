@@ -1,0 +1,28 @@
+{
+  "revision": "9f0c2a395ebc232e7a7c5a55a5ee096df9811dfe",
+  "fetch_completed_utc": "2026-10-09T01:03:52.471995+00:00",
+  "commits_endpoints": [
+    "https://api.github.com/repos/duckdb/ducklake/commits?sha=9f0c2a395ebc232e7a7c5a55a5ee096df9811dfe&since=2026-10-01T16:00:00Z&until=2026-10-08T15:59:59Z&per_page=100&page=1",
+    "https://api.github.com/repos/duckdb/ducklake/commits?sha=9f0c2a395ebc232e7a7c5a55a5ee096df9811dfe&since=2026-10-01T16:00:00Z&until=2026-10-08T15:59:59Z&per_page=100&page=2",
+    "https://api.github.com/repos/duckdb/ducklake/commits?sha=9f0c2a395ebc232e7a7c5a55a5ee096df9811dfe&since=2026-10-01T16:00:00Z&until=2026-10-08T15:59:59Z&per_page=100&page=3"
+  ],
+  "language_endpoint": "https://api.github.com/repos/duckdb/ducklake/languages",
+  "daily_counts": {
+    "2026-10-02": 3,
+    "2026-10-03": 13,
+    "2026-10-04": 23,
+    "2026-10-05": 20,
+    "2026-10-06": 82,
+    "2026-10-07": 45,
+    "2026-10-08": 43
+  },
+  "languages": {
+    "C++": 1492681,
+    "Python": 23951,
+    "CMake": 6271,
+    "Shell": 4018,
+    "PLpgSQL": 2577,
+    "Makefile": 863
+  },
+  "window": "2026-10-02T00:00:00+08:00 <= committer timestamp < 2026-10-09T00:00:00+08:00"
+}

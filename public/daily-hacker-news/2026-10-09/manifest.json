@@ -1,0 +1,40 @@
+{
+  "topic": "DuckLake 用 SQL 目录管理 Parquet 数据",
+  "published_date_asia_shanghai": "2026-10-09",
+  "source_revision": "9f0c2a395ebc232e7a7c5a55a5ee096df9811dfe",
+  "sources": [
+    "https://hacker-news.firebaseio.com/v0/topstories.json",
+    "https://hacker-news.firebaseio.com/v0/item/49996149.json",
+    "https://news.ycombinator.com/",
+    "https://github.com/duckdb/ducklake",
+    "https://api.github.com/repos/duckdb/ducklake/languages",
+    "https://api.github.com/repos/duckdb/ducklake/commits?sha=9f0c2a395ebc232e7a7c5a55a5ee096df9811dfe&since=2026-10-01T16:00:00Z&until=2026-10-08T15:59:59Z&per_page=100&page=1",
+    "https://api.github.com/repos/duckdb/ducklake/commits?sha=9f0c2a395ebc232e7a7c5a55a5ee096df9811dfe&since=2026-10-01T16:00:00Z&until=2026-10-08T15:59:59Z&per_page=100&page=2",
+    "https://api.github.com/repos/duckdb/ducklake/commits?sha=9f0c2a395ebc232e7a7c5a55a5ee096df9811dfe&since=2026-10-01T16:00:00Z&until=2026-10-08T15:59:59Z&per_page=100&page=3"
+  ],
+  "hn_snapshot_completed_utc": "2026-10-09T01:01:40.017745+00:00",
+  "hn_snapshot_completed_asia_shanghai": "2026-10-09T09:01:40+08:00",
+  "data_fetch_completed_utc": "2026-10-09T01:03:52.471995+00:00",
+  "data_fetch_completed_asia_shanghai": "2026-10-09T09:03:52+08:00",
+  "methodology": {
+    "selection": "Official top 30 rank21; 113 points, descendants15. Collection snapshot, not all-day rank. No matching topic in previous posts.",
+    "line": "229 unique reachable commits from pinned main; committer timestamp window [2026-10-02T00:00:00+08:00,2026-10-09T00:00:00+08:00); merge commits included; three pages100+100+29. Not push times.",
+    "bar": "Five non-C++ language byte categories, 37680 bytes; excludes C++ for readability.",
+    "pie": "Same language snapshot, C++ vs remaining five categories; mutually exclusive denominator1530361 bytes. Not code lines or storage size.",
+    "source_details": "data/provenance.json"
+  },
+  "validation": {
+    "markdown_lint": "passed; 80 files",
+    "production_build": "passed again after reviewed Mermaid/query correction",
+    "diff_check": "passed",
+    "mermaid": "11.12.2 flowchart-v2 parse passed",
+    "svg": "3 SVG XML/accessibility checks passed; generator and source data preserved",
+    "mdx": "built HTML and all3chart references verified",
+    "package_lock": "package.json and pnpm-lock.yaml unchanged",
+    "dependencies": "frozen install with ignore-scripts after inspecting optional speed-insights postinstall advisory; production build passed",
+    "independent_review": "passed after adding snapshot-visible inline read branch; independent API re-fetch matched229 commits incl71merges and language bytes; verified SVG geometry and tables",
+    "browser_page_check": "not run; optional",
+    "runtime_benchmark": "not run",
+    "sources": "all14external article URLs HTTP200; all11local resource links exist"
+  }
+}

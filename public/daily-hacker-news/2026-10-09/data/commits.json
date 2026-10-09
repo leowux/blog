@@ -1,0 +1,1147 @@
+[
+  {
+    "sha": "9f0c2a395ebc232e7a7c5a55a5ee096df9811dfe",
+    "committer_date": "2026-10-08T14:44:49Z",
+    "url": "https://github.com/duckdb/ducklake/commit/9f0c2a395ebc232e7a7c5a55a5ee096df9811dfe"
+  },
+  {
+    "sha": "9e271786ace3b62609b0ad11d0068c3006138f32",
+    "committer_date": "2026-10-08T08:41:56Z",
+    "url": "https://github.com/duckdb/ducklake/commit/9e271786ace3b62609b0ad11d0068c3006138f32"
+  },
+  {
+    "sha": "dc4707e0f53185c8434764812944cbb9c692f6cb",
+    "committer_date": "2026-10-08T08:26:21Z",
+    "url": "https://github.com/duckdb/ducklake/commit/dc4707e0f53185c8434764812944cbb9c692f6cb"
+  },
+  {
+    "sha": "3d30b1716f08fffb258b9a0afd5741692931346d",
+    "committer_date": "2026-10-08T08:26:11Z",
+    "url": "https://github.com/duckdb/ducklake/commit/3d30b1716f08fffb258b9a0afd5741692931346d"
+  },
+  {
+    "sha": "ec1a14aae83b6d8cc2655bb74173259c61fa06ec",
+    "committer_date": "2026-10-08T08:23:20Z",
+    "url": "https://github.com/duckdb/ducklake/commit/ec1a14aae83b6d8cc2655bb74173259c61fa06ec"
+  },
+  {
+    "sha": "fb461808dc4c4209b1d0f06eb6914a2b3c4ba2b3",
+    "committer_date": "2026-10-08T08:10:52Z",
+    "url": "https://github.com/duckdb/ducklake/commit/fb461808dc4c4209b1d0f06eb6914a2b3c4ba2b3"
+  },
+  {
+    "sha": "06489b49362203f2e5cc07982124fab6201758c1",
+    "committer_date": "2026-10-08T08:09:00Z",
+    "url": "https://github.com/duckdb/ducklake/commit/06489b49362203f2e5cc07982124fab6201758c1"
+  },
+  {
+    "sha": "9276671d7c0bbbfb375642df88874a23fe085659",
+    "committer_date": "2026-10-08T08:06:48Z",
+    "url": "https://github.com/duckdb/ducklake/commit/9276671d7c0bbbfb375642df88874a23fe085659"
+  },
+  {
+    "sha": "c2bb41b08357b37845ce229f9500dca5a8667117",
+    "committer_date": "2026-10-08T08:01:21Z",
+    "url": "https://github.com/duckdb/ducklake/commit/c2bb41b08357b37845ce229f9500dca5a8667117"
+  },
+  {
+    "sha": "3effd05a75a84fdd42816441845af8e1ebb2f16b",
+    "committer_date": "2026-10-08T07:58:22Z",
+    "url": "https://github.com/duckdb/ducklake/commit/3effd05a75a84fdd42816441845af8e1ebb2f16b"
+  },
+  {
+    "sha": "daa80cc9b386b6a8496d34acac66f1c11e77f77c",
+    "committer_date": "2026-10-08T07:52:40Z",
+    "url": "https://github.com/duckdb/ducklake/commit/daa80cc9b386b6a8496d34acac66f1c11e77f77c"
+  },
+  {
+    "sha": "2bd63a0c5931ff72c9adeca9a3159310ab088411",
+    "committer_date": "2026-10-08T06:18:28Z",
+    "url": "https://github.com/duckdb/ducklake/commit/2bd63a0c5931ff72c9adeca9a3159310ab088411"
+  },
+  {
+    "sha": "517f97054e8ecd5a931f22fa818c11e46e593113",
+    "committer_date": "2026-10-07T23:23:54Z",
+    "url": "https://github.com/duckdb/ducklake/commit/517f97054e8ecd5a931f22fa818c11e46e593113"
+  },
+  {
+    "sha": "bb252ebb527ab5bc0a1ad84287610f1ef1b21a32",
+    "committer_date": "2026-10-07T23:17:29Z",
+    "url": "https://github.com/duckdb/ducklake/commit/bb252ebb527ab5bc0a1ad84287610f1ef1b21a32"
+  },
+  {
+    "sha": "b45407ae1d7484931732035b02ceec0affeaea95",
+    "committer_date": "2026-10-07T22:19:54Z",
+    "url": "https://github.com/duckdb/ducklake/commit/b45407ae1d7484931732035b02ceec0affeaea95"
+  },
+  {
+    "sha": "664e92c83a86b8a6b680eb6673694c45d0476998",
+    "committer_date": "2026-10-07T22:08:21Z",
+    "url": "https://github.com/duckdb/ducklake/commit/664e92c83a86b8a6b680eb6673694c45d0476998"
+  },
+  {
+    "sha": "0b328d20385acc635bbcb5a5778442652d558d39",
+    "committer_date": "2026-10-07T21:55:37Z",
+    "url": "https://github.com/duckdb/ducklake/commit/0b328d20385acc635bbcb5a5778442652d558d39"
+  },
+  {
+    "sha": "912c967844fb9537a673e963691a045f1e39b1aa",
+    "committer_date": "2026-10-07T21:31:11Z",
+    "url": "https://github.com/duckdb/ducklake/commit/912c967844fb9537a673e963691a045f1e39b1aa"
+  },
+  {
+    "sha": "0453a15a73ca0e806bc93be83d86f0fedc1cbbc6",
+    "committer_date": "2026-10-07T21:25:50Z",
+    "url": "https://github.com/duckdb/ducklake/commit/0453a15a73ca0e806bc93be83d86f0fedc1cbbc6"
+  },
+  {
+    "sha": "dc2c89ed282aa412732631e477b4ee79e86b4c13",
+    "committer_date": "2026-10-07T21:12:22Z",
+    "url": "https://github.com/duckdb/ducklake/commit/dc2c89ed282aa412732631e477b4ee79e86b4c13"
+  },
+  {
+    "sha": "d2814513ea72fff13938bc318c0e2ec1d72f4e16",
+    "committer_date": "2026-10-07T21:10:27Z",
+    "url": "https://github.com/duckdb/ducklake/commit/d2814513ea72fff13938bc318c0e2ec1d72f4e16"
+  },
+  {
+    "sha": "baaee9b0faeaaf4e84faf87be55dab7d6c8e64e0",
+    "committer_date": "2026-10-07T20:58:16Z",
+    "url": "https://github.com/duckdb/ducklake/commit/baaee9b0faeaaf4e84faf87be55dab7d6c8e64e0"
+  },
+  {
+    "sha": "1d0ed81bba99aaaf72406d77174e59b00839ca13",
+    "committer_date": "2026-10-07T20:42:17Z",
+    "url": "https://github.com/duckdb/ducklake/commit/1d0ed81bba99aaaf72406d77174e59b00839ca13"
+  },
+  {
+    "sha": "2bb7f7a084aa0f64229dd1ecd699c90578d44007",
+    "committer_date": "2026-10-07T20:30:28Z",
+    "url": "https://github.com/duckdb/ducklake/commit/2bb7f7a084aa0f64229dd1ecd699c90578d44007"
+  },
+  {
+    "sha": "45b37d6caf389a46c8c296910ca11d0f94499fb0",
+    "committer_date": "2026-10-07T19:43:21Z",
+    "url": "https://github.com/duckdb/ducklake/commit/45b37d6caf389a46c8c296910ca11d0f94499fb0"
+  },
+  {
+    "sha": "45cab5af1deeedfb1ea0cbbcd6965ef5029df187",
+    "committer_date": "2026-10-07T19:37:18Z",
+    "url": "https://github.com/duckdb/ducklake/commit/45cab5af1deeedfb1ea0cbbcd6965ef5029df187"
+  },
+  {
+    "sha": "f51d66c3a1c15190a794884174181347c5f09e81",
+    "committer_date": "2026-10-07T19:34:37Z",
+    "url": "https://github.com/duckdb/ducklake/commit/f51d66c3a1c15190a794884174181347c5f09e81"
+  },
+  {
+    "sha": "66565bac1768f57ccac76fdd112cd5dd91a9b7d9",
+    "committer_date": "2026-10-07T19:29:07Z",
+    "url": "https://github.com/duckdb/ducklake/commit/66565bac1768f57ccac76fdd112cd5dd91a9b7d9"
+  },
+  {
+    "sha": "5bdd858be3a2190855cb6c113697bb9b50bd2160",
+    "committer_date": "2026-10-07T19:03:17Z",
+    "url": "https://github.com/duckdb/ducklake/commit/5bdd858be3a2190855cb6c113697bb9b50bd2160"
+  },
+  {
+    "sha": "505e8deebdb61da7c98ebe0a35ce4b7a5de2d0dc",
+    "committer_date": "2026-10-07T18:22:44Z",
+    "url": "https://github.com/duckdb/ducklake/commit/505e8deebdb61da7c98ebe0a35ce4b7a5de2d0dc"
+  },
+  {
+    "sha": "d7854353dc02bc98c7aa69595a5c8cb4b7c7615a",
+    "committer_date": "2026-10-07T18:18:25Z",
+    "url": "https://github.com/duckdb/ducklake/commit/d7854353dc02bc98c7aa69595a5c8cb4b7c7615a"
+  },
+  {
+    "sha": "2cbf5a218f64b51f8525d71c9bab346eeeb23889",
+    "committer_date": "2026-10-07T18:17:16Z",
+    "url": "https://github.com/duckdb/ducklake/commit/2cbf5a218f64b51f8525d71c9bab346eeeb23889"
+  },
+  {
+    "sha": "87dbb2d328dfd3c928076573bc213b846a2164e5",
+    "committer_date": "2026-10-07T18:17:06Z",
+    "url": "https://github.com/duckdb/ducklake/commit/87dbb2d328dfd3c928076573bc213b846a2164e5"
+  },
+  {
+    "sha": "40ed370ae9fc2fb5756583e40ea6118a0a7eb004",
+    "committer_date": "2026-10-07T18:03:46Z",
+    "url": "https://github.com/duckdb/ducklake/commit/40ed370ae9fc2fb5756583e40ea6118a0a7eb004"
+  },
+  {
+    "sha": "4128781a65f002a2c0b6c163da06ee5d1ba027ab",
+    "committer_date": "2026-10-07T17:43:22Z",
+    "url": "https://github.com/duckdb/ducklake/commit/4128781a65f002a2c0b6c163da06ee5d1ba027ab"
+  },
+  {
+    "sha": "31c96719ce455d115f5f23dba8818e9bb0932288",
+    "committer_date": "2026-10-07T17:41:54Z",
+    "url": "https://github.com/duckdb/ducklake/commit/31c96719ce455d115f5f23dba8818e9bb0932288"
+  },
+  {
+    "sha": "20ba2bd667ca510178395a8a42a79e1a46d0b3cd",
+    "committer_date": "2026-10-07T16:38:14Z",
+    "url": "https://github.com/duckdb/ducklake/commit/20ba2bd667ca510178395a8a42a79e1a46d0b3cd"
+  },
+  {
+    "sha": "2227b7a8246ac8bfa47aee8a5a6a4e0df624b7fc",
+    "committer_date": "2026-10-07T16:25:28Z",
+    "url": "https://github.com/duckdb/ducklake/commit/2227b7a8246ac8bfa47aee8a5a6a4e0df624b7fc"
+  },
+  {
+    "sha": "359caf3718fb11f2315200dee89d53ff94992936",
+    "committer_date": "2026-10-07T16:17:24Z",
+    "url": "https://github.com/duckdb/ducklake/commit/359caf3718fb11f2315200dee89d53ff94992936"
+  },
+  {
+    "sha": "db511a8e1d2ddd4c4ef47fc2007119bd5723640a",
+    "committer_date": "2026-10-07T16:16:49Z",
+    "url": "https://github.com/duckdb/ducklake/commit/db511a8e1d2ddd4c4ef47fc2007119bd5723640a"
+  },
+  {
+    "sha": "b7d894b38eec1eac0c26f252d2626c3f5242adf9",
+    "committer_date": "2026-10-07T16:15:58Z",
+    "url": "https://github.com/duckdb/ducklake/commit/b7d894b38eec1eac0c26f252d2626c3f5242adf9"
+  },
+  {
+    "sha": "8f48c150b6413000279f0c55823157b4938fe06d",
+    "committer_date": "2026-10-07T16:15:58Z",
+    "url": "https://github.com/duckdb/ducklake/commit/8f48c150b6413000279f0c55823157b4938fe06d"
+  },
+  {
+    "sha": "73050ce6770076ed8d5c847e15d2369c5a93c2d3",
+    "committer_date": "2026-10-07T16:11:16Z",
+    "url": "https://github.com/duckdb/ducklake/commit/73050ce6770076ed8d5c847e15d2369c5a93c2d3"
+  },
+  {
+    "sha": "5dad1b337859fafef1c9d0e9d358bb229e30fdc3",
+    "committer_date": "2026-10-07T15:42:21Z",
+    "url": "https://github.com/duckdb/ducklake/commit/5dad1b337859fafef1c9d0e9d358bb229e30fdc3"
+  },
+  {
+    "sha": "ceeb408cb519f0eb95e2da30d9e9ae778bbb5cfc",
+    "committer_date": "2026-10-07T15:38:17Z",
+    "url": "https://github.com/duckdb/ducklake/commit/ceeb408cb519f0eb95e2da30d9e9ae778bbb5cfc"
+  },
+  {
+    "sha": "4bd1941be24017d8b532485673b297afacca4380",
+    "committer_date": "2026-10-07T14:33:06Z",
+    "url": "https://github.com/duckdb/ducklake/commit/4bd1941be24017d8b532485673b297afacca4380"
+  },
+  {
+    "sha": "50b5597bfbcc0f5c824e7b44829ffd1ec1c5eb22",
+    "committer_date": "2026-10-07T14:24:14Z",
+    "url": "https://github.com/duckdb/ducklake/commit/50b5597bfbcc0f5c824e7b44829ffd1ec1c5eb22"
+  },
+  {
+    "sha": "c421ec1763d6599d2b6d0d3995b52a2c038faf98",
+    "committer_date": "2026-10-07T13:58:54Z",
+    "url": "https://github.com/duckdb/ducklake/commit/c421ec1763d6599d2b6d0d3995b52a2c038faf98"
+  },
+  {
+    "sha": "461fc0a523d357107a247c8f5bda5459ee01d0c6",
+    "committer_date": "2026-10-07T12:34:21Z",
+    "url": "https://github.com/duckdb/ducklake/commit/461fc0a523d357107a247c8f5bda5459ee01d0c6"
+  },
+  {
+    "sha": "802bfb6cab61f53aca24fc6ac469caf85b392670",
+    "committer_date": "2026-10-07T12:33:18Z",
+    "url": "https://github.com/duckdb/ducklake/commit/802bfb6cab61f53aca24fc6ac469caf85b392670"
+  },
+  {
+    "sha": "c83fe7ae9e11eead3aa05af05f903489390cb911",
+    "committer_date": "2026-10-07T12:10:15Z",
+    "url": "https://github.com/duckdb/ducklake/commit/c83fe7ae9e11eead3aa05af05f903489390cb911"
+  },
+  {
+    "sha": "51540aaa3af16b3846eb0d5c396282ad248c99b8",
+    "committer_date": "2026-10-07T12:03:08Z",
+    "url": "https://github.com/duckdb/ducklake/commit/51540aaa3af16b3846eb0d5c396282ad248c99b8"
+  },
+  {
+    "sha": "22437ae31bff4a90d4c33a179c203b5b87e0b996",
+    "committer_date": "2026-10-07T11:43:57Z",
+    "url": "https://github.com/duckdb/ducklake/commit/22437ae31bff4a90d4c33a179c203b5b87e0b996"
+  },
+  {
+    "sha": "f3f80de6b7778fc310e8b01c93245ccb3b29dce0",
+    "committer_date": "2026-10-07T10:51:50Z",
+    "url": "https://github.com/duckdb/ducklake/commit/f3f80de6b7778fc310e8b01c93245ccb3b29dce0"
+  },
+  {
+    "sha": "a57ba06496db969ed20a0495d30f375eeb557255",
+    "committer_date": "2026-10-07T10:44:52Z",
+    "url": "https://github.com/duckdb/ducklake/commit/a57ba06496db969ed20a0495d30f375eeb557255"
+  },
+  {
+    "sha": "fead620649c5c5ddf7e72e28ba4473a097f21457",
+    "committer_date": "2026-10-07T10:44:24Z",
+    "url": "https://github.com/duckdb/ducklake/commit/fead620649c5c5ddf7e72e28ba4473a097f21457"
+  },
+  {
+    "sha": "3a28c7708a22a7301ad2c353a28eec50c1176bd6",
+    "committer_date": "2026-10-07T09:40:25Z",
+    "url": "https://github.com/duckdb/ducklake/commit/3a28c7708a22a7301ad2c353a28eec50c1176bd6"
+  },
+  {
+    "sha": "c15e8518b9ec67929d96e3a4225c40b01d912a41",
+    "committer_date": "2026-10-07T09:39:24Z",
+    "url": "https://github.com/duckdb/ducklake/commit/c15e8518b9ec67929d96e3a4225c40b01d912a41"
+  },
+  {
+    "sha": "798e89eeaafc3b2e237b845c7f7e5a63dcd98efb",
+    "committer_date": "2026-10-07T08:56:28Z",
+    "url": "https://github.com/duckdb/ducklake/commit/798e89eeaafc3b2e237b845c7f7e5a63dcd98efb"
+  },
+  {
+    "sha": "171a3f4d008b4a4191439c88bd2d72e6c6a083f0",
+    "committer_date": "2026-10-07T08:45:19Z",
+    "url": "https://github.com/duckdb/ducklake/commit/171a3f4d008b4a4191439c88bd2d72e6c6a083f0"
+  },
+  {
+    "sha": "bc8953906387034276b37cb38b3fb89d42d48a8f",
+    "committer_date": "2026-10-07T07:23:55Z",
+    "url": "https://github.com/duckdb/ducklake/commit/bc8953906387034276b37cb38b3fb89d42d48a8f"
+  },
+  {
+    "sha": "61225844fb358e849cb0293f34c79c2397bf0bd5",
+    "committer_date": "2026-10-07T07:14:01Z",
+    "url": "https://github.com/duckdb/ducklake/commit/61225844fb358e849cb0293f34c79c2397bf0bd5"
+  },
+  {
+    "sha": "95681a29c29e4c8b9964df6aec1b829dd55f0277",
+    "committer_date": "2026-10-07T06:50:55Z",
+    "url": "https://github.com/duckdb/ducklake/commit/95681a29c29e4c8b9964df6aec1b829dd55f0277"
+  },
+  {
+    "sha": "d3f07eec1918a2d1feee6c3d8a40421d857a1310",
+    "committer_date": "2026-10-07T06:43:37Z",
+    "url": "https://github.com/duckdb/ducklake/commit/d3f07eec1918a2d1feee6c3d8a40421d857a1310"
+  },
+  {
+    "sha": "0731104b1559a9c36a2e13a5e4008d510948821e",
+    "committer_date": "2026-10-07T05:16:48Z",
+    "url": "https://github.com/duckdb/ducklake/commit/0731104b1559a9c36a2e13a5e4008d510948821e"
+  },
+  {
+    "sha": "6aba38cb36d789f8bd771e0c96de62a38a09f2f8",
+    "committer_date": "2026-10-07T04:47:58Z",
+    "url": "https://github.com/duckdb/ducklake/commit/6aba38cb36d789f8bd771e0c96de62a38a09f2f8"
+  },
+  {
+    "sha": "957d32fde15abea6c9dd45f1a2785e8f23d33471",
+    "committer_date": "2026-10-06T20:12:10Z",
+    "url": "https://github.com/duckdb/ducklake/commit/957d32fde15abea6c9dd45f1a2785e8f23d33471"
+  },
+  {
+    "sha": "c9c6d915abe89f0608f01fdfbebeaf5d2f66d1f8",
+    "committer_date": "2026-10-06T20:00:39Z",
+    "url": "https://github.com/duckdb/ducklake/commit/c9c6d915abe89f0608f01fdfbebeaf5d2f66d1f8"
+  },
+  {
+    "sha": "dce25ba1943af8a1af6010541efd4b2c6ec77715",
+    "committer_date": "2026-10-06T19:39:51Z",
+    "url": "https://github.com/duckdb/ducklake/commit/dce25ba1943af8a1af6010541efd4b2c6ec77715"
+  },
+  {
+    "sha": "73af731a601a273dc425ca5fc2980e1b9b3f29e6",
+    "committer_date": "2026-10-06T19:38:52Z",
+    "url": "https://github.com/duckdb/ducklake/commit/73af731a601a273dc425ca5fc2980e1b9b3f29e6"
+  },
+  {
+    "sha": "d7e45cab8080b7a3d9c3ae073a4b19a2b9f739ec",
+    "committer_date": "2026-10-06T19:37:30Z",
+    "url": "https://github.com/duckdb/ducklake/commit/d7e45cab8080b7a3d9c3ae073a4b19a2b9f739ec"
+  },
+  {
+    "sha": "a82ff62ba89760870a9cb9686c6178476e98c429",
+    "committer_date": "2026-10-06T19:35:15Z",
+    "url": "https://github.com/duckdb/ducklake/commit/a82ff62ba89760870a9cb9686c6178476e98c429"
+  },
+  {
+    "sha": "6e55e3bbec71d182db0399eae1bc0efb8ad4981e",
+    "committer_date": "2026-10-06T19:22:56Z",
+    "url": "https://github.com/duckdb/ducklake/commit/6e55e3bbec71d182db0399eae1bc0efb8ad4981e"
+  },
+  {
+    "sha": "ece84d3b6babc261f29680da2127eaa5c817b707",
+    "committer_date": "2026-10-06T19:21:10Z",
+    "url": "https://github.com/duckdb/ducklake/commit/ece84d3b6babc261f29680da2127eaa5c817b707"
+  },
+  {
+    "sha": "b66f1d6d45b0f605207393c7c2db85a2a922ac29",
+    "committer_date": "2026-10-06T19:19:11Z",
+    "url": "https://github.com/duckdb/ducklake/commit/b66f1d6d45b0f605207393c7c2db85a2a922ac29"
+  },
+  {
+    "sha": "55db7e3990fc1f062c8c5e6b67ca49ef41f3af2a",
+    "committer_date": "2026-10-06T19:19:11Z",
+    "url": "https://github.com/duckdb/ducklake/commit/55db7e3990fc1f062c8c5e6b67ca49ef41f3af2a"
+  },
+  {
+    "sha": "3f7061770e001225cb87682fe7a16c5b6a32869f",
+    "committer_date": "2026-10-06T19:18:53Z",
+    "url": "https://github.com/duckdb/ducklake/commit/3f7061770e001225cb87682fe7a16c5b6a32869f"
+  },
+  {
+    "sha": "b13ed76dd6ccb6d9cdb6b29d86f2a818d3ae2cee",
+    "committer_date": "2026-10-06T18:46:05Z",
+    "url": "https://github.com/duckdb/ducklake/commit/b13ed76dd6ccb6d9cdb6b29d86f2a818d3ae2cee"
+  },
+  {
+    "sha": "63cc9d4e996848a9ab484880786bdc9ff083151b",
+    "committer_date": "2026-10-06T18:44:30Z",
+    "url": "https://github.com/duckdb/ducklake/commit/63cc9d4e996848a9ab484880786bdc9ff083151b"
+  },
+  {
+    "sha": "f2e1530b21fc9c9f821c6bce92e8f55e918e4e82",
+    "committer_date": "2026-10-06T18:44:21Z",
+    "url": "https://github.com/duckdb/ducklake/commit/f2e1530b21fc9c9f821c6bce92e8f55e918e4e82"
+  },
+  {
+    "sha": "5242d71b2f9d467b17a7534c1be0c496f3535df4",
+    "committer_date": "2026-10-06T18:38:14Z",
+    "url": "https://github.com/duckdb/ducklake/commit/5242d71b2f9d467b17a7534c1be0c496f3535df4"
+  },
+  {
+    "sha": "2088bf3b82bf32308fa75808a25e2510ec8f1869",
+    "committer_date": "2026-10-06T18:33:33Z",
+    "url": "https://github.com/duckdb/ducklake/commit/2088bf3b82bf32308fa75808a25e2510ec8f1869"
+  },
+  {
+    "sha": "ec8eab654d3776a99726ded018a0eb310ecaa0d4",
+    "committer_date": "2026-10-06T18:33:02Z",
+    "url": "https://github.com/duckdb/ducklake/commit/ec8eab654d3776a99726ded018a0eb310ecaa0d4"
+  },
+  {
+    "sha": "4327750151004595b602616efd108c8def96d47b",
+    "committer_date": "2026-10-06T18:32:12Z",
+    "url": "https://github.com/duckdb/ducklake/commit/4327750151004595b602616efd108c8def96d47b"
+  },
+  {
+    "sha": "6be00f6378b02f7403f4bf8d5ecaf8a009f07d95",
+    "committer_date": "2026-10-06T18:31:44Z",
+    "url": "https://github.com/duckdb/ducklake/commit/6be00f6378b02f7403f4bf8d5ecaf8a009f07d95"
+  },
+  {
+    "sha": "7bfb03a9bad68cd309216ac79d8a4d5598f29309",
+    "committer_date": "2026-10-06T17:24:09Z",
+    "url": "https://github.com/duckdb/ducklake/commit/7bfb03a9bad68cd309216ac79d8a4d5598f29309"
+  },
+  {
+    "sha": "c43e8d225f6b84ae54264d72bff4ffd28a13db9e",
+    "committer_date": "2026-10-06T17:03:46Z",
+    "url": "https://github.com/duckdb/ducklake/commit/c43e8d225f6b84ae54264d72bff4ffd28a13db9e"
+  },
+  {
+    "sha": "7ceb57896a51271f2448bd1d8772bc1ae23f0bfd",
+    "committer_date": "2026-10-06T17:03:46Z",
+    "url": "https://github.com/duckdb/ducklake/commit/7ceb57896a51271f2448bd1d8772bc1ae23f0bfd"
+  },
+  {
+    "sha": "87f8c7e1786b787c91ed81ec5cd5b81906a6c523",
+    "committer_date": "2026-10-06T15:35:32Z",
+    "url": "https://github.com/duckdb/ducklake/commit/87f8c7e1786b787c91ed81ec5cd5b81906a6c523"
+  },
+  {
+    "sha": "f22aec96190ddce083ef8ed468f1d680a525dd5d",
+    "committer_date": "2026-10-06T15:18:30Z",
+    "url": "https://github.com/duckdb/ducklake/commit/f22aec96190ddce083ef8ed468f1d680a525dd5d"
+  },
+  {
+    "sha": "0c2f278af54379686c30fea2a40a1588e244da86",
+    "committer_date": "2026-10-06T15:17:13Z",
+    "url": "https://github.com/duckdb/ducklake/commit/0c2f278af54379686c30fea2a40a1588e244da86"
+  },
+  {
+    "sha": "63af6b97ed6b15c5ba16229742c0e5569f18523b",
+    "committer_date": "2026-10-06T15:13:05Z",
+    "url": "https://github.com/duckdb/ducklake/commit/63af6b97ed6b15c5ba16229742c0e5569f18523b"
+  },
+  {
+    "sha": "b0ee4da6aabdc503c3cf0495c838855e5e013351",
+    "committer_date": "2026-10-06T15:12:53Z",
+    "url": "https://github.com/duckdb/ducklake/commit/b0ee4da6aabdc503c3cf0495c838855e5e013351"
+  },
+  {
+    "sha": "c8c4ba4c96b49e85fadd2dfb9c177916594164aa",
+    "committer_date": "2026-10-06T15:12:53Z",
+    "url": "https://github.com/duckdb/ducklake/commit/c8c4ba4c96b49e85fadd2dfb9c177916594164aa"
+  },
+  {
+    "sha": "408410a979bb936b3a97e5cbaa528f346ad4f680",
+    "committer_date": "2026-10-06T15:12:53Z",
+    "url": "https://github.com/duckdb/ducklake/commit/408410a979bb936b3a97e5cbaa528f346ad4f680"
+  },
+  {
+    "sha": "91e5f33a34afc482a7bedf9fc44a314a0d837f5f",
+    "committer_date": "2026-10-06T15:10:31Z",
+    "url": "https://github.com/duckdb/ducklake/commit/91e5f33a34afc482a7bedf9fc44a314a0d837f5f"
+  },
+  {
+    "sha": "e9888e1e3b7f6e44d282d526d1c5d9901735c02b",
+    "committer_date": "2026-10-06T15:04:03Z",
+    "url": "https://github.com/duckdb/ducklake/commit/e9888e1e3b7f6e44d282d526d1c5d9901735c02b"
+  },
+  {
+    "sha": "431d7735bfb4cdbfe5a8104173dff243fb57f5a9",
+    "committer_date": "2026-10-06T14:53:05Z",
+    "url": "https://github.com/duckdb/ducklake/commit/431d7735bfb4cdbfe5a8104173dff243fb57f5a9"
+  },
+  {
+    "sha": "4e45ccc0fd34007104f2f45d85e65941bb2ecf6b",
+    "committer_date": "2026-10-06T14:29:09Z",
+    "url": "https://github.com/duckdb/ducklake/commit/4e45ccc0fd34007104f2f45d85e65941bb2ecf6b"
+  },
+  {
+    "sha": "7c51d31f3b0715dc479fe6326e75c46d6be2dbc7",
+    "committer_date": "2026-10-06T14:23:46Z",
+    "url": "https://github.com/duckdb/ducklake/commit/7c51d31f3b0715dc479fe6326e75c46d6be2dbc7"
+  },
+  {
+    "sha": "64c4aef8506a50402a96851d93867e7ad8a87e92",
+    "committer_date": "2026-10-06T13:21:30Z",
+    "url": "https://github.com/duckdb/ducklake/commit/64c4aef8506a50402a96851d93867e7ad8a87e92"
+  },
+  {
+    "sha": "b061688f17e1a9fdc7e8eabe06faae0e5d803752",
+    "committer_date": "2026-10-06T12:32:06Z",
+    "url": "https://github.com/duckdb/ducklake/commit/b061688f17e1a9fdc7e8eabe06faae0e5d803752"
+  },
+  {
+    "sha": "bb13f5637a5914a3719e58ff519b3c42325a97b6",
+    "committer_date": "2026-10-06T12:07:26Z",
+    "url": "https://github.com/duckdb/ducklake/commit/bb13f5637a5914a3719e58ff519b3c42325a97b6"
+  },
+  {
+    "sha": "88e247ec05995f94cdce4922c0ee60a132cc0f96",
+    "committer_date": "2026-10-06T12:06:12Z",
+    "url": "https://github.com/duckdb/ducklake/commit/88e247ec05995f94cdce4922c0ee60a132cc0f96"
+  },
+  {
+    "sha": "58d7bae537de2ac12a93e96b32263b96ebffa70e",
+    "committer_date": "2026-10-06T11:56:40Z",
+    "url": "https://github.com/duckdb/ducklake/commit/58d7bae537de2ac12a93e96b32263b96ebffa70e"
+  },
+  {
+    "sha": "7b2790eecde7ffedf0a2fc1cd7727accd11753c1",
+    "committer_date": "2026-10-06T11:34:51Z",
+    "url": "https://github.com/duckdb/ducklake/commit/7b2790eecde7ffedf0a2fc1cd7727accd11753c1"
+  },
+  {
+    "sha": "62f062f327af58033131d4bca1bcf0f3679d3497",
+    "committer_date": "2026-10-06T11:34:06Z",
+    "url": "https://github.com/duckdb/ducklake/commit/62f062f327af58033131d4bca1bcf0f3679d3497"
+  },
+  {
+    "sha": "75f587f7c513616c0a9f8245df7a7a45c31eeb26",
+    "committer_date": "2026-10-06T11:27:39Z",
+    "url": "https://github.com/duckdb/ducklake/commit/75f587f7c513616c0a9f8245df7a7a45c31eeb26"
+  },
+  {
+    "sha": "a1b7153fce648a961fa4c0f4df408b1939b3e67e",
+    "committer_date": "2026-10-06T11:27:15Z",
+    "url": "https://github.com/duckdb/ducklake/commit/a1b7153fce648a961fa4c0f4df408b1939b3e67e"
+  },
+  {
+    "sha": "f6aad620ae991f423f081697e261ba911879510a",
+    "committer_date": "2026-10-06T11:26:31Z",
+    "url": "https://github.com/duckdb/ducklake/commit/f6aad620ae991f423f081697e261ba911879510a"
+  },
+  {
+    "sha": "52819cbeb1988931ad2e0db091e4ba7f25aed059",
+    "committer_date": "2026-10-06T11:25:24Z",
+    "url": "https://github.com/duckdb/ducklake/commit/52819cbeb1988931ad2e0db091e4ba7f25aed059"
+  },
+  {
+    "sha": "e4169c486b0d9c2c1eb9f705c1a385dcffbf020e",
+    "committer_date": "2026-10-06T11:23:39Z",
+    "url": "https://github.com/duckdb/ducklake/commit/e4169c486b0d9c2c1eb9f705c1a385dcffbf020e"
+  },
+  {
+    "sha": "468def10ed8d83f6f2dd2802534febcd4bbc04e2",
+    "committer_date": "2026-10-06T11:17:11Z",
+    "url": "https://github.com/duckdb/ducklake/commit/468def10ed8d83f6f2dd2802534febcd4bbc04e2"
+  },
+  {
+    "sha": "8a30ef04de02638547f5cb32d0550a0a76e52562",
+    "committer_date": "2026-10-06T11:15:08Z",
+    "url": "https://github.com/duckdb/ducklake/commit/8a30ef04de02638547f5cb32d0550a0a76e52562"
+  },
+  {
+    "sha": "1256936db76d2a237ded9f6c3599c9072f449856",
+    "committer_date": "2026-10-06T10:46:19Z",
+    "url": "https://github.com/duckdb/ducklake/commit/1256936db76d2a237ded9f6c3599c9072f449856"
+  },
+  {
+    "sha": "0439bc9b334c7080bb12ba36f2719478f9a60110",
+    "committer_date": "2026-10-06T10:33:18Z",
+    "url": "https://github.com/duckdb/ducklake/commit/0439bc9b334c7080bb12ba36f2719478f9a60110"
+  },
+  {
+    "sha": "cbcc2eb3bb897323d1b732990ce284c6a1e95a31",
+    "committer_date": "2026-10-06T10:32:45Z",
+    "url": "https://github.com/duckdb/ducklake/commit/cbcc2eb3bb897323d1b732990ce284c6a1e95a31"
+  },
+  {
+    "sha": "be064992055969f7a2a39c2b88e4729b0335ffdf",
+    "committer_date": "2026-10-06T10:24:18Z",
+    "url": "https://github.com/duckdb/ducklake/commit/be064992055969f7a2a39c2b88e4729b0335ffdf"
+  },
+  {
+    "sha": "837342d683605d23321f56100a74736638d119e3",
+    "committer_date": "2026-10-06T10:16:26Z",
+    "url": "https://github.com/duckdb/ducklake/commit/837342d683605d23321f56100a74736638d119e3"
+  },
+  {
+    "sha": "9a4d1d0d6331156a5af36aa3e50b476934b6dfb8",
+    "committer_date": "2026-10-06T10:10:45Z",
+    "url": "https://github.com/duckdb/ducklake/commit/9a4d1d0d6331156a5af36aa3e50b476934b6dfb8"
+  },
+  {
+    "sha": "fad38dac703aa18d857c5d4027b4714d4e95cd36",
+    "committer_date": "2026-10-06T10:05:48Z",
+    "url": "https://github.com/duckdb/ducklake/commit/fad38dac703aa18d857c5d4027b4714d4e95cd36"
+  },
+  {
+    "sha": "5bc7f37797789e174ad3c8fdf863afaffba4d834",
+    "committer_date": "2026-10-06T09:51:16Z",
+    "url": "https://github.com/duckdb/ducklake/commit/5bc7f37797789e174ad3c8fdf863afaffba4d834"
+  },
+  {
+    "sha": "3384946470e4f086126e6f4bbdc895571e5b5e67",
+    "committer_date": "2026-10-06T09:46:19Z",
+    "url": "https://github.com/duckdb/ducklake/commit/3384946470e4f086126e6f4bbdc895571e5b5e67"
+  },
+  {
+    "sha": "0006fd69345a680e5b6e17b70c63ec89619088b0",
+    "committer_date": "2026-10-06T09:20:05Z",
+    "url": "https://github.com/duckdb/ducklake/commit/0006fd69345a680e5b6e17b70c63ec89619088b0"
+  },
+  {
+    "sha": "441fa2cf53088bf250e65b06c84fdff9e14dd0d1",
+    "committer_date": "2026-10-06T09:19:50Z",
+    "url": "https://github.com/duckdb/ducklake/commit/441fa2cf53088bf250e65b06c84fdff9e14dd0d1"
+  },
+  {
+    "sha": "d1c21a6e7332adaec3bb09033132e688d6f18ae5",
+    "committer_date": "2026-10-06T09:09:53Z",
+    "url": "https://github.com/duckdb/ducklake/commit/d1c21a6e7332adaec3bb09033132e688d6f18ae5"
+  },
+  {
+    "sha": "efebd68ebc759a73fd4f03c3d2b2fb0ae18eb8d2",
+    "committer_date": "2026-10-06T09:08:58Z",
+    "url": "https://github.com/duckdb/ducklake/commit/efebd68ebc759a73fd4f03c3d2b2fb0ae18eb8d2"
+  },
+  {
+    "sha": "2e47c8621c95d2079cb292c6d8a925ef4acef305",
+    "committer_date": "2026-10-06T08:52:00Z",
+    "url": "https://github.com/duckdb/ducklake/commit/2e47c8621c95d2079cb292c6d8a925ef4acef305"
+  },
+  {
+    "sha": "fc8088c34ef9fc3fe7aeae7581f5c09410f11a54",
+    "committer_date": "2026-10-06T08:49:14Z",
+    "url": "https://github.com/duckdb/ducklake/commit/fc8088c34ef9fc3fe7aeae7581f5c09410f11a54"
+  },
+  {
+    "sha": "d06fa3d1127dc1aaa699ac2e4129733a8bc9635d",
+    "committer_date": "2026-10-06T08:44:54Z",
+    "url": "https://github.com/duckdb/ducklake/commit/d06fa3d1127dc1aaa699ac2e4129733a8bc9635d"
+  },
+  {
+    "sha": "9b239033691717d02d71dd074cded2429009f1c0",
+    "committer_date": "2026-10-06T08:44:54Z",
+    "url": "https://github.com/duckdb/ducklake/commit/9b239033691717d02d71dd074cded2429009f1c0"
+  },
+  {
+    "sha": "a0a134f3a4367bb1ebd083389e727c3c79f22606",
+    "committer_date": "2026-10-06T08:44:54Z",
+    "url": "https://github.com/duckdb/ducklake/commit/a0a134f3a4367bb1ebd083389e727c3c79f22606"
+  },
+  {
+    "sha": "d9c72ee6e1c136453859da5aeb788777467c0f95",
+    "committer_date": "2026-10-06T08:44:54Z",
+    "url": "https://github.com/duckdb/ducklake/commit/d9c72ee6e1c136453859da5aeb788777467c0f95"
+  },
+  {
+    "sha": "0b5cb49c6e79fd45395fc9b104500f53a5caeb9b",
+    "committer_date": "2026-10-06T08:44:53Z",
+    "url": "https://github.com/duckdb/ducklake/commit/0b5cb49c6e79fd45395fc9b104500f53a5caeb9b"
+  },
+  {
+    "sha": "c559ba38c89beb92025d70b9213091dede24a317",
+    "committer_date": "2026-10-06T08:44:46Z",
+    "url": "https://github.com/duckdb/ducklake/commit/c559ba38c89beb92025d70b9213091dede24a317"
+  },
+  {
+    "sha": "faff31b17d6c7063f68d03c1128a73636c07b895",
+    "committer_date": "2026-10-06T08:44:17Z",
+    "url": "https://github.com/duckdb/ducklake/commit/faff31b17d6c7063f68d03c1128a73636c07b895"
+  },
+  {
+    "sha": "2a094d1826141496b7ce04eaa20ce20ce235d487",
+    "committer_date": "2026-10-06T08:43:55Z",
+    "url": "https://github.com/duckdb/ducklake/commit/2a094d1826141496b7ce04eaa20ce20ce235d487"
+  },
+  {
+    "sha": "5ba76d8fe8ee85a89f57fed9cc1e966e32192c03",
+    "committer_date": "2026-10-06T05:36:46Z",
+    "url": "https://github.com/duckdb/ducklake/commit/5ba76d8fe8ee85a89f57fed9cc1e966e32192c03"
+  },
+  {
+    "sha": "ddf9de83a876b62ffb986c0282b2a41657c2fc22",
+    "committer_date": "2026-10-06T05:22:20Z",
+    "url": "https://github.com/duckdb/ducklake/commit/ddf9de83a876b62ffb986c0282b2a41657c2fc22"
+  },
+  {
+    "sha": "6562792c55ab4b652f7ff8a1c6d3db6922c6ac7e",
+    "committer_date": "2026-10-06T05:10:01Z",
+    "url": "https://github.com/duckdb/ducklake/commit/6562792c55ab4b652f7ff8a1c6d3db6922c6ac7e"
+  },
+  {
+    "sha": "893e055f1bb0d0f722f9849e584a5b17f13ff734",
+    "committer_date": "2026-10-06T04:53:37Z",
+    "url": "https://github.com/duckdb/ducklake/commit/893e055f1bb0d0f722f9849e584a5b17f13ff734"
+  },
+  {
+    "sha": "6a925649678dac1e93c5f0fbce7198200bdf92dc",
+    "committer_date": "2026-10-06T04:23:08Z",
+    "url": "https://github.com/duckdb/ducklake/commit/6a925649678dac1e93c5f0fbce7198200bdf92dc"
+  },
+  {
+    "sha": "a3a9fa21d07033d466b0749d55bb366fbf128090",
+    "committer_date": "2026-10-06T04:01:49Z",
+    "url": "https://github.com/duckdb/ducklake/commit/a3a9fa21d07033d466b0749d55bb366fbf128090"
+  },
+  {
+    "sha": "3c4b17c91a15691011ad2b6b763ab5c9a9a62868",
+    "committer_date": "2026-10-06T03:42:36Z",
+    "url": "https://github.com/duckdb/ducklake/commit/3c4b17c91a15691011ad2b6b763ab5c9a9a62868"
+  },
+  {
+    "sha": "74b16b8dbf87a467045b3dfdc269b4180792f735",
+    "committer_date": "2026-10-06T03:07:28Z",
+    "url": "https://github.com/duckdb/ducklake/commit/74b16b8dbf87a467045b3dfdc269b4180792f735"
+  },
+  {
+    "sha": "d7a70643a1736bb89923576e6bd0b2c81d451f4e",
+    "committer_date": "2026-10-06T02:52:38Z",
+    "url": "https://github.com/duckdb/ducklake/commit/d7a70643a1736bb89923576e6bd0b2c81d451f4e"
+  },
+  {
+    "sha": "5a6d9bbcf05b05bc8c0a32f195403f011932984f",
+    "committer_date": "2026-10-06T02:35:05Z",
+    "url": "https://github.com/duckdb/ducklake/commit/5a6d9bbcf05b05bc8c0a32f195403f011932984f"
+  },
+  {
+    "sha": "333156eb49a57949583bd118f43b33bbff1c792c",
+    "committer_date": "2026-10-06T02:11:26Z",
+    "url": "https://github.com/duckdb/ducklake/commit/333156eb49a57949583bd118f43b33bbff1c792c"
+  },
+  {
+    "sha": "aa35a05e3c0e5cf11bc6bfbc4c7da00f6cb895d6",
+    "committer_date": "2026-10-06T02:00:16Z",
+    "url": "https://github.com/duckdb/ducklake/commit/aa35a05e3c0e5cf11bc6bfbc4c7da00f6cb895d6"
+  },
+  {
+    "sha": "ebb2138cfff918c535aaf2d38e4a1319ed2c5299",
+    "committer_date": "2026-10-06T01:33:17Z",
+    "url": "https://github.com/duckdb/ducklake/commit/ebb2138cfff918c535aaf2d38e4a1319ed2c5299"
+  },
+  {
+    "sha": "7a747f7a54c0b3e36f8746fcd9a4eeaeebf79f83",
+    "committer_date": "2026-10-06T01:24:27Z",
+    "url": "https://github.com/duckdb/ducklake/commit/7a747f7a54c0b3e36f8746fcd9a4eeaeebf79f83"
+  },
+  {
+    "sha": "f5425772fb3146d62942bfac038268b35ec02865",
+    "committer_date": "2026-10-06T01:14:10Z",
+    "url": "https://github.com/duckdb/ducklake/commit/f5425772fb3146d62942bfac038268b35ec02865"
+  },
+  {
+    "sha": "4bba1146084c85142617438790160220ee815aef",
+    "committer_date": "2026-10-06T00:23:01Z",
+    "url": "https://github.com/duckdb/ducklake/commit/4bba1146084c85142617438790160220ee815aef"
+  },
+  {
+    "sha": "174a6f56ff99403744156fc05c9bcc9f49a00e82",
+    "committer_date": "2026-10-06T00:13:40Z",
+    "url": "https://github.com/duckdb/ducklake/commit/174a6f56ff99403744156fc05c9bcc9f49a00e82"
+  },
+  {
+    "sha": "1b847540a2fee03061d7422cac8b85e86ddc0646",
+    "committer_date": "2026-10-05T23:42:07Z",
+    "url": "https://github.com/duckdb/ducklake/commit/1b847540a2fee03061d7422cac8b85e86ddc0646"
+  },
+  {
+    "sha": "a71ec42da45b218dae7f7496c5de6d9fb18ee788",
+    "committer_date": "2026-10-05T23:28:12Z",
+    "url": "https://github.com/duckdb/ducklake/commit/a71ec42da45b218dae7f7496c5de6d9fb18ee788"
+  },
+  {
+    "sha": "e94b240c7d09c56e99227c15e00232972920bfe7",
+    "committer_date": "2026-10-05T23:11:23Z",
+    "url": "https://github.com/duckdb/ducklake/commit/e94b240c7d09c56e99227c15e00232972920bfe7"
+  },
+  {
+    "sha": "0e98fd9a2f076271b4dac546e461f0a39d86498f",
+    "committer_date": "2026-10-05T22:25:55Z",
+    "url": "https://github.com/duckdb/ducklake/commit/0e98fd9a2f076271b4dac546e461f0a39d86498f"
+  },
+  {
+    "sha": "c2b67a43b5d5cba13a8a884e4be9671d43f73877",
+    "committer_date": "2026-10-05T21:52:01Z",
+    "url": "https://github.com/duckdb/ducklake/commit/c2b67a43b5d5cba13a8a884e4be9671d43f73877"
+  },
+  {
+    "sha": "5ef9a7c556ac6410848dc0b2257e579a5468063f",
+    "committer_date": "2026-10-05T21:31:32Z",
+    "url": "https://github.com/duckdb/ducklake/commit/5ef9a7c556ac6410848dc0b2257e579a5468063f"
+  },
+  {
+    "sha": "19b8da473daaf210406579596b641791015e0fc4",
+    "committer_date": "2026-10-05T21:15:45Z",
+    "url": "https://github.com/duckdb/ducklake/commit/19b8da473daaf210406579596b641791015e0fc4"
+  },
+  {
+    "sha": "63a5dbac509274a30bac5aaedc6bb918b9f96691",
+    "committer_date": "2026-10-05T20:51:25Z",
+    "url": "https://github.com/duckdb/ducklake/commit/63a5dbac509274a30bac5aaedc6bb918b9f96691"
+  },
+  {
+    "sha": "e6fabc0884f01fabbca817bc6fb9ef498fd02832",
+    "committer_date": "2026-10-05T20:32:28Z",
+    "url": "https://github.com/duckdb/ducklake/commit/e6fabc0884f01fabbca817bc6fb9ef498fd02832"
+  },
+  {
+    "sha": "df1bd28c0360ea0b3fc845da0dfe6da794be1604",
+    "committer_date": "2026-10-05T20:07:58Z",
+    "url": "https://github.com/duckdb/ducklake/commit/df1bd28c0360ea0b3fc845da0dfe6da794be1604"
+  },
+  {
+    "sha": "aff78478ec648878085555abc0906da326574a22",
+    "committer_date": "2026-10-05T19:49:01Z",
+    "url": "https://github.com/duckdb/ducklake/commit/aff78478ec648878085555abc0906da326574a22"
+  },
+  {
+    "sha": "c0cf10b2c87c78a020c4f48b11eb08c99e4f4847",
+    "committer_date": "2026-10-05T18:47:50Z",
+    "url": "https://github.com/duckdb/ducklake/commit/c0cf10b2c87c78a020c4f48b11eb08c99e4f4847"
+  },
+  {
+    "sha": "d49146c668b7b0da92070161e434b9af8f0f0171",
+    "committer_date": "2026-10-05T18:11:58Z",
+    "url": "https://github.com/duckdb/ducklake/commit/d49146c668b7b0da92070161e434b9af8f0f0171"
+  },
+  {
+    "sha": "b630558b53b3fa792cc9a0ac2693d9e10e05043b",
+    "committer_date": "2026-10-05T18:11:43Z",
+    "url": "https://github.com/duckdb/ducklake/commit/b630558b53b3fa792cc9a0ac2693d9e10e05043b"
+  },
+  {
+    "sha": "dfe22612b0201a52673590b7794fe8f6540258be",
+    "committer_date": "2026-10-05T17:04:16Z",
+    "url": "https://github.com/duckdb/ducklake/commit/dfe22612b0201a52673590b7794fe8f6540258be"
+  },
+  {
+    "sha": "d020c9d2d585b108622a7f910e80ca4c2d71697d",
+    "committer_date": "2026-10-05T16:39:25Z",
+    "url": "https://github.com/duckdb/ducklake/commit/d020c9d2d585b108622a7f910e80ca4c2d71697d"
+  },
+  {
+    "sha": "d1696935004ddb2be21bb922d0952b0c13f11da7",
+    "committer_date": "2026-10-05T15:02:12Z",
+    "url": "https://github.com/duckdb/ducklake/commit/d1696935004ddb2be21bb922d0952b0c13f11da7"
+  },
+  {
+    "sha": "c43e22e8eaaf2d1050883af1e78dbcf7f640f979",
+    "committer_date": "2026-10-05T15:01:27Z",
+    "url": "https://github.com/duckdb/ducklake/commit/c43e22e8eaaf2d1050883af1e78dbcf7f640f979"
+  },
+  {
+    "sha": "af4ef8fb718989cb8e641317a78c1084c3f79959",
+    "committer_date": "2026-10-05T14:50:20Z",
+    "url": "https://github.com/duckdb/ducklake/commit/af4ef8fb718989cb8e641317a78c1084c3f79959"
+  },
+  {
+    "sha": "10ec8895429f14e3cadf6676fd53b9fe9656d9e8",
+    "committer_date": "2026-10-05T14:46:21Z",
+    "url": "https://github.com/duckdb/ducklake/commit/10ec8895429f14e3cadf6676fd53b9fe9656d9e8"
+  },
+  {
+    "sha": "11cd6cbadbf4b9137805c3bf9b0a9df7d1109dc5",
+    "committer_date": "2026-10-05T14:29:44Z",
+    "url": "https://github.com/duckdb/ducklake/commit/11cd6cbadbf4b9137805c3bf9b0a9df7d1109dc5"
+  },
+  {
+    "sha": "fcb562817bbce2bc8881b54bdf8193a88730a00c",
+    "committer_date": "2026-10-05T14:27:46Z",
+    "url": "https://github.com/duckdb/ducklake/commit/fcb562817bbce2bc8881b54bdf8193a88730a00c"
+  },
+  {
+    "sha": "cf1acf4bd6a1b8668a2839fabfa65ac1210aa6e1",
+    "committer_date": "2026-10-05T14:08:58Z",
+    "url": "https://github.com/duckdb/ducklake/commit/cf1acf4bd6a1b8668a2839fabfa65ac1210aa6e1"
+  },
+  {
+    "sha": "581e948795f2e4fd3193b26bd684757bcb97215d",
+    "committer_date": "2026-10-05T13:46:09Z",
+    "url": "https://github.com/duckdb/ducklake/commit/581e948795f2e4fd3193b26bd684757bcb97215d"
+  },
+  {
+    "sha": "1f66b47ba18f0571a93517a865c65f8a26287492",
+    "committer_date": "2026-10-05T13:27:12Z",
+    "url": "https://github.com/duckdb/ducklake/commit/1f66b47ba18f0571a93517a865c65f8a26287492"
+  },
+  {
+    "sha": "c0b469512c35116384f431248bc37ad784e704c6",
+    "committer_date": "2026-10-05T12:55:55Z",
+    "url": "https://github.com/duckdb/ducklake/commit/c0b469512c35116384f431248bc37ad784e704c6"
+  },
+  {
+    "sha": "e5f30b83b1539ac39020702183b58158ef2b570a",
+    "committer_date": "2026-10-05T12:53:36Z",
+    "url": "https://github.com/duckdb/ducklake/commit/e5f30b83b1539ac39020702183b58158ef2b570a"
+  },
+  {
+    "sha": "def9f5e2f0c8d5d643194e9f2ef1d7dd297f6642",
+    "committer_date": "2026-10-05T12:08:58Z",
+    "url": "https://github.com/duckdb/ducklake/commit/def9f5e2f0c8d5d643194e9f2ef1d7dd297f6642"
+  },
+  {
+    "sha": "b38e196a5fccb7dd2c948fd4061bb4cb8ed29f1e",
+    "committer_date": "2026-10-05T12:08:58Z",
+    "url": "https://github.com/duckdb/ducklake/commit/b38e196a5fccb7dd2c948fd4061bb4cb8ed29f1e"
+  },
+  {
+    "sha": "9e681be6b47f6234fcee290f2236a352c66365bd",
+    "committer_date": "2026-10-05T11:58:24Z",
+    "url": "https://github.com/duckdb/ducklake/commit/9e681be6b47f6234fcee290f2236a352c66365bd"
+  },
+  {
+    "sha": "3367671f2951b6f7b6362bfee786055c5575de1d",
+    "committer_date": "2026-10-05T11:57:48Z",
+    "url": "https://github.com/duckdb/ducklake/commit/3367671f2951b6f7b6362bfee786055c5575de1d"
+  },
+  {
+    "sha": "bf152920216e93e2a2073dcd9a207f68e6d4ad92",
+    "committer_date": "2026-10-05T11:48:45Z",
+    "url": "https://github.com/duckdb/ducklake/commit/bf152920216e93e2a2073dcd9a207f68e6d4ad92"
+  },
+  {
+    "sha": "fd5216cf6a0e996158dff55f742ea6615baeffe9",
+    "committer_date": "2026-10-05T11:48:40Z",
+    "url": "https://github.com/duckdb/ducklake/commit/fd5216cf6a0e996158dff55f742ea6615baeffe9"
+  },
+  {
+    "sha": "4f51378e387be277981b2892e513d99a822dc530",
+    "committer_date": "2026-10-05T11:48:40Z",
+    "url": "https://github.com/duckdb/ducklake/commit/4f51378e387be277981b2892e513d99a822dc530"
+  },
+  {
+    "sha": "25dccbe45fc4cc58729f7f2db9f18800336c87d7",
+    "committer_date": "2026-10-05T11:24:32Z",
+    "url": "https://github.com/duckdb/ducklake/commit/25dccbe45fc4cc58729f7f2db9f18800336c87d7"
+  },
+  {
+    "sha": "cfa9091bea9abef9baf537f2a54c9607f243410d",
+    "committer_date": "2026-10-05T10:32:40Z",
+    "url": "https://github.com/duckdb/ducklake/commit/cfa9091bea9abef9baf537f2a54c9607f243410d"
+  },
+  {
+    "sha": "044a0fed295700c2665e59aadb6bc3f92485626d",
+    "committer_date": "2026-10-04T14:02:09Z",
+    "url": "https://github.com/duckdb/ducklake/commit/044a0fed295700c2665e59aadb6bc3f92485626d"
+  },
+  {
+    "sha": "13ef42f33c81c358f6b7e187400f1d39a6577603",
+    "committer_date": "2026-10-04T13:47:27Z",
+    "url": "https://github.com/duckdb/ducklake/commit/13ef42f33c81c358f6b7e187400f1d39a6577603"
+  },
+  {
+    "sha": "a1fc86d545cf9d043b53696b7269aeb152603d4f",
+    "committer_date": "2026-10-04T13:46:26Z",
+    "url": "https://github.com/duckdb/ducklake/commit/a1fc86d545cf9d043b53696b7269aeb152603d4f"
+  },
+  {
+    "sha": "bfb37031b8a694cc3a7f5b7f1a215206e52da203",
+    "committer_date": "2026-10-04T13:31:58Z",
+    "url": "https://github.com/duckdb/ducklake/commit/bfb37031b8a694cc3a7f5b7f1a215206e52da203"
+  },
+  {
+    "sha": "67efd1553fb00b8510616c41c0479263f2a0f418",
+    "committer_date": "2026-10-04T13:19:18Z",
+    "url": "https://github.com/duckdb/ducklake/commit/67efd1553fb00b8510616c41c0479263f2a0f418"
+  },
+  {
+    "sha": "2cd62909e85c74bd85dc3f9de18bb79c41ab7963",
+    "committer_date": "2026-10-04T12:41:51Z",
+    "url": "https://github.com/duckdb/ducklake/commit/2cd62909e85c74bd85dc3f9de18bb79c41ab7963"
+  },
+  {
+    "sha": "166b2244db097fc25f8c1b3ae543d9683769da06",
+    "committer_date": "2026-10-04T12:20:23Z",
+    "url": "https://github.com/duckdb/ducklake/commit/166b2244db097fc25f8c1b3ae543d9683769da06"
+  },
+  {
+    "sha": "ce9be359b577f050b73cbe85f81b9ef447131dfb",
+    "committer_date": "2026-10-04T12:12:41Z",
+    "url": "https://github.com/duckdb/ducklake/commit/ce9be359b577f050b73cbe85f81b9ef447131dfb"
+  },
+  {
+    "sha": "dfb24eba5d9a5d5cef155eab45212262b93a7583",
+    "committer_date": "2026-10-04T12:11:50Z",
+    "url": "https://github.com/duckdb/ducklake/commit/dfb24eba5d9a5d5cef155eab45212262b93a7583"
+  },
+  {
+    "sha": "f184a68d769f0b59d386da0d27d9b34ea5a1854c",
+    "committer_date": "2026-10-04T12:10:37Z",
+    "url": "https://github.com/duckdb/ducklake/commit/f184a68d769f0b59d386da0d27d9b34ea5a1854c"
+  },
+  {
+    "sha": "ecd95f2bc5cab70e950f13139a60469688703f33",
+    "committer_date": "2026-10-04T11:53:38Z",
+    "url": "https://github.com/duckdb/ducklake/commit/ecd95f2bc5cab70e950f13139a60469688703f33"
+  },
+  {
+    "sha": "c0c60e81d0d658c62ea6063f4e562f0e7a416347",
+    "committer_date": "2026-10-04T11:53:38Z",
+    "url": "https://github.com/duckdb/ducklake/commit/c0c60e81d0d658c62ea6063f4e562f0e7a416347"
+  },
+  {
+    "sha": "2048d7e9509198f5a1ed2d50df9a74253d2af774",
+    "committer_date": "2026-10-04T11:31:44Z",
+    "url": "https://github.com/duckdb/ducklake/commit/2048d7e9509198f5a1ed2d50df9a74253d2af774"
+  },
+  {
+    "sha": "5028a07d2e8d3e3d4a23f3b68314491b045e781a",
+    "committer_date": "2026-10-04T11:22:01Z",
+    "url": "https://github.com/duckdb/ducklake/commit/5028a07d2e8d3e3d4a23f3b68314491b045e781a"
+  },
+  {
+    "sha": "92e14926e50ac82a487318992ba5b0736e5d14ff",
+    "committer_date": "2026-10-04T11:00:09Z",
+    "url": "https://github.com/duckdb/ducklake/commit/92e14926e50ac82a487318992ba5b0736e5d14ff"
+  },
+  {
+    "sha": "b6758b4cdca7fc895640e84786536db76029c0e3",
+    "committer_date": "2026-10-04T10:50:37Z",
+    "url": "https://github.com/duckdb/ducklake/commit/b6758b4cdca7fc895640e84786536db76029c0e3"
+  },
+  {
+    "sha": "9adb7285eafaeeaea0b711264c66dd23b393acec",
+    "committer_date": "2026-10-04T10:19:27Z",
+    "url": "https://github.com/duckdb/ducklake/commit/9adb7285eafaeeaea0b711264c66dd23b393acec"
+  },
+  {
+    "sha": "1695ec674f03d5c5522e2e4022cdad9dad7abf87",
+    "committer_date": "2026-10-04T09:43:35Z",
+    "url": "https://github.com/duckdb/ducklake/commit/1695ec674f03d5c5522e2e4022cdad9dad7abf87"
+  },
+  {
+    "sha": "719ec65f6c85db5a90e3d0dd683674083468c5d0",
+    "committer_date": "2026-10-04T07:57:17Z",
+    "url": "https://github.com/duckdb/ducklake/commit/719ec65f6c85db5a90e3d0dd683674083468c5d0"
+  },
+  {
+    "sha": "e38c5f7e6d4d59282bf5f0aa142a74bd59af1f82",
+    "committer_date": "2026-10-04T07:52:47Z",
+    "url": "https://github.com/duckdb/ducklake/commit/e38c5f7e6d4d59282bf5f0aa142a74bd59af1f82"
+  },
+  {
+    "sha": "2ec457552c15f517600d83f328721ddf2f73771e",
+    "committer_date": "2026-10-04T07:48:12Z",
+    "url": "https://github.com/duckdb/ducklake/commit/2ec457552c15f517600d83f328721ddf2f73771e"
+  },
+  {
+    "sha": "b45cb6d07039038dee60e991d99648b351617277",
+    "committer_date": "2026-10-04T07:47:55Z",
+    "url": "https://github.com/duckdb/ducklake/commit/b45cb6d07039038dee60e991d99648b351617277"
+  },
+  {
+    "sha": "e210945cb50668d8bce15a9916a89b77b81c1e00",
+    "committer_date": "2026-10-04T07:45:22Z",
+    "url": "https://github.com/duckdb/ducklake/commit/e210945cb50668d8bce15a9916a89b77b81c1e00"
+  },
+  {
+    "sha": "7995d72c8603185503060998cf0181abfc34feba",
+    "committer_date": "2026-10-03T08:45:11Z",
+    "url": "https://github.com/duckdb/ducklake/commit/7995d72c8603185503060998cf0181abfc34feba"
+  },
+  {
+    "sha": "3382d3e8e831fe9cf630a65950610d9a7353ad45",
+    "committer_date": "2026-10-03T07:09:52Z",
+    "url": "https://github.com/duckdb/ducklake/commit/3382d3e8e831fe9cf630a65950610d9a7353ad45"
+  },
+  {
+    "sha": "05031e4feb89fcf8319e94bd1fa78acb3d0156a7",
+    "committer_date": "2026-10-03T06:14:32Z",
+    "url": "https://github.com/duckdb/ducklake/commit/05031e4feb89fcf8319e94bd1fa78acb3d0156a7"
+  },
+  {
+    "sha": "61869297085b06d97835390161abb9d3c56d49e0",
+    "committer_date": "2026-10-02T19:49:21Z",
+    "url": "https://github.com/duckdb/ducklake/commit/61869297085b06d97835390161abb9d3c56d49e0"
+  },
+  {
+    "sha": "954c55860a66291ce472e93fab105c9741575c30",
+    "committer_date": "2026-10-02T19:26:29Z",
+    "url": "https://github.com/duckdb/ducklake/commit/954c55860a66291ce472e93fab105c9741575c30"
+  },
+  {
+    "sha": "4f9467688a2705c8fa69c9cb587fd4d72ecd117a",
+    "committer_date": "2026-10-02T19:26:29Z",
+    "url": "https://github.com/duckdb/ducklake/commit/4f9467688a2705c8fa69c9cb587fd4d72ecd117a"
+  },
+  {
+    "sha": "1dc53ef7413c56483140afc2363951ce09fef18f",
+    "committer_date": "2026-10-02T19:18:40Z",
+    "url": "https://github.com/duckdb/ducklake/commit/1dc53ef7413c56483140afc2363951ce09fef18f"
+  },
+  {
+    "sha": "f4d9fa49a505c2611fa0010e759f2669a401faad",
+    "committer_date": "2026-10-02T18:52:47Z",
+    "url": "https://github.com/duckdb/ducklake/commit/f4d9fa49a505c2611fa0010e759f2669a401faad"
+  },
+  {
+    "sha": "80722ce9f6b2595c47c585e0b3cd0494aa24226a",
+    "committer_date": "2026-10-02T18:52:26Z",
+    "url": "https://github.com/duckdb/ducklake/commit/80722ce9f6b2595c47c585e0b3cd0494aa24226a"
+  },
+  {
+    "sha": "547f319a573b0d02d1187412b4df902034f6efaf",
+    "committer_date": "2026-10-02T18:52:06Z",
+    "url": "https://github.com/duckdb/ducklake/commit/547f319a573b0d02d1187412b4df902034f6efaf"
+  },
+  {
+    "sha": "970ef09978bc4b7494109ab1d3164b36ebeace7a",
+    "committer_date": "2026-10-02T18:52:06Z",
+    "url": "https://github.com/duckdb/ducklake/commit/970ef09978bc4b7494109ab1d3164b36ebeace7a"
+  },
+  {
+    "sha": "3dfac1eabb26853c2a2dbafa5a423e8db79665da",
+    "committer_date": "2026-10-02T18:52:06Z",
+    "url": "https://github.com/duckdb/ducklake/commit/3dfac1eabb26853c2a2dbafa5a423e8db79665da"
+  },
+  {
+    "sha": "6afad714a02b9036998dd913f1ad0c3167e9ce81",
+    "committer_date": "2026-10-02T18:52:06Z",
+    "url": "https://github.com/duckdb/ducklake/commit/6afad714a02b9036998dd913f1ad0c3167e9ce81"
+  },
+  {
+    "sha": "1524de0f7cba4d18e1750ac55b2860045148aba9",
+    "committer_date": "2026-10-02T15:30:10Z",
+    "url": "https://github.com/duckdb/ducklake/commit/1524de0f7cba4d18e1750ac55b2860045148aba9"
+  },
+  {
+    "sha": "0ea588623ad2e0b04334ac23e7d1ffebfc65c954",
+    "committer_date": "2026-10-02T10:38:03Z",
+    "url": "https://github.com/duckdb/ducklake/commit/0ea588623ad2e0b04334ac23e7d1ffebfc65c954"
+  },
+  {
+    "sha": "6560c6709e0d1f76e18c45fd126279203497dd38",
+    "committer_date": "2026-10-02T10:37:20Z",
+    "url": "https://github.com/duckdb/ducklake/commit/6560c6709e0d1f76e18c45fd126279203497dd38"
+  }
+]
