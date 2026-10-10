@@ -1,0 +1,37 @@
+{
+  "fetched_utc": "2026-10-10T01:06:53.220571+00:00",
+  "fetched_asia_shanghai": "2026-10-10T09:06:53.220571+08:00",
+  "commit_endpoints": [
+    "https://api.github.com/repos/denoland/deno/commits?sha=a18ce33715e30cd2b0d99c7e322ef11a65490e4d&since=2026-10-02T16:00:00Z&until=2026-10-09T15:59:59Z&per_page=100&page=1"
+  ],
+  "languages": {
+    "Rust": 20602176,
+    "TypeScript": 8598944,
+    "JavaScript": 3409811,
+    "C": 408112,
+    "HTML": 11518,
+    "CSS": 8595,
+    "Nix": 5616,
+    "Shell": 1863,
+    "WebAssembly": 1566,
+    "C++": 1416,
+    "Svelte": 664,
+    "Mustache": 280,
+    "Dockerfile": 257,
+    "Python": 214,
+    "Astro": 152,
+    "Vento": 52,
+    "Nunjucks": 45
+  },
+  "daily_counts": {
+    "2026-10-03": 0,
+    "2026-10-04": 0,
+    "2026-10-05": 3,
+    "2026-10-06": 5,
+    "2026-10-07": 1,
+    "2026-10-08": 0,
+    "2026-10-09": 0
+  },
+  "commit_count": 9,
+  "revision": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d"
+}

@@ -1,0 +1,47 @@
+{
+  "topic": "Deno 用权限检查约束脚本访问",
+  "published_date_asia_shanghai": "2026-10-10",
+  "source_revision": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d",
+  "hn_capture_window_utc": [
+    "2026-10-10T01:05:12Z",
+    "2026-10-10T01:05:35Z"
+  ],
+  "hn_capture_window_asia_shanghai": [
+    "2026-10-10T09:05:12+08:00",
+    "2026-10-10T09:05:35+08:00"
+  ],
+  "data_fetch_completed_utc": "2026-10-10T01:06:53.220571+00:00",
+  "data_fetch_completed_asia_shanghai": "2026-10-10T09:06:53.220571+08:00",
+  "sources": [
+    "https://hacker-news.firebaseio.com/v0/topstories.json",
+    "https://hacker-news.firebaseio.com/v0/item/50019911.json",
+    "https://news.ycombinator.com/",
+    "https://news.ycombinator.com/item?id=50019911",
+    "https://deno.com/blog/cloudflare",
+    "https://docs.deno.com/runtime/fundamentals/security/",
+    "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/runtime/permissions/lib.rs",
+    "https://api.github.com/repos/denoland/deno/languages",
+    "https://api.github.com/repos/denoland/deno/commits?sha=a18ce33715e30cd2b0d99c7e322ef11a65490e4d&since=2026-10-02T16:00:00Z&until=2026-10-09T15:59:59Z&per_page=100&page=1"
+  ],
+  "methodology": {
+    "selection": "Top30 official HN rank2; snapshot1053points and descendants548, not daily ranking. No prior Deno topic.",
+    "line": "9 unique commits reachable from pinned main; committer timestamps in [2026-10-03T00:00:00+08:00,2026-10-10T00:00:00+08:00). Merge commits included. Seven daily bins, no inference about announcement causality.",
+    "bar": "Four largest language categories from same GitHub languages snapshot; bytes, linear zero origin; other13categories32238bytes omitted. Not a benchmark.",
+    "pie": "Rust vs remaining16categories, mutually exclusive exhaustive denominator33051281bytes; percentages rounded2decimals.",
+    "source_details": "data/provenance.json"
+  },
+  "validation": {
+    "markdown_lint": "passed all81posts",
+    "production_build": "passed again after table correction",
+    "diff_check": "passed",
+    "mermaid": "11.12.2 flowchart-v2 parse passed",
+    "mdx": "independent MDX+GFM compilation and final generated HTML pass",
+    "svg": "3 SVG XML/title/description and geometry checks passed; independent raster inspection passed",
+    "package_lock": "package.json and pnpm-lock.yaml unchanged",
+    "dependencies": "frozen install retry with ignore-scripts after inspecting speed-insights postinstall as advisory only; final build passed",
+    "independent_review": "no blocking findings; facts, source code, dates, dedup, raw data and chart consistency checked",
+    "browser_page_check": "not run; optional browser unavailable",
+    "runtime_benchmark": "not run",
+    "sources": "Article/docs/HN/pinned source HTTP200; unauthenticated GitHub API rate-limited; independent authenticated API re-fetch passed and exactly matched9commits and17language categories; raw snapshots preserved"
+  }
+}

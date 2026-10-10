@@ -1,0 +1,742 @@
+[
+  [
+    {
+      "sha": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d",
+      "node_id": "C_kwDOB_QrUNoAKGExOGNlMzM3MTVlMzBjZDJiMGQ5OWM3ZTMyMmVmMTFhNjU0OTBlNGQ",
+      "commit": {
+        "author": {
+          "name": "Bartek Iwa\u0144czuk",
+          "email": "biwanczuk@gmail.com",
+          "date": "2026-10-06T18:51:00Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-10-06T18:51:00Z"
+        },
+        "message": "fix(completions): complete script paths for bare deno run in zsh (#36976)",
+        "tree": {
+          "sha": "fbd3c98ac5aaf3f6aba80ede17d22d95e3bfcfb8",
+          "url": "https://api.github.com/repos/denoland/deno/git/trees/fbd3c98ac5aaf3f6aba80ede17d22d95e3bfcfb8"
+        },
+        "url": "https://api.github.com/repos/denoland/deno/git/commits/a18ce33715e30cd2b0d99c7e322ef11a65490e4d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqxUMUCRC1aQ7uu5UhlAAAQMcQAIYJfMFwcKhYlcvj8xA9LAEU\nigp/XSj+PQIBqFIxYMjX+4IePkasbW1vB12dkAJB7J25cI79CfWNFoaGmDU9KbaX\n3d9Z6Om2nGsaFnwxuDZl3aHLIrUoRW49+apwiI8DLlvwmyAQyGk5dz2XUKMXKgKr\nYqFikkMKU/OoQ2VTiBC4uh3ScT/TE7Ey9Y1MtWOqktauIodCOdibmftplK7EE6Hh\n3VHF0BHNbW0GDRkiCWLRS8tKH15yb2LWrT2TFn2C1KIeuDT2hivDOwmxFIf4CRAA\nQVgh2ZfgEu9aziiu+gPa864rTs+4dvG24MSTBb5BfjJMEnMObojS/7oggJpvM5J9\n3Tr+/f1TXq4+EeX5ykpJKeOi+Ujn8b0GrlsN/yBxKyuU8u/ju8L+xHlZBA0Ub3MI\nKEKOfVUnH8EKToaG+BjoL5qWcGAHL6LaxoFOartZ9VFyljGOk5iSkfmvkDTky1By\nKe0t9gfZ0mewO7kUgegV3tbcb1J9dEMQbIDnYhC4lSSohx5o4efnwWhTc9vKstz4\nz6JQ7OFcSoUfuwLScio1hZu0MC/vW3jTvHCM9ASNrgUkehaTPMYbBM8m8ML130pD\n7qmm984hGuXp/FiPouFxM+27RWvnhQFf9szTsvnp0uvhx1O1WYf30dnq7Uz2pxED\nk7CeqA6BppRFakqvJ/FQ\n=KqnM\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree fbd3c98ac5aaf3f6aba80ede17d22d95e3bfcfb8\nparent 2f885193c678c1802f4de6e25659e8ef7aa5e8cd\nauthor Bartek Iwa\u0144czuk <biwanczuk@gmail.com> 1791312660 +0200\ncommitter GitHub <noreply@github.com> 1791312660 +0200\n\nfix(completions): complete script paths for bare deno run in zsh (#36976)",
+          "verified_at": "2026-10-06T18:51:00Z"
+        }
+      },
+      "url": "https://api.github.com/repos/denoland/deno/commits/a18ce33715e30cd2b0d99c7e322ef11a65490e4d",
+      "html_url": "https://github.com/denoland/deno/commit/a18ce33715e30cd2b0d99c7e322ef11a65490e4d",
+      "comments_url": "https://api.github.com/repos/denoland/deno/commits/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/comments",
+      "author": {
+        "login": "bartlomieju",
+        "id": 13602871,
+        "node_id": "MDQ6VXNlcjEzNjAyODcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13602871?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/bartlomieju",
+        "html_url": "https://github.com/bartlomieju",
+        "followers_url": "https://api.github.com/users/bartlomieju/followers",
+        "following_url": "https://api.github.com/users/bartlomieju/following{/other_user}",
+        "gists_url": "https://api.github.com/users/bartlomieju/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/bartlomieju/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/bartlomieju/subscriptions",
+        "organizations_url": "https://api.github.com/users/bartlomieju/orgs",
+        "repos_url": "https://api.github.com/users/bartlomieju/repos",
+        "events_url": "https://api.github.com/users/bartlomieju/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/bartlomieju/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2f885193c678c1802f4de6e25659e8ef7aa5e8cd",
+          "url": "https://api.github.com/repos/denoland/deno/commits/2f885193c678c1802f4de6e25659e8ef7aa5e8cd",
+          "html_url": "https://github.com/denoland/deno/commit/2f885193c678c1802f4de6e25659e8ef7aa5e8cd"
+        }
+      ]
+    },
+    {
+      "sha": "2f885193c678c1802f4de6e25659e8ef7aa5e8cd",
+      "node_id": "C_kwDOB_QrUNoAKDJmODg1MTkzYzY3OGMxODAyZjRkZTZlMjU2NTllOGVmN2FhNWU4Y2Q",
+      "commit": {
+        "author": {
+          "name": "Kenta Moriuchi",
+          "email": "moriken@kimamass.com",
+          "date": "2026-10-06T15:12:05Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-10-06T15:12:05Z"
+        },
+        "message": "perf: avoid allocating null-prototype objects for default parameters (#36940)",
+        "tree": {
+          "sha": "01ded84ce00903ccb161be98667cfc50e46c50c6",
+          "url": "https://api.github.com/repos/denoland/deno/git/trees/01ded84ce00903ccb161be98667cfc50e46c50c6"
+        },
+        "url": "https://api.github.com/repos/denoland/deno/git/commits/2f885193c678c1802f4de6e25659e8ef7aa5e8cd",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqxQ/FCRC1aQ7uu5UhlAAA/M4QAGxdsrWFAboO6cmUJV9gZNa4\nWLmoEVu6ADrOfEQZiMRy59j7V3GeDDdeK4jMJaf+jcubrrosD+omOx4GwBpMZOAV\nhpdJc1oUatLgwjR7LEo1d0XdskzRJXFVp2c03UCWB/7SCw065ahg3RPKCGKA8Y4k\nKwRGgIoSYheMI8R1X5XbHGpW9hH+/WZE4mbjIl+Sf+70ekxyyx1ZI+kB5k1FAoOg\nM1sOOUXaWmMNnBki9DnBI7F4paqhGKvz8zddaf9vUi2oS1oDLZ3JOre7S0zmym3P\nD1BLRr1JwzISmcyVHANA72eShOK2Gro2vCRO1tRbDshmEfMhojRD3jG3D7C6eScn\nY07Kpsf+QA3uHpDftChGSYxq1s7g//UJwudH/F1dkPSjt5zlyHbq1w3I5ltKssVQ\nIQrIJ/s4OdRQTRLxBZKgxCs9xIFTbyTevbVZpikwaRV+zRGpaza/0PZl6y5BNMyG\ndm6lxGsyeRsYNgLQ7L0/pFiurmIvqESj4rwUaV99vhUGVPc/nJKLvZ+WSht40E6t\ne1lgw6eWHHlZwx+weG/1KC7RmRrNMZZvpKzH883/psqBgUDm9MZEuqae5GGrI9Vn\nOjngKSOm9pCACyzwLn8v9L52ZO57lbia4igyHZDpUoW7vrz3A3XR8PZKq6dmafEh\nIrY/QcA8Mmfk6iYpt5D5\n=Anu+\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 01ded84ce00903ccb161be98667cfc50e46c50c6\nparent 117c76f209421dd2174879dbcf8fbe83b418602d\nauthor Kenta Moriuchi <moriken@kimamass.com> 1791299525 +0900\ncommitter GitHub <noreply@github.com> 1791299525 +0200\n\nperf: avoid allocating null-prototype objects for default parameters (#36940)",
+          "verified_at": "2026-10-06T15:12:06Z"
+        }
+      },
+      "url": "https://api.github.com/repos/denoland/deno/commits/2f885193c678c1802f4de6e25659e8ef7aa5e8cd",
+      "html_url": "https://github.com/denoland/deno/commit/2f885193c678c1802f4de6e25659e8ef7aa5e8cd",
+      "comments_url": "https://api.github.com/repos/denoland/deno/commits/2f885193c678c1802f4de6e25659e8ef7aa5e8cd/comments",
+      "author": {
+        "login": "petamoriken",
+        "id": 2622837,
+        "node_id": "MDQ6VXNlcjI2MjI4Mzc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2622837?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/petamoriken",
+        "html_url": "https://github.com/petamoriken",
+        "followers_url": "https://api.github.com/users/petamoriken/followers",
+        "following_url": "https://api.github.com/users/petamoriken/following{/other_user}",
+        "gists_url": "https://api.github.com/users/petamoriken/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/petamoriken/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/petamoriken/subscriptions",
+        "organizations_url": "https://api.github.com/users/petamoriken/orgs",
+        "repos_url": "https://api.github.com/users/petamoriken/repos",
+        "events_url": "https://api.github.com/users/petamoriken/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/petamoriken/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "117c76f209421dd2174879dbcf8fbe83b418602d",
+          "url": "https://api.github.com/repos/denoland/deno/commits/117c76f209421dd2174879dbcf8fbe83b418602d",
+          "html_url": "https://github.com/denoland/deno/commit/117c76f209421dd2174879dbcf8fbe83b418602d"
+        }
+      ]
+    },
+    {
+      "sha": "117c76f209421dd2174879dbcf8fbe83b418602d",
+      "node_id": "C_kwDOB_QrUNoAKDExN2M3NmYyMDk0MjFkZDIxNzQ4NzlkYmNmOGZiZTgzYjQxODYwMmQ",
+      "commit": {
+        "author": {
+          "name": "Kenta Moriuchi",
+          "email": "moriken@kimamass.com",
+          "date": "2026-10-06T13:16:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-10-06T13:16:30Z"
+        },
+        "message": "chore(core): add SharedArrayBuffer to primordials (#36627)",
+        "tree": {
+          "sha": "beee831ff42f7995eee5a4e1baf3578c01f2060b",
+          "url": "https://api.github.com/repos/denoland/deno/git/trees/beee831ff42f7995eee5a4e1baf3578c01f2060b"
+        },
+        "url": "https://api.github.com/repos/denoland/deno/git/commits/117c76f209421dd2174879dbcf8fbe83b418602d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqxPSuCRC1aQ7uu5UhlAAApfQQACyKbAVnBcCtvl7rfrLAsZoS\nEiWWiAr1bv0evNef6tNodQWIf1baHRg66UEUmVd6+ild+kILWvctyo6WxfO9PmFQ\noDFI4CLOfueKVSMarpFGTMKmlVhscPx4QoG/djQ4y2fGHlSkEUgxK4H/ZLmKfktw\nOorLqrTRVj3TNK7R61CMROczVReNeQzSK49E6YTZc8acPwzG13lZJ6IyT1gS9vGs\nHUu8v+L5a2W6Vqx4oXdEbA7qdBGbrnSuVyT5NB+UJJDKx4tCivmw1hLYjcJY8NG8\n0Yg+rLiE4nIOtagRBHzwzIkNWxXsHgumwj+WZRoS5Jwqvt9dVGxqOzuo+hOaZ9Pp\nN0fMHWmbPM9ixoENUmBDdckw7Tdf2fZdUXIb4APzGYpx+33mJGMIT4gRX2/+NCop\nqRdK5FkYEaFPUP32MxMhmUPfYCEklhU2oWLldxNrhO7hANV6QC1BW350UFB4+WI6\nnJ9j9IG1yWW7Gs6nx37VOjFal9drvp0APhZKzVRFd6AjrB5oR52rH67UM/KReEgz\nNwsPh/lu+stQ36wXmZfsXMZpBnJDdmODzBoGBuqmrr9UQEUDSMaF/iKCutEtG90L\nJXOj5duY7HDYpwM+534yimrOtSoliD8ee7jEVdgP2RSmGWAcVSjC/uZlE5TpeQ7b\n3YPj5BT0wWwQVIG3Cj5M\n=OeAl\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree beee831ff42f7995eee5a4e1baf3578c01f2060b\nparent ead2af980a19edb0d0ffc8d24ecc51c0281a3dfa\nauthor Kenta Moriuchi <moriken@kimamass.com> 1791292590 +0900\ncommitter GitHub <noreply@github.com> 1791292590 +0000\n\nchore(core): add SharedArrayBuffer to primordials (#36627)",
+          "verified_at": "2026-10-06T13:16:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/denoland/deno/commits/117c76f209421dd2174879dbcf8fbe83b418602d",
+      "html_url": "https://github.com/denoland/deno/commit/117c76f209421dd2174879dbcf8fbe83b418602d",
+      "comments_url": "https://api.github.com/repos/denoland/deno/commits/117c76f209421dd2174879dbcf8fbe83b418602d/comments",
+      "author": {
+        "login": "petamoriken",
+        "id": 2622837,
+        "node_id": "MDQ6VXNlcjI2MjI4Mzc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2622837?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/petamoriken",
+        "html_url": "https://github.com/petamoriken",
+        "followers_url": "https://api.github.com/users/petamoriken/followers",
+        "following_url": "https://api.github.com/users/petamoriken/following{/other_user}",
+        "gists_url": "https://api.github.com/users/petamoriken/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/petamoriken/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/petamoriken/subscriptions",
+        "organizations_url": "https://api.github.com/users/petamoriken/orgs",
+        "repos_url": "https://api.github.com/users/petamoriken/repos",
+        "events_url": "https://api.github.com/users/petamoriken/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/petamoriken/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ead2af980a19edb0d0ffc8d24ecc51c0281a3dfa",
+          "url": "https://api.github.com/repos/denoland/deno/commits/ead2af980a19edb0d0ffc8d24ecc51c0281a3dfa",
+          "html_url": "https://github.com/denoland/deno/commit/ead2af980a19edb0d0ffc8d24ecc51c0281a3dfa"
+        }
+      ]
+    },
+    {
+      "sha": "ead2af980a19edb0d0ffc8d24ecc51c0281a3dfa",
+      "node_id": "C_kwDOB_QrUNoAKGVhZDJhZjk4MGExOWVkYjBkMGZmYzhkMjRlY2M1MWMwMjgxYTNkZmE",
+      "commit": {
+        "author": {
+          "name": "Bartek Iwa\u0144czuk",
+          "email": "biwanczuk@gmail.com",
+          "date": "2026-10-06T09:06:17Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-10-06T09:06:17Z"
+        },
+        "message": "fix(ext/napi): check napi_create_dataview bounds for overflow (#36962)",
+        "tree": {
+          "sha": "1d2aa3612bda221bf80453bc5fe7c84ae17add87",
+          "url": "https://api.github.com/repos/denoland/deno/git/trees/1d2aa3612bda221bf80453bc5fe7c84ae17add87"
+        },
+        "url": "https://api.github.com/repos/denoland/deno/git/commits/ead2af980a19edb0d0ffc8d24ecc51c0281a3dfa",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqxLoJCRC1aQ7uu5UhlAAAyh8QAF/HglHdUle/hhtQaja0vfQY\noYopzz7rCeuvsZzaxNAZFQEys64a7rbFo43v6lDw4AshqpIX9i22jTcH70Pbi7va\n691tSjXVxZL2RTU9goOh8zZQt9iJs3qYcYtrsqN1oK63/FFhf+g+oFhjfc5TP0QR\nrgoyfXjWv+PPAFfSUAapBy+R+FPku+eVsfFgLiu85Cxc4UPs4NqGTL0Rj5nSGR+J\nQJL86PPP5nDPsoS6x5GE02o+HPtGyuU9Ucq2fPXnvYz/MmGbK9tONRbjN73YOxYB\nIyWEm32StIzENBMe7wr5sFO0jyFtG+tOLbTtfYkENBiebnQEBU8uvS8eD+mouSg9\ngurZk5UvotPPR5VmVP4fG7mFoVb0c71XZ76fi45vfnunIUwSJi3ovl6cpqENYRwk\nFlygrClGF1rnduVt1wC7gXhpPWhAULFGn6+W9JJxamNFps87kfY0OjIDOGCIwT0k\nWJ2dnRWzVNNQiYtEAMhVoo2GjnUfN0ps9SpVAyAssetCrTtQcW0StlwXnNXMbpZy\ncHU403LiYULOXAKD7KmNDYStk65Bl+BWweB2eWFfihPXPVjCFGXH5pMfIJfwchge\nJC+HWzKWrXoP06dd7/jayIEKxlW/C8M0BN49YKJ1r5Nq4Ug98Cq7xBWBE/C49bc3\nF0N0YMP19SVne1Pv/b4Y\n=O4E3\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1d2aa3612bda221bf80453bc5fe7c84ae17add87\nparent 94e7a1601e5333f545aa86f94a65b42cb428093a\nauthor Bartek Iwa\u0144czuk <biwanczuk@gmail.com> 1791277577 +0200\ncommitter GitHub <noreply@github.com> 1791277577 +0200\n\nfix(ext/napi): check napi_create_dataview bounds for overflow (#36962)",
+          "verified_at": "2026-10-06T09:06:18Z"
+        }
+      },
+      "url": "https://api.github.com/repos/denoland/deno/commits/ead2af980a19edb0d0ffc8d24ecc51c0281a3dfa",
+      "html_url": "https://github.com/denoland/deno/commit/ead2af980a19edb0d0ffc8d24ecc51c0281a3dfa",
+      "comments_url": "https://api.github.com/repos/denoland/deno/commits/ead2af980a19edb0d0ffc8d24ecc51c0281a3dfa/comments",
+      "author": {
+        "login": "bartlomieju",
+        "id": 13602871,
+        "node_id": "MDQ6VXNlcjEzNjAyODcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13602871?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/bartlomieju",
+        "html_url": "https://github.com/bartlomieju",
+        "followers_url": "https://api.github.com/users/bartlomieju/followers",
+        "following_url": "https://api.github.com/users/bartlomieju/following{/other_user}",
+        "gists_url": "https://api.github.com/users/bartlomieju/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/bartlomieju/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/bartlomieju/subscriptions",
+        "organizations_url": "https://api.github.com/users/bartlomieju/orgs",
+        "repos_url": "https://api.github.com/users/bartlomieju/repos",
+        "events_url": "https://api.github.com/users/bartlomieju/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/bartlomieju/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "94e7a1601e5333f545aa86f94a65b42cb428093a",
+          "url": "https://api.github.com/repos/denoland/deno/commits/94e7a1601e5333f545aa86f94a65b42cb428093a",
+          "html_url": "https://github.com/denoland/deno/commit/94e7a1601e5333f545aa86f94a65b42cb428093a"
+        }
+      ]
+    },
+    {
+      "sha": "94e7a1601e5333f545aa86f94a65b42cb428093a",
+      "node_id": "C_kwDOB_QrUNoAKDk0ZTdhMTYwMWU1MzMzZjU0NWFhODZmOTRhNjViNDJjYjQyODA5M2E",
+      "commit": {
+        "author": {
+          "name": "Laurence Rowe",
+          "email": "l@lrowe.co.uk",
+          "date": "2026-10-06T09:05:17Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-10-06T09:05:17Z"
+        },
+        "message": "fix(ext/fetch): bump hyper-util to 0.1.21 and hyper to 1.11.1 to cancel idle interval when pool empties (#36968)\n\nCloses #29444",
+        "tree": {
+          "sha": "0218957a5d59d2f188cf5d00d2de44b299198e16",
+          "url": "https://api.github.com/repos/denoland/deno/git/trees/0218957a5d59d2f188cf5d00d2de44b299198e16"
+        },
+        "url": "https://api.github.com/repos/denoland/deno/git/commits/94e7a1601e5333f545aa86f94a65b42cb428093a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqxLnNCRC1aQ7uu5UhlAAA9ZgQAE4Nc3KK+yJ36AHVEMNOxtMW\nxpxkqPtp6IKEZJBx/xPpY16gXXQjlGceSSm36tpkFDortgC/kgqrDdjhf+rhJICB\no2hezqSehkQhqTaFMVPbYdFbf9IXqTWvhbCxGDFmDc33+VIwvQSrdvfw0bof5d2S\nMizBhHG3LyWeFbzwfN8JSID6CzhaCeFVlKA6xazeYaZZD4Xc0/vEmxsKCWcSHYBn\nrwC7HIUd/fEcfd6y7ocwsTHW4lRd8Uc5IrDJtERHfx8sbB/+ksXA8AhuHuBYErwm\neAw8NCDe+az1M7Q9U/jy9SWLnZQKRTvw9ijdwfetmkOhpZgrSEmb5C+NSiiMF2sw\ng2Bzjyb5v1qahLSHVwX/Ae1BUb+JwpnThNCrFSHsBiwhbyNDZfyUhEI75fni8LTx\nfjsU2SmMdl4DJA+MqvRL3FAR+0QLva8jDJisayyZpbfoghkBMbeqTpTlE0VFxg4R\nsE2DHC+55D72jgx3VqaNUAnS67Bv3Fsv79QOC/qU9Keky/w/ebmiYGbL1Lng9F21\nGtLYW/Yqm87FMhZ+ZbbZAMZiC0IavhOD0K1ioA9Xr6USg0n0WkbTxfayrq6urcGo\nac03T+6SzJuE86mm1cX2c0hqpUmFSAVSd1dcHdoNc0VUNav1Fty/t9gcPvChGKZC\ntBKDwBd1hXQpxg46GTma\n=KbbM\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0218957a5d59d2f188cf5d00d2de44b299198e16\nparent 0875ce328b9b6b80ec12c008ccf675ce8e28c398\nauthor Laurence Rowe <l@lrowe.co.uk> 1791277517 -0700\ncommitter GitHub <noreply@github.com> 1791277517 +0200\n\nfix(ext/fetch): bump hyper-util to 0.1.21 and hyper to 1.11.1 to cancel idle interval when pool empties (#36968)\n\nCloses #29444",
+          "verified_at": "2026-10-06T09:05:18Z"
+        }
+      },
+      "url": "https://api.github.com/repos/denoland/deno/commits/94e7a1601e5333f545aa86f94a65b42cb428093a",
+      "html_url": "https://github.com/denoland/deno/commit/94e7a1601e5333f545aa86f94a65b42cb428093a",
+      "comments_url": "https://api.github.com/repos/denoland/deno/commits/94e7a1601e5333f545aa86f94a65b42cb428093a/comments",
+      "author": {
+        "login": "lrowe",
+        "id": 290859,
+        "node_id": "MDQ6VXNlcjI5MDg1OQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/290859?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lrowe",
+        "html_url": "https://github.com/lrowe",
+        "followers_url": "https://api.github.com/users/lrowe/followers",
+        "following_url": "https://api.github.com/users/lrowe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lrowe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lrowe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lrowe/subscriptions",
+        "organizations_url": "https://api.github.com/users/lrowe/orgs",
+        "repos_url": "https://api.github.com/users/lrowe/repos",
+        "events_url": "https://api.github.com/users/lrowe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lrowe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0875ce328b9b6b80ec12c008ccf675ce8e28c398",
+          "url": "https://api.github.com/repos/denoland/deno/commits/0875ce328b9b6b80ec12c008ccf675ce8e28c398",
+          "html_url": "https://github.com/denoland/deno/commit/0875ce328b9b6b80ec12c008ccf675ce8e28c398"
+        }
+      ]
+    },
+    {
+      "sha": "0875ce328b9b6b80ec12c008ccf675ce8e28c398",
+      "node_id": "C_kwDOB_QrUNoAKDA4NzVjZTMyOGI5YjZiODBlYzEyYzAwOGNjZjY3NWNlOGUyOGMzOTg",
+      "commit": {
+        "author": {
+          "name": "dependabot[bot]",
+          "email": "49699333+dependabot[bot]@users.noreply.github.com",
+          "date": "2026-10-06T09:04:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-10-06T09:04:41Z"
+        },
+        "message": "chore(deps): bump xxhash-rust from 0.8.15 to 0.8.16 (#36963)",
+        "tree": {
+          "sha": "15d1ea4ff0cec969113934223699ee63d56c4e27",
+          "url": "https://api.github.com/repos/denoland/deno/git/trees/15d1ea4ff0cec969113934223699ee63d56c4e27"
+        },
+        "url": "https://api.github.com/repos/denoland/deno/git/commits/0875ce328b9b6b80ec12c008ccf675ce8e28c398",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqxLmpCRC1aQ7uu5UhlAAAHFgQABo4eH1Q6OWPumrN1KRx5Zet\nm3BjX2c0gPc5oIlvJr4X2J9ccW0x0S401uLuojavM4Hyq4NfVdcei0n5eJ8oOU7c\n1BbFy9bZoSe3P3Hsp05fXyeP/+YaqIMToY6XLgR3vo7b3OUBWOVBkI4sV1WH0RtK\nir4+rgsamvYoQbHzPFDZU0rvb2Z52W/SywUoTfXvTG9HwbVqcFd0iem35i4G0SU4\nm/a+KB8kyRV3pffpXRacVx7IH4EMCQ3sYCCGR6FXSIHESGM+nrFAEUdTMYYP97lI\n0hFB52DWxMxtGdr+qjgCM8xqOP4jp+Is6Ryir0wad1U4qyIDPSCu4cjgwGvN5e+4\nOeP+Zt2XNNrR/ornfJlRnXmSjDVBvXtMBOx3XS8JSxkx6Z75k61PLlGXOLc863jQ\nmIPsjtnp6fkzHm/zJZsKKAhR6dudUciGyEHFEV+2TO1yy33ypyXOcP6g3CJN+Pc3\nZRozLQB99Bv160RhDngaXXTJO1+YhX5rJbrPdVotWwLuM65q22B1zrDMdqezZMtB\n0fOi0TkyQ5q8liCQ5GjDywNw/pofBHZ1KXrqE/JSJsQ10Bgp+JNCAk1LGUKHHA3J\nfCBs0amENu5/5SAYJJ5uqDg+O5I5Cav7baTQs5e7bLUUUf8bk16C9wpyRdV9h9sM\nU0DSf1aYRx4NGTVFlvZL\n=r/hW\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 15d1ea4ff0cec969113934223699ee63d56c4e27\nparent 3d44d1d82fdaca0b4e776bfe89e46e026e29f72d\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1791277481 +0200\ncommitter GitHub <noreply@github.com> 1791277481 +0200\n\nchore(deps): bump xxhash-rust from 0.8.15 to 0.8.16 (#36963)",
+          "verified_at": "2026-10-06T09:04:41Z"
+        }
+      },
+      "url": "https://api.github.com/repos/denoland/deno/commits/0875ce328b9b6b80ec12c008ccf675ce8e28c398",
+      "html_url": "https://github.com/denoland/deno/commit/0875ce328b9b6b80ec12c008ccf675ce8e28c398",
+      "comments_url": "https://api.github.com/repos/denoland/deno/commits/0875ce328b9b6b80ec12c008ccf675ce8e28c398/comments",
+      "author": {
+        "login": "dependabot[bot]",
+        "id": 49699333,
+        "node_id": "MDM6Qm90NDk2OTkzMzM=",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+        "html_url": "https://github.com/apps/dependabot",
+        "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3d44d1d82fdaca0b4e776bfe89e46e026e29f72d",
+          "url": "https://api.github.com/repos/denoland/deno/commits/3d44d1d82fdaca0b4e776bfe89e46e026e29f72d",
+          "html_url": "https://github.com/denoland/deno/commit/3d44d1d82fdaca0b4e776bfe89e46e026e29f72d"
+        }
+      ]
+    },
+    {
+      "sha": "3d44d1d82fdaca0b4e776bfe89e46e026e29f72d",
+      "node_id": "C_kwDOB_QrUNoAKDNkNDRkMWQ4MmZkYWNhMGI0ZTc3NmJmZTg5ZTQ2ZTAyNmUyOWY3MmQ",
+      "commit": {
+        "author": {
+          "name": "David Sherret",
+          "email": "dsherret@users.noreply.github.com",
+          "date": "2026-10-05T09:33:03Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-10-05T09:33:03Z"
+        },
+        "message": "perf(install): fetch abbreviated packuments under minimumDependencyAge when possible (#36907)",
+        "tree": {
+          "sha": "7cc3598bada2c34835ef93ab6694bd5c809de60d",
+          "url": "https://api.github.com/repos/denoland/deno/git/trees/7cc3598bada2c34835ef93ab6694bd5c809de60d"
+        },
+        "url": "https://api.github.com/repos/denoland/deno/git/commits/3d44d1d82fdaca0b4e776bfe89e46e026e29f72d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqw27PCRC1aQ7uu5UhlAAA7I4QAIltFmDJ6oSy1o5jMpJuHl5L\nFrF0edZ+BQ0u0+wg7/XkIO0kJN7UBcwZV8XXMVOh96nE1NmkpatKFKSN0CqqXic6\nGW4IzPR0R7gHRifsrsgN6rq6iRvcOSjvW/ymB/H1Bod3NIrjz1u7iqzMnlqnTf3M\nSGcC+mCnuy5CJLqRN3ZxexaMDbo+95w5l9HyF1jjUqfLIka5Yfz85f6NA+R1RJXp\nmZFmX2L445aZ/j+D7MCSZ0UaHtBwOUIzId0guJA/gJRHje6qJuEBt22ViNbtG7hD\nF2aAJ5h9PlRSOZ11UjTe/apIbVV0kC5D1W0CwhK5hsX0P6ve9z48uh5udWoKYxT6\npCQFQf5yA3IthWUJSXZDUne+1OLpU9oYu2aJFfEa8edK1pnWX2t/l85cW4Y8bx7o\nCcfrTO9mzF5pVjrXDMoBIGhG6Vx7g6o3z8dtGYlM9fxWBR50n/UXRMsWKlRgNR6T\nDtcl6ycill2pbrVzzSs8YIOpp/1NFgu0LYR8f/FnoXOXE2Kl7f4FStLEVqWhhA8a\nMihMR9FJHdLGdmowfeHvKY4I9VW+84F45HcxBt1kIpb2cshQyd1TM4YYtyZLalN9\n66SDxuvoOuHO/LrCLEUrlqdfXMXUZbG0w3+zQGV4kBylnaW7XZSKnpq/yQL2aGDU\nVSZyRy+HWpBK0wzixdRB\n=HSuR\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7cc3598bada2c34835ef93ab6694bd5c809de60d\nparent 7a96f1b3620fd3b6b4cff44093ca1393f341fded\nauthor David Sherret <dsherret@users.noreply.github.com> 1791192783 -0400\ncommitter GitHub <noreply@github.com> 1791192783 +0200\n\nperf(install): fetch abbreviated packuments under minimumDependencyAge when possible (#36907)",
+          "verified_at": "2026-10-05T09:33:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/denoland/deno/commits/3d44d1d82fdaca0b4e776bfe89e46e026e29f72d",
+      "html_url": "https://github.com/denoland/deno/commit/3d44d1d82fdaca0b4e776bfe89e46e026e29f72d",
+      "comments_url": "https://api.github.com/repos/denoland/deno/commits/3d44d1d82fdaca0b4e776bfe89e46e026e29f72d/comments",
+      "author": {
+        "login": "dsherret",
+        "id": 1609021,
+        "node_id": "MDQ6VXNlcjE2MDkwMjE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1609021?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dsherret",
+        "html_url": "https://github.com/dsherret",
+        "followers_url": "https://api.github.com/users/dsherret/followers",
+        "following_url": "https://api.github.com/users/dsherret/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dsherret/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dsherret/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dsherret/subscriptions",
+        "organizations_url": "https://api.github.com/users/dsherret/orgs",
+        "repos_url": "https://api.github.com/users/dsherret/repos",
+        "events_url": "https://api.github.com/users/dsherret/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dsherret/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7a96f1b3620fd3b6b4cff44093ca1393f341fded",
+          "url": "https://api.github.com/repos/denoland/deno/commits/7a96f1b3620fd3b6b4cff44093ca1393f341fded",
+          "html_url": "https://github.com/denoland/deno/commit/7a96f1b3620fd3b6b4cff44093ca1393f341fded"
+        }
+      ]
+    },
+    {
+      "sha": "7a96f1b3620fd3b6b4cff44093ca1393f341fded",
+      "node_id": "C_kwDOB_QrUNoAKDdhOTZmMWIzNjIwZmQzYjZiNGNmZjQ0MDkzY2ExMzkzZjM0MWZkZWQ",
+      "commit": {
+        "author": {
+          "name": "MOHAMED IDAGHDOUR",
+          "email": "midaghdour@gmail.com",
+          "date": "2026-10-05T09:25:33Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-10-05T09:25:33Z"
+        },
+        "message": "fix(ext/node): support assert message functions and format arguments (#36944)\n\nFixes part of #35293",
+        "tree": {
+          "sha": "2599be910401e4aefcc51a21ba8e0a52c0e856bf",
+          "url": "https://api.github.com/repos/denoland/deno/git/trees/2599be910401e4aefcc51a21ba8e0a52c0e856bf"
+        },
+        "url": "https://api.github.com/repos/denoland/deno/git/commits/7a96f1b3620fd3b6b4cff44093ca1393f341fded",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqw20NCRC1aQ7uu5UhlAAA4VYQABdQAl6XhcOgQTN0bmeM+BCl\neot/Fie40C3jdrPvORhoC5US8CuH50w1JPed8r/CahCqkVgZPbOf/SV3P6qDLUxG\ne+mF4QPvD1Rwa8IbiMj+vq8wmbTM2jx1l6/HoLeHR6HW+8AeeVZHtAmnK9EJAQwr\nDcNQnJ384RdI8fIDd0GRsiVO2Xrk50CJoEW1Us5VMf3Xqj2dPaRBQy3gBrlhezA0\n/rUVYa2shEPiYl43GseLKACfmMhF96p7BorebGGZcqq9pxSAzxN/tjoNVimg1SeX\nvs9Vw2gjP/4oA0N+rQm0TLBB246hrHHdYbIKks+artbSGTmtzkEo5rlgicL//J/x\nwzDeKrK6Kv3uFgSZzIO4LEzaVp/cbSRJ5ejHStxdQa+Nedx6fNINMUUyNkMK7SR1\nGc6x6RZzaI+91V6PyhaZ1HhioVuOOxv7zCx7oFOC5topTAAZhLSZ/DxNl9E4O3+S\nBEw4OD0xfX/5ZWtIcwQrG+W1I+qVhypBwPx3qoHmguJECY26iWgU9UDbY0N5A512\nrNWbt79q0u2poccqvo1eK58gr6/GdHUx5kLVw7AbApRrf0D013pZOTnrDgNXpzjs\nRXvPi381sCjCprO5ibQvCKDlBalsIjuJuHmCqbqcWzKZY7VEByIuio+NewDFr0d/\nVS0iPWHcj4HwZd7swvFS\n=x+sk\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2599be910401e4aefcc51a21ba8e0a52c0e856bf\nparent 17410fd868dd3e7c0a6766e0dd9bc9a37d4da44f\nauthor MOHAMED IDAGHDOUR <midaghdour@gmail.com> 1791192333 +0100\ncommitter GitHub <noreply@github.com> 1791192333 +0200\n\nfix(ext/node): support assert message functions and format arguments (#36944)\n\nFixes part of #35293",
+          "verified_at": "2026-10-05T09:25:34Z"
+        }
+      },
+      "url": "https://api.github.com/repos/denoland/deno/commits/7a96f1b3620fd3b6b4cff44093ca1393f341fded",
+      "html_url": "https://github.com/denoland/deno/commit/7a96f1b3620fd3b6b4cff44093ca1393f341fded",
+      "comments_url": "https://api.github.com/repos/denoland/deno/commits/7a96f1b3620fd3b6b4cff44093ca1393f341fded/comments",
+      "author": {
+        "login": "Medo-ID",
+        "id": 62036080,
+        "node_id": "MDQ6VXNlcjYyMDM2MDgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62036080?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Medo-ID",
+        "html_url": "https://github.com/Medo-ID",
+        "followers_url": "https://api.github.com/users/Medo-ID/followers",
+        "following_url": "https://api.github.com/users/Medo-ID/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Medo-ID/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Medo-ID/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Medo-ID/subscriptions",
+        "organizations_url": "https://api.github.com/users/Medo-ID/orgs",
+        "repos_url": "https://api.github.com/users/Medo-ID/repos",
+        "events_url": "https://api.github.com/users/Medo-ID/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Medo-ID/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "17410fd868dd3e7c0a6766e0dd9bc9a37d4da44f",
+          "url": "https://api.github.com/repos/denoland/deno/commits/17410fd868dd3e7c0a6766e0dd9bc9a37d4da44f",
+          "html_url": "https://github.com/denoland/deno/commit/17410fd868dd3e7c0a6766e0dd9bc9a37d4da44f"
+        }
+      ]
+    },
+    {
+      "sha": "17410fd868dd3e7c0a6766e0dd9bc9a37d4da44f",
+      "node_id": "C_kwDOB_QrUNoAKDE3NDEwZmQ4NjhkZDNlN2MwYTY3NjZlMGRkOWJjOWEzN2Q0ZGE0NGY",
+      "commit": {
+        "author": {
+          "name": "user77",
+          "email": "abubakarm@gmail.com",
+          "date": "2026-10-05T09:23:02Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-10-05T09:23:02Z"
+        },
+        "message": "fix(ext/napi): ignore the callback return value while an exception is pending (#36942)\n\nFixes #36941\n\nCo-authored-by: hexbinoct <329145+hexbinoct@users.noreply.github.com>",
+        "tree": {
+          "sha": "368daa6e4dc57163bc7a35a7fb026f148fb3212d",
+          "url": "https://api.github.com/repos/denoland/deno/git/trees/368daa6e4dc57163bc7a35a7fb026f148fb3212d"
+        },
+        "url": "https://api.github.com/repos/denoland/deno/git/commits/17410fd868dd3e7c0a6766e0dd9bc9a37d4da44f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqw2x2CRC1aQ7uu5UhlAAA5MYQACTVtwkpKgrkuKayIkJxPZ7c\nhqyZ6Idnj6/CoC0NgbXtEMjMzndOrbPl88bcAEFqNs3z9e6hapiLMkoWGZtwgeCS\n6fT+tN8OIFg6/4SAJWCdvUMUG755pwmt2pdb0GI4LN18jLEjogz60NEQMjQoh9M3\nhQSyU9ml77EhsieRNAUHSQ2Pb0Csa6KmhlZmKxck/PfT4P1XeC6sMYOd6HArZACO\nR/yonBw1pXju0I+v4Qz4XxP9PjSLuXCA6KpttNbmPTU5vi6t6S7buGqrMO9J3ERV\nryQgDsA/nC5tNcGL2CpOXYPQYHoQlUHSVqlrARVCXY6CBVlBR5pPjUg3cgT58CPy\nhuj9F33WHVpJ1WHnR+MDVtYAVyTk1WOBJ77oCIS7/8p5f4t98jykwG1/QXS1pd1P\netFtrXv3uCAjkwfD0L3/nQpqsmppVRS3MSX2mGND3sEo1HkXqLP6bzwwamXl8kQN\nqtMnXkTNUOP0CC2/kT+4eJxbceDVdLlwKxfImp3G0Rajv11eaf/aAiy1uuxIugCw\nQJIsBsijOK3K8oya4O6mBhWb98do2gNL1tQFVqycZk60owj7xI3XbLRYsgmvnQCg\nxd7kjpvfi7C9btGXkV/j/E+tzdVVYpFGY7LYBPPBlgR9VoSBjEJuLsSqKkbQDs7x\n5xB/5xcdZ0oPlkKEWyPk\n=xos5\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 368daa6e4dc57163bc7a35a7fb026f148fb3212d\nparent b4f08f127652d8442b4d3dbabc277aca3840bc1d\nauthor user77 <abubakarm@gmail.com> 1791192182 +0500\ncommitter GitHub <noreply@github.com> 1791192182 +0200\n\nfix(ext/napi): ignore the callback return value while an exception is pending (#36942)\n\nFixes #36941\n\nCo-authored-by: hexbinoct <329145+hexbinoct@users.noreply.github.com>",
+          "verified_at": "2026-10-05T09:23:02Z"
+        }
+      },
+      "url": "https://api.github.com/repos/denoland/deno/commits/17410fd868dd3e7c0a6766e0dd9bc9a37d4da44f",
+      "html_url": "https://github.com/denoland/deno/commit/17410fd868dd3e7c0a6766e0dd9bc9a37d4da44f",
+      "comments_url": "https://api.github.com/repos/denoland/deno/commits/17410fd868dd3e7c0a6766e0dd9bc9a37d4da44f/comments",
+      "author": {
+        "login": "hexbinoct",
+        "id": 329145,
+        "node_id": "MDQ6VXNlcjMyOTE0NQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/329145?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hexbinoct",
+        "html_url": "https://github.com/hexbinoct",
+        "followers_url": "https://api.github.com/users/hexbinoct/followers",
+        "following_url": "https://api.github.com/users/hexbinoct/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hexbinoct/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hexbinoct/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hexbinoct/subscriptions",
+        "organizations_url": "https://api.github.com/users/hexbinoct/orgs",
+        "repos_url": "https://api.github.com/users/hexbinoct/repos",
+        "events_url": "https://api.github.com/users/hexbinoct/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hexbinoct/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b4f08f127652d8442b4d3dbabc277aca3840bc1d",
+          "url": "https://api.github.com/repos/denoland/deno/commits/b4f08f127652d8442b4d3dbabc277aca3840bc1d",
+          "html_url": "https://github.com/denoland/deno/commit/b4f08f127652d8442b4d3dbabc277aca3840bc1d"
+        }
+      ]
+    }
+  ]
+]
